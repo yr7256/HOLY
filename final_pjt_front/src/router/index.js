@@ -1,22 +1,48 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import MovieView from '@/views/MovieView.vue'
+import IntroPage from '@/views/IntroPage.vue'
+import NotFound404 from '@/components/NotFound404'
+import ArticleView from '@/views/Community/ArticleView'
+import LoginView from '@/views/Account/LoginView'
+import SignUpView from '@/views/Account/SignUpView'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'IntroPage',
+    component: IntroPage
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/movies',
+    name: 'MovieView',
+    component: MovieView
+  },
+  {
+    path: '/community',
+    name: 'ArticleView',
+    component: ArticleView
+  },
+  {
+    path: '/login',
+    name: 'LoginView',
+    component: LoginView
+  },
+  {
+    path: '/signup',
+    name: 'SignUpView',
+    component: SignUpView
+  },
+  {
+    path: '/errors/404NotFound',
+    name: 'NotFound404',
+    component: NotFound404
+  },
+  {
+    path: '*',
+    redirect: '/errors/404NotFound'
   }
 ]
 

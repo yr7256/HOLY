@@ -38,7 +38,6 @@ export default new Vuex.Store({
         }
       })
         .then((res) => {
-          // console.log(res, context)
           context.commit('GET_ARTICLES', res.data)
         })
         .catch(err => console.log(err))

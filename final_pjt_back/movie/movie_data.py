@@ -12,7 +12,7 @@ def get_movie_datas():
         movies = requests.get(request_url).json()
 
         for movie in movies['results']:
-            if movie.get('release_date', ''):
+            if movie.get('overview') != '' and movie.get('poster_path') != None and movie.get('release_date') != None:
                 fields = {
                     'movie_id': movie['id'],
                     'title': movie['title'],
@@ -21,7 +21,10 @@ def get_movie_datas():
                     'vote_avg': movie['vote_average'],
                     'overview': movie['overview'],
                     'poster_path': movie['poster_path'],
-                    'genres': movie['genre_ids']
+                    'genres': movie['genre_ids'],
+                    'video_url': [],
+                    'like_movie_users' : [],
+                    'wish_lists_users' : []
                 }
 
                 data = {

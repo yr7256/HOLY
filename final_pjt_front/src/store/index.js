@@ -55,7 +55,6 @@ export default new Vuex.Store({
         }
       })
         .then(res => {
-          // context.commit('SIGN_UP', res.data.key)
           context.commit('SAVE_TOKEN', res.data.key)
         })
         .catch(err => console.log(err))

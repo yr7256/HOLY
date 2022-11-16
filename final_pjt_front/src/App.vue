@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <nav>
-      <router-link :to="{ name: 'MovieView' }">Main</router-link> |
-      <router-link :to="{ name: 'ArticleView' }">Community</router-link> |
-      <router-link :to="{ name: 'LoginView' }">Login</router-link>
+      <router-link :to="{ name: 'MovieView' }">메인</router-link> |
+      <router-link :to="{ name: 'ArticleView' }">커뮤니티</router-link> |
+      <router-link :to="{ name: 'LoginView' }">로그인</router-link> |
+      <router-link :to="{ name: 'SignUpView' }">회원가입</router-link>
     </nav>
     <router-view/>
   </div>

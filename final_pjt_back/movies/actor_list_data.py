@@ -6,7 +6,7 @@ TMDB_API_KEY = '5ef064e7f4721766a54899e612e85f67'
 
 # https://api.themoviedb.org/3/movie/{movie_id}/credits?api_key=<<api_key>>&language=ko-KR
 
-def get_credit_datas():
+def get_actor_datas():
     total_data = []
 
     # 1페이지부터 500페이지까지
@@ -14,6 +14,7 @@ def get_credit_datas():
         movie_request_url = f"https://api.themoviedb.org/3/movie/popular?api_key={TMDB_API_KEY}&language=ko-KR&page={i}"
         res = requests.get(movie_request_url)
         movies = res.json()
+        cnt = 0
         # print(movies)
         # print(movies['total_results'])
         # print(movies['total_pages'])
@@ -24,28 +25,37 @@ def get_credit_datas():
                 # print(movie)
                 movie_id = movie['id']
                 request_url = f"https://api.themoviedb.org/3/movie/{movie_id}/credits?api_key={TMDB_API_KEY}&language=ko-KR"
-                movie_credit = requests.get(request_url).json()
-                for credit in movie_credit['cast']:
-                    if credit.get('known_for_department', '') == "Acting" and not credit.get('department', ''):
+                actor_list = requests.get(request_url).json()
+                for actor in actor_list['cast']:
+                    if (actor.get('known_for_department', '') == "Acting" and not actor.get('department', '')):
                         fields = {
-                            'actor_id': credit['id'],
-                            'department' : credit['known_for_department'],
-                            'name': credit['name'],
-                            'popularity': credit['popularity'],
-                            'profile_path': credit['profile_path'],
-                            'character': credit['character'],
+                            'actor_id': actor['id'],
+                            'known_for_department' : actor['known_for_department'],
+                            'name': actor['name'],
+                            'popularity': actor['popularity'],
+                            'profile_path': actor['profile_path'],
+                            'character': actor['character'],
                         }
-                        # print(1)
-
+                        
                         data = {
                             "pk": movie['id'],
-                            "model": "credits.movie",
+                            "model": "movies.actor",
                             "fields": fields
                         }
+                        
+                        cnt += 1
 
-                        total_data.append(data)
+                        if cnt > 20:
+                            break
+                        else:
+                            total_data.append(data)
+                        
+    
 
-    with open("credit_data.json", "w", encoding="utf-8") as w:
+
+    with open("actor_list_data.json", "w", encoding="utf-8") as w:
         json.dump(total_data, w, indent="\t", ensure_ascii=False)
 
-get_credit_datas()
+    
+
+get_actor_datas()

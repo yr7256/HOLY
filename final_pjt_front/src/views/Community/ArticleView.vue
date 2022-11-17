@@ -12,7 +12,7 @@ import ArticleList from '@/components/ArticleList.vue'
 export default {
   name: 'ArticleView',
   components: {
-    ArticleList
+    ArticleList,
   },
   computed: {
     isLogin() {

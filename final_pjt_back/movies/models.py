@@ -54,3 +54,23 @@ class Director(models.Model):
     name = models.CharField(max_length=100)
     biography = models.TextField(null=True, blank=True)
     profile_path = models.CharField(max_length=200, null=True, blank=True)
+
+class Actormovie(models.Model):
+    movie_id = models.IntegerField(primary_key=True)
+    overview = models.TextField(null=True, blank=True)
+    popularity = models.FloatField(null=True, blank=True)
+    poster_path = models.CharField(max_length=200, null=True, blank=True)
+    release_date = models.DateField(null=True, blank=True)
+    title = models.CharField(max_length=100)
+    character = models.CharField(max_length=100)
+
+class Directormovie(models.Model):
+    movie_id = models.IntegerField(primary_key=True)
+    overview = models.TextField(null=True, blank=True)
+    popularity = models.FloatField(null=True, blank=True)
+    poster_path = models.CharField(max_length=200, null=True, blank=True)
+    release_date = models.DateField(null=True, blank=True)
+    title = models.CharField(max_length=100)
+    department = models.CharField(max_length=100)
+    job = models.CharField(max_length=100)
+

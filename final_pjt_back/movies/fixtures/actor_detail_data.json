@@ -1,0 +1,202 @@
+[
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 1056121,
+			"name": "Ryan Coogler",
+			"biography": "Ryan Kyle Coogler (born May 23, 1986) is an American film director, producer, and screenwriter. His first feature film, Fruitvale Station (2013), won the top audience and grand jury awards in the U.S. dramatic competition at the 2013 Sundance Film Festival.[2] He has since co-written and directed the seventh film in the Rocky series, Creed (2015), and the Marvel film Black Panther (2018), the latter of which broke numerous box office records and became the highest-grossing film of all time by an African American director.\n\nCoogler's films have received significant critical acclaim and commercial success. In 2013, he was included on Time's list of the 30 people under 30 who are changing the world] His work has been hailed by critics for centering on often overlooked cultures and characters—most notably African Americans.\n\nHe frequently collaborates with actor Michael B. Jordan, who appeared in his first three feature films, as well as composer Ludwig Göransson, who has scored four of his films.\n\nIn 2018, Coogler was named the runner-up of Time's Person of the Year and he was included in the annual Time 100 list of the most influential people in the world.  In 2021, Coogler, Zinzi Coogler, and Sev Ohanian founded multimedia company Proximity Media to create event-driven content across various platforms.",
+			"profile_path": "/40n61jOMzHpDSnzLBQOSEEWlxEw.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 59521,
+			"name": "Jaume Collet-Serra",
+			"biography": "Jaume Collet-Serra (born March 23, 1974 in Sant Iscle de Vallalta, Spain) is a Spanish film director and producer.\n\nCollet-Serra is most famous for the 2005 remake House of Wax, and 2009's Orphan. In 2010 he directed the Dark Castle drama-thriller Unknown which stars Frank Langella, Liam Neeson, January Jones and Diane Kruger.\n\nDescription above from the Wikipedia article Jaume Collet-Serra, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/saAeTFfgt9YRAybXmzfmIz01UCB.jpg"
+		}
+	},
+	{
+		"pk": 966220,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 3518356,
+			"name": "Marian Bushan",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 933176,
+			"name": "Damien Leone",
+			"biography": "Damien Leone is an american director, writer and Special Makeup FX Artist. He is known for his films The 9th Circle (2008), Terrifier (2011), All Hallows' Eve (2013) and Frankenstein vs. the Mummy (2015).\n\nCreator of Art the Clown.",
+			"profile_path": "/kr58jbtYatTS6wuAn35pg2d5YQK.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 2218465,
+			"name": "Parker Finn",
+			"biography": "",
+			"profile_path": "/2HZPv0IUlxRqCpmgbk7KdovhQaF.jpg"
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 964826,
+			"name": "Chava Cartas",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 173847,
+			"name": "Harry Bradbeer",
+			"biography": "Harry Bradbeer is a British television and film director, most well known for directing all but one episode of Phoebe Waller Bridge's TV tragicomedy \"Fleabag\", directing all of the first season of the spy thriller \"Killing Eve\" and the Sherlock Holmes spin-off feature film \"Enola Holmes\".",
+			"profile_path": "/1fGaCCtKp3ZCXCkWRzOn4l7YnBE.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 221522,
+			"name": "Edward Berger",
+			"biography": "Edward Berger was born 1970 in Wolfsburg, Lower Saxony, Germany. He is a TV and film director/writer known for Deutschland 83 (2015), The Terror (2018), Patrick Melrose (2018), All My Loving (2019), and All Quiet on the Western Front (2022).",
+			"profile_path": "/aBpMZi6vqvY9tacRIALPnXpde2t.jpg"
+		}
+	},
+	{
+		"pk": 979924,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 1564258,
+			"name": "Romuald Boulanger",
+			"biography": "",
+			"profile_path": "/t1i8zXWH6rEm9AeSYtvY1Ky7wvt.jpg"
+		}
+	},
+	{
+		"pk": 732459,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 61703,
+			"name": "Ron Yuan",
+			"biography": "From Wikipedia, the free encyclopedia\n\nRonald Winston Yuan is an American actor, martial artist, director, and stunt choreographer. He is best known for his roles on Sons of Anarchy, Prison Break, Golden Boy, and CSI: NY. He has acted in numerous films, including an ensemble lead as Sgt. Qiang in Disney's live-action adaptation Mulan. He also supplied the voice of Sgt. Fideltin Rusk in the video game series Star Wars: The Old Republic, and Scorpion in Mortal Kombat 11.\n\nDescription above from the Wikipedia article Ron Yuan, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/7Co2MdR8T5zlXTrdZ9Z3qjlmKdV.jpg"
+		}
+	},
+	{
+		"pk": 676701,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 1074721,
+			"name": "Enrique Gato",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 62768,
+			"name": "William Brent Bell",
+			"biography": "American film director, screenwriter, and producer. He is known for his work on horror films such as Stay Alive, The Devil Inside, Wer, The Boy, and Orphan: First Kill.",
+			"profile_path": "/f7BvvN72ZhESBQ7wrCVw8M4D9by.jpg"
+		}
+	},
+	{
+		"pk": 985939,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 90812,
+			"name": "Scott Mann",
+			"biography": "",
+			"profile_path": "/8WygpUzfdfztZQqxGE5zn3rCedJ.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 52342,
+			"name": "Olivier Marchal",
+			"biography": "Olivier Marchal (b. November 14, 1958 in Talence, France) is a French actor, director, screenwriter, and a former policeman. In 2005, he was nominated for three César Awards (best director, best film, and best writing), for his film 36 Quai des Orfèvres.\n\nDescription above from the Wikipedia article Olivier Marchal, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/r4NRcHShGE9G0OvI8tSlh5DZMTU.jpg"
+		}
+	},
+	{
+		"pk": 856245,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 1657527,
+			"name": "Agustina San Martín",
+			"biography": "",
+			"profile_path": "/sZxcJ3WgsFOaCzHfoX7dqkgobIq.jpg"
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 66212,
+			"name": "Timo Vuorensola",
+			"biography": "From Wikipedia, the free encyclopedia\n\nTimo Vuorensola (born 29 November 1979) is a Finnish film director and actor. He has directed Star Wreck movies Star Wreck V: Lost Contact, and Star Wreck: In the Pirkinning, created by Samuli Torssonen. Vuorensola plays Lieutenant Dwarf in the films, and is currently directing the film Iron Sky. He is also the lead vocalist and co-founder of dark industrial band Älymystö.\n\nDescription above from the Wikipedia article Timo Vuorensola, licensed under CC-BY-SA, full list of contributors on Wikipedia.\n\n​",
+			"profile_path": "/pMxmMdBh5JyV5Uevy4eaAsrJiM7.jpg"
+		}
+	},
+	{
+		"pk": 532639,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 24,
+			"name": "Robert Zemeckis",
+			"biography": "Robert Lee Zemeckis (born May 14, 1951) is an American film director, producer and screenwriter. Zemeckis first came to public attention in the 1980s as the director of the comedic time-travel Back to the Future film series, as well as the Academy Award-winning live-action/animation epic Who Framed Roger Rabbit (1988), though in the 1990s he diversified into more dramatic fare, including 1994's Forrest Gump, for which he won an Academy Award for Best Director.\n\nHis films are characterized by an interest in state-of-the-art special effects, including the early use of match moving in Back to the Future Part II (1989) and the pioneering performance capture techniques seen in The Polar Express (2004), Beowulf (2007) and A Christmas Carol (2009). Though Zemeckis has often been pigeonholed as a director interested only in effects, his work has been defended by several critics, including David Thomson, who wrote that \"No other contemporary director has used special effects to more dramatic and narrative purpose.\"",
+			"profile_path": "/lPYDQ5LYNJ12rJZENtyASmVZ1Ql.jpg"
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 1282094,
+			"name": "Annemarie van de Mond",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 1033107,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 3744992,
+			"name": "Fabian Medea",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"director_id": 29214,
+			"name": "Anne Fletcher",
+			"biography": "Anne Fletcher (born May 1, 1966) is an American film director and choreographer.\n\nFletcher took dance lessons as a child. At the age of 15, she appeared on the show Salute to the Superstars; later she moved to California, where she was trained by Joe Tremaine. She worked as a choreographer and worked in this capacity for six years with Jeff Andrews. The duo worked among other things on television work and music videos.\n\nIn her first film roles Fletcher appeared as a dancer, including The Flintstones (1994), The Mask (1994) and Tank Girl (1995). She developed choreography for the Oscar-nominated film drama Boogie Nights (1997) with Mark Wahlberg, Burt Reynolds, Julianne Moore and Heather Graham – in which she appeared herself as a dancer – as well as for the comedy A Life Less Ordinary with Ewan McGregor and Cameron Diaz.\n\n​From Wikipedia, the free encyclopedia",
+			"profile_path": "/yAhFS3NZjQU8zExfJQ3SXEYGMfP.jpg"
+		}
+	}
+]

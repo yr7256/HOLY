@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img alt="" src="../assets/main.png">
+    <img class="full" alt="" src="../assets/main.png">
   </div>
 </template>
 
@@ -14,3 +14,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.full {
+  width: 100vw;
+}
+</style>

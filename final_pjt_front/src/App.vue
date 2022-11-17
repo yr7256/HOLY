@@ -12,7 +12,7 @@
 </template>
 <script>
 import HeaderItem from '@/components/HeaderItem.vue'
-
+import "./assets/css/index.scss"
 export default ({
   components: {
     HeaderItem

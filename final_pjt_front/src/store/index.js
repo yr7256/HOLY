@@ -32,13 +32,10 @@ export default new Vuex.Store({
       state.articles = articles
     },
     SAVE_TOKEN(state, token){
-      state.token = token
+      state.token = token.key
       state.username = token.username
       router.push({name: 'ArticleView'})
     },
-    // SAVE_USERNAME(state, username){
-    //   state.username = username
-    // },
     LOGOUT (state) {
       state.username = null
       state.token = null
@@ -46,11 +43,11 @@ export default new Vuex.Store({
       localStorage.removeItem('token')
       location.reload();
     },
-    DELETE_ARTICLE(state, id) {
-      state.articles = state.articles.filter((article) => {
-        return !(article.id === id)
-      })
-    }
+    // DELETE_ARTICLE(state, id) {
+    //   state.articles = state.articles.filter((article) => {
+    //     return !(article.id === id)
+    //   })
+    // }
   },
   actions: {
     getArticles(context) {
@@ -83,33 +80,20 @@ export default new Vuex.Store({
         .catch(err => console.log(err))
     },
     logIn(context, payload) {
+      const username = payload.username
+      const password = payload.password
       axios({
         method: 'post',
         url: `${API_URL}/accounts/login/`,
         data: {
-          username: payload.username,
-          password: payload.password,
+          username, password
         }
       })
         .then(res => {
-          context.commit('SAVE_TOKEN', res.data.key)
-          location.reload();
+          context.commit('SAVE_TOKEN', {'key': res.data.key, 'username': username})
         })
         .catch(err => console.log(err))
     },
-    // getUser(context) {
-    //   axios({
-    //     method: 'get',
-    //     url: `${API_URL}/accounts/user/`,
-    //     headers: {
-    //       Authorization: `Token ${ context.state.token }`
-    //     }
-    //   })
-    //     .then((res) => {
-    //       context.commit('SAVE_USERNAME',res.data.username)
-    //     })
-    //     .catch(err => console.log(err))
-    // },
     logout(context) {
       context.commit('LOGOUT')
     },

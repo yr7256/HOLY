@@ -8,6 +8,7 @@
       <textarea id="content" cols="30" rows="10" v-model="content"></textarea><br>
       <input type="submit" id="submit">
     </form>
+    <router-link :to="{ name: 'ArticleView' }"><button>뒤로가기</button></router-link>
   </div>
 </template>
 

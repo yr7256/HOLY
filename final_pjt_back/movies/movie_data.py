@@ -29,7 +29,7 @@ def get_movie_datas():
 
                 data = {
                     "pk": movie['id'],
-                    "model": "credits.movie",
+                    "model": "movies.movie",
                     "fields": fields
                 }
 

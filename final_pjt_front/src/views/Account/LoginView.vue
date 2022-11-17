@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>LogIn Page</h1>
-    <form @submit.prevent="logIn, getUserInfo">
+    <form @submit.prevent="logIn">
       <label for="username">username : </label>
       <input type="text" id="username" v-model="username"><br>
 
@@ -30,14 +30,6 @@ export default {
         username, password
       }
       this.$store.dispatch('logIn', payload)
-    },
-    getUserInfo() {
-      const username = this.username
-      const password = this.password
-      const payload = {
-        username, password
-      }
-      this.$store.dispatch('getUserData', payload)
     },
   }
 }

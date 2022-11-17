@@ -4,8 +4,6 @@ import json
 TMDB_API_KEY = '5ef064e7f4721766a54899e612e85f67'
 
 
-# https://api.themoviedb.org/3/movie/{movie_id}/credits?api_key=<<api_key>>&language=ko-KR
-
 def get_director_datas():
     total_data = []
 

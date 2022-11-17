@@ -3,28 +3,1688 @@
 		"pk": 505642,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 1056121,
-			"name": "Ryan Coogler",
-			"biography": "Ryan Kyle Coogler (born May 23, 1986) is an American film director, producer, and screenwriter. His first feature film, Fruitvale Station (2013), won the top audience and grand jury awards in the U.S. dramatic competition at the 2013 Sundance Film Festival.[2] He has since co-written and directed the seventh film in the Rocky series, Creed (2015), and the Marvel film Black Panther (2018), the latter of which broke numerous box office records and became the highest-grossing film of all time by an African American director.\n\nCoogler's films have received significant critical acclaim and commercial success. In 2013, he was included on Time's list of the 30 people under 30 who are changing the world] His work has been hailed by critics for centering on often overlooked cultures and characters—most notably African Americans.\n\nHe frequently collaborates with actor Michael B. Jordan, who appeared in his first three feature films, as well as composer Ludwig Göransson, who has scored four of his films.\n\nIn 2018, Coogler was named the runner-up of Time's Person of the Year and he was included in the annual Time 100 list of the most influential people in the world.  In 2021, Coogler, Zinzi Coogler, and Sev Ohanian founded multimedia company Proximity Media to create event-driven content across various platforms.",
-			"profile_path": "/40n61jOMzHpDSnzLBQOSEEWlxEw.jpg"
+			"actor_id": 1083010,
+			"name": "Letitia Wright",
+			"biography": "Letitia Michelle Wright (born 31 October 1993) is a Guyanese-British actress. Beginning her professional career in 2011, she has played roles in several British TV series, including Top Boy (2011), Coming Up (2013), Chasing Shadows (2014), Humans (2016), the Doctor Who episode \"Face the Raven\" (2015) and the Black Mirror episode \"Black Museum\" (2017); for the latter, she received a Primetime Emmy Award nomination for Outstanding Supporting Actress in a Limited Series or Movie.\n\nThe British Academy of Film and Television Arts named Wright among the 2015 group of BAFTA Breakthrough Brits for her role in the award-winning film Urban Hymn (2015). In 2018, she achieved global recognition for her portrayal of Shuri in the Marvel Cinematic Universe film Black Panther. She reprised the role in Avengers: Infinity War (2018) and Avengers: Endgame (2019), the latter of which is the highest-grossing film of all time. In 2019, she received the BAFTA Rising Star Award.\n\nDescription above is from the Wikipedia article Letitia Wright, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/i6fbYNn5jWA6swWtaqgzaj02RMc.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1267329,
+			"name": "Lupita Nyong'o",
+			"biography": "Lupita Amondi Nyong'o (born 1 March 1983) is a Kenyan-Mexican actress and author. She began her career in Hollywood as a production assistant. In 2008, she made her acting debut with the short film East River and subsequently returned to Kenya to star in the television series Shuga (2009–2012). In 2009, she wrote, produced and directed the documentary In My Genes. She then pursued a master's degree in acting from the Yale School of Drama.\n\nShe had her first feature film role as Patsey in 12 Years a Slave (2013), for which she received critical acclaim and won several awards, including the Academy Award for Best Supporting Actress. She became the first Kenyan and Mexican actress to win an Academy Award. She made her Broadway debut as a teenage orphan in the play Eclipsed (2015), for which she was nominated for a Tony Award for Best Actress in a Play. She went on to perform a motion capture role as Maz Kanata in the Star Wars sequel trilogy (2015–2019) and a lead voice role as Raksha in The Jungle Book (2016). Her career progressed with her role as Nakia in the Marvel Cinematic Universe superhero film Black Panther (2018) and her starring role in Jordan Peele's critically acclaimed horror film Us (2019).\n\nIn addition to acting, she supports historic preservation. She is vocal about preventing sexual harassment and working for women's and animal rights. In 2014, she was named the most beautiful woman by People. She has also written a children's book named Sulwe (2019), which became a number-one New York Times Best-Seller. Also in 2019, she narrated the Discovery Channel docu-series Serengeti, which earned her a Primetime Emmy Award nomination for Outstanding Narrator. She was named among Africa's \"50 Most Powerful Women\" by Forbes in 2020.\n\nDescription above is from the Wikipedia article Lupita Nyong'o, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/mJMpsADPpt0bmXEzs3ywrUiCkpD.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 82104,
+			"name": "Danai Gurira",
+			"biography": "Danai Jekesai Gurira (born February 14, 1978) is a Zimbabwean-American actress and playwright. She is best known for her role as Michonne on the AMC post-apocalyptic series The Walking Dead.\n\nGurira was born in Grinnell, Iowa and was raised there until December 1983, when she moved with her family to Harare, Zimbabwe. She has an older brother who is a chiropractor and two older sisters, while her mother is a university librarian and her father is a chemistry professor. She returned to the United States at age 19 to study at Macalester College. She earned her MFA at New York University",
+			"profile_path": "/bCjz32aVpyufnPjzLPOtV5DEXKK.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1447932,
+			"name": "Winston Duke",
+			"biography": "Winston Duke (born 15 November 1986) is a Trinbagonian–American actor. He started acting in theatre productions for Portland Stage Company and Yale Repertory Theatre before being cast in Person of Interest (2014–2015). In 2012, he returned to his native Trinidad and Tobago to appear in the theatre production of An Echo in the Bone.\n\nHe has starred in Marvel Cinematic Universe's Black Panther (2018), Avengers: Infinity War (2018), and Avengers: Endgame (2019) as M'Baku. For his role of M'Baku in Black Panther, he was nominated for Screen Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture. In 2019, he starred in the blockbuster horror film Us. In March 2020, he starred in the Netflix thriller Spenser Confidential.\n\nDescription above is from the Wikipedia article Winston Duke, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/MhBiZbryibwuoEtPL9Ns8pYHC1.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2133996,
+			"name": "Dominique Thorne",
+			"biography": "Dominique Thorne is an American actress. She starred in the films If Beale Street Could Talk (2018) and Judas and the Black Messiah (2021). In 2020, she was cast as the Marvel Comics superheroine Riri Williams / Ironheart, a role in which she will debut in the Marvel Cinematic Universe feature film Black Panther: Wakanda Forever (2022) before starring in her Disney+ television series Ironheart (2023).",
+			"profile_path": "/tuLlp79SfYc4mLzzjdC2ekLI7qd.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 87265,
+			"name": "Tenoch Huerta",
+			"biography": "José Tenoch Huerta Mejía (born 29 January 1981) is a Mexican actor. He has appeared in a number of movies in Latin America and Spain, starring in both feature films, short films, and Narcos: Mexico, credited as Tenoch Huerta. He is one of the actors featured in Mónica Maristain's book 30 Actors Made in Mexico. He played K’uk’ulkan / Namor in 2022's Black Panther: Wakanda Forever set in the Marvel Cinematic Universe (MCU), now credited as Tenoch Huerta Mejía.",
+			"profile_path": "/5qoAmQpcPCjf4Pd6aTZOeINGYzk.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 9780,
+			"name": "Angela Bassett",
+			"biography": "Angela Evelyn Bassett (born August 16, 1958) is an American actress and activist. She is best known for her biographical film roles, most notably her performance as Tina Turner in the biopic What's Love Got to Do with It (1993), for which she was nominated for the Academy Award for Best Actress and won a corresponding Golden Globe Award. Bassett has additionally portrayed Betty Shabazz in both Malcolm X (1992) and Panther (1995), Katherine Jackson in The Jacksons: An American Dream (1992), Rosa Parks in The Rosa Parks Story (2002), Voletta Wallace in Notorious (2009) and Coretta Scott King in Betty & Coretta (2013). Bassett's performance as Parks was honored with her first Primetime Emmy Award nomination.\n\nDescription above from the Wikipedia article Angela Bassett, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/7Oz53NKdglRzAzI2MKjM3eQXwn.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 139900,
+			"name": "Florence Kasumba",
+			"biography": "Florence Kasumba (born 26 October 1976) is a German actress of Ugandan origin. She is known for playing the role of Ayo in Captain America: Civil War, Black Panther (2018), Avengers: Infinity War (2018), The Falcon and the Winter Soldier (2021) and Black Panther: Wakanda Forever (2022). She also played Senator Acantha in Wonder Woman, and the Wicked Witch of the East in the NBC television series Emerald City.",
+			"profile_path": "/vivJLQhtwca5hupqoRRgL8BRs6o.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1368012,
+			"name": "Michaela Coel",
+			"biography": "Michaela Ewuraba Boakye-Collinson, known professionally as Michaela Coel, is a British actress, screenwriter, director, producer, singer, songwriter, poet and playwright. She is best known for creating and starring in the E4 sitcom Chewing Gum (2015–2017), for which she won the BAFTA Award for Best Female Comedy Performance, and the BBC One/HBO comedy-drama series I May Destroy You (2020).\n\nCoel was born in London on 1 October 1987. Her parents are Ghanaian. She and her older sister grew up in London, primarily Hackney and Tower Hamlets with heir mother. Her parents had separated before her birth. She attended Catholic schools in East London, and has said that her isolation as the only black pupil in her age cohort at primary school caused her to bully other pupils. The isolation stopped when she took her secondary education at a comprehensive school.\n\nFrom 2007 to 2009, Coel attended the University of Birmingham, studying English Literature and Theology. She took a Ché Walker masterclass at RADA after meeting Walker at open mics. In 2009, she transferred to the Guildhall School of Music and Drama, where she was the first black woman enrolled in five years. She won the Laurence Olivier Bursary award, which helped her fund her schooling. During her time at Guildhall, she attended the Mark Proulx workshop at Prima del Teatro and took the Kat Francois Poetry Course at the Theatre Royal Stratford East. She graduated from the Guildhall School of Music and Drama in 2012.\n\nThis page is based on a Wikipedia article written by contributors. Text is available under the CC BY-SA 4.0 license; additional terms may apply.",
+			"profile_path": "/rbN1F0R8DMUh6IYwl0owyD8LukN.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2213811,
+			"name": "Mabel Cadena",
+			"biography": "Mitzi Mabel Cadena is a Mexican actress of film, theater and television, known for playing Amada Díaz in the film Dance of the 41 (2020) by director David Pablos, Ramira in Goddess of Asphalt (2020) by Julián Hernández, and Tecuelhuetzin in the television series Hernán (2019).\n\nCadena was born in the State of Mexico but grew up in Minatitlán, Veracruz. He studied a bachelor's degree in psychology and later a master's degree after graduating from acting. He began his training at the CasAzul Artes Escénicas Argos academy in Tlalnepantla de Baz, Mexico City. She started acting in some plays such as Enemigo de Clase by Sebastián Zurita, Las lágrimas de Edipo de Wajdi Mouawad by Hugo Arrevillaga, Manual De Desuso by Edurne Goded, In Memoriam by José Caballero, Los Motivos del Lobo by Rodolfo Obregón, and Gardenia Club by Lila Áviles, among others.  Started her acting career in CasAzul Artes Escénicas Argos in Tlalnepantla de Baz, Mexico City.\n\nShe jumped to television in 2012, playing the role of Adela Rosa Chávez in the television series Capadocia for HBO. Her career continued in television in productions such as Camelia la Texana (2014), El Señor de los Cielos (2014), Érase una vez (2017), Las Malcriadas (2017), El Vato (2017), Ingobernable' (2017), Por la máscara (2018), La bandida (2018), Monarca (2019) and Hernán (2019).\n\nShe ventures into film with the production Los adioses (2016), Goddess of the Asphalt (2020) by Julián Hernández Pérez and Dance of the 41 (2020) by David Pablos, a role that made her popular in Mexico when she played Amada Díaz, stepdaughter of Porfirio Díaz. Among the short films in which she has participated are Menage à trois (2015), Fight Back (2017), Cuatro minutos (2021), among others.",
+			"profile_path": "/i7JL6cnvaLywKXN5rMCODztYKT4.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 25703,
+			"name": "Lake Bell",
+			"biography": "Lake Siegel Bell is an American actress, director, and screenwriter. She has starred in various television series, including Boston Legal, Surface, How to Make It in America and Children's Hospital. Wikipedia",
+			"profile_path": "/tpBmxNKBebx04vQGnnQ3QNs6nvV.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 992386,
+			"name": "Alex Livinalli",
+			"biography": "",
+			"profile_path": "/qagXyIZI8oSfpNLuZRChFEwEvNo.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 31512,
+			"name": "Robert John Burke",
+			"biography": "A born-and-bred New Yorker, Robert John Burke made his film debut while in his early 20s with a small part in the drama \"The Chosen\" (1981), based on the Chaim Potok story. He went on to study acting at SUNY Purchase where he met aspiring filmmaker Hal Hartley, who cast him as one of the leads in his debut feature \"The Unbelievable Truth,\" an offbeat indie tale where he played a man trying to escape his troubled past. Working with Hartley again on the charming brother-centric dark comedy \"Simple Men,\" Burke caught a major break when Hollywood producers decided that his chiseled jawline was the right one to replace Peter Weller's in the sci-fi/action sequel \"RoboCop 3.\" Despite Burke's efforts, the movie tanked, and he went on to smaller roles in major films, including the lauded Western \"Tombstone\" (1993) and the prison-break movie \"Fled\" (1996). Burke landed his second chance in a Hollywood starring role with the Stephen King adaptation \"Thinner\" (1996), but the macabre tale, which featured him under heavy makeup to depict a callous man who magically loses weight, was deemed almost universally unlikable.Though Burke's leading-man days were mostly behind him, his beastly role in Hartley's \"No Such Thing\" (2001) aside, he soldiered on, and began increasingly working on television with recurring roles on the grim prison drama \"Oz\" and the police procedural \"Law & Order: Special Victims Unit\" (NBC, 1999- ). Appearing in George Clooney's first two movies as director, \"Confessions of a Dangerous Mind\" (2002) and \"Good Night, and Good Luck.\" (2005), Burke nonetheless became more familiar to TV audiences, particularly when he signed on to play Mickey Gavin, the ex-priest cousin of Denis Leary's lead character on the firefighter series \"Rescue Me,\" a part that dovetailed with Burke's real-life second job as a New York State fireman.Often cast as a tough guy, the ruggedly handsome and tall actor continued to play imposing figures such as Major General James \"Chaos\" Mattis in the Iraq War miniseries \"Generation Kill\" (HBO, 2008) and Bart Bass, the controlling billionaire father of Chuck Bass (Ed Westwick) on the soapy drama \"Gossip Girl.\" Before long, he was juggling his ongoing \"Law & Order: SVU\" part with regular spots on the military drama \"Army Wives\" (Lifetime, 2007- ) and the tense crime show \"Person of Interest\" (CBS, 2011- ), while still finding time for supporting turns in films, including the Denzel Washington/Mark Wahlberg action movie \"2 Guns\" (2013).",
+			"profile_path": "/4uCjxK6QmPW98W56aCldwINSOcX.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 165424,
+			"name": "Danny Sapani",
+			"biography": "Danny Sapani is a British-Ghanaian actor. He is best known for appearing in Misfits, Doctor Who, Penny Dreadful, The Crown, Star Wars: The Last Jedi and Black Panther.",
+			"profile_path": "/h6goTpKA74Z6ePB2BAEEyQnGtCF.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 4812,
+			"name": "Isaach De Bankolé",
+			"biography": "Isaach or Isaac de Bankolé (born 12 August 1957; Abidjan, Côte d'Ivoire) is an Ivorian actor.\n\nDe Bankolé was born in Abidjan, Ivory Coast, to Yoruba parents from Benin. His grandparents are from Nigeria.[6] He moved to Paris in 1975 for his last year of lycée and pursued a master's degree in physics and mathematics. He then attended an aviation school and earned a private pilot licence, before a chance encounter with French director Gérard Vergez led him to enroll in the Cours Simon, a Parisian drama school.",
+			"profile_path": "/tIihjWrBfzZahWaAwf8XFuYO0JS.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1181397,
+			"name": "Connie Chiume",
+			"biography": "",
+			"profile_path": "/3ET4rE2aAEyczhognWWi1rPAdWo.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 7060,
+			"name": "Martin Freeman",
+			"biography": "Martin John Christopher Freeman (born 8 September 1971) is an English actor. Among other accolades, he has won an Emmy Award, a BAFTA Award and a Screen Actors Guild Award, and has been nominated for a Golden Globe Award.\n\nFreeman's most notable roles are that of Tim Canterbury in the mockumentary series The Office (2001–2003), Dr. John Watson in the British crime drama series Sherlock (2010–2017), Bilbo Baggins in The Hobbit film trilogy (2012–2014), and Lester Nygaard in the first season of the dark comedy-crime drama series Fargo (2014). He has also appeared in films including the romantic comedy Love Actually (2003), the horror comedy Shaun of the Dead (2004), the sci-fi comedy The Hitchhiker's Guide to the Galaxy (2005), the action comedy Hot Fuzz (2007), the semi-improvised comedy Nativity! (2009), the sci-fi comedy The World's End (2013), and as Everett K. Ross in the Marvel Cinematic Universe superhero films Captain America: Civil War (2016), Black Panther (2018), and Black Panther: Wakanda Forever (2022). He will reprise the role in the upcoming Disney+ series Secret Invasion (2023)",
+			"profile_path": "/pLG7mmxBXXTVAgzXvQl0ap3qlJU.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 15886,
+			"name": "Julia Louis-Dreyfus",
+			"biography": "Julia Scarlett Elizabeth Louis-Dreyfus (born January 13, 1961) is an American actress, comedian, and producer. She is known for her work in the comedy television series Saturday Night Live (1982–1985), Seinfeld (1989–1998), The New Adventures of Old Christine (2006–2010), and Veep (2012–2019). She is one of the most award-winning actresses in American television history, having received more Primetime Emmy Awards and more Screen Actors Guild Awards than any other performer, tying Cloris Leachman (with eight) for the most acting wins.\n\nLouis-Dreyfus broke into comedy as a performer in The Practical Theatre Company in Chicago, Illinois, which led to her casting in the sketch show Saturday Night Live from 1982 to 1985. Her breakthrough came in 1990 with a nine-season run playing Elaine Benes on Seinfeld, one of the most critically and commercially successful sitcoms of all time. Her other television roles include Christine Campbell in The New Adventures of Old Christine, which had a five-season run on CBS; and Selina Meyer in Veep, which ran for seven seasons on HBO. Her film roles include Hannah and Her Sisters (1986), National Lampoon's Christmas Vacation (1989), Deconstructing Harry (1997), and Enough Said (2013). She also provided voices for the animated films A Bug's Life (1998), Planes (2013), and Onward (2020). In 2021, she began portraying Valentina Allegra de Fontaine in the Marvel Cinematic Universe.\n\nLouis-Dreyfus has received eleven Emmy Awards, eight for acting and three for producing. She has also received a Golden Globe Award, nine Screen Actors Guild Awards, five American Comedy Awards, and two Critics' Choice Television Awards. Louis-Dreyfus received a star on the Hollywood Walk of Fame in 2010 and was inducted into the Television Academy Hall of Fame in 2014. In 2016, Lena Dunham in Time named Louis-Dreyfus as one of the 100 most influential people in the world in the artists category in the annual Time 100 list. In 2018, she received the Mark Twain Prize for American Humor, presented by the Kennedy Center as America's highest comedy honor.\n\nDescription above from the Wikipedia article Julia Louis-Dreyfus, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/pDzlVQhjxKQBpb9NcQ3hR20kz3z.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 31028,
+			"name": "Richard Schiff",
+			"biography": "Richard Schiff (born May 27, 1955) is an American actor. He is best known for playing Toby Ziegler on the NBC television drama The West Wing, a role for which he received an Emmy Award. Schiff made his directorial debut with The West Wing, directing an episode entitled \"Talking Points.\"\n\nDescription above from the Wikipedia article Richard Schiff, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/oFDka3Y5H3DBiZRqbdPabtX8ncP.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 135651,
+			"name": "Michael B. Jordan",
+			"biography": "Michael Bakari Jordan (/bɑːˈkɑːriː/; born February 9, 1987) is an American actor and producer. He is known for his film roles as shooting victim Oscar Grant in the drama Fruitvale Station (2013), boxer Donnie Creed in Creed (2015), and Erik Killmonger in Black Panther (2018), all three of which were directed by Ryan Coogler. Jordan reprised the role of Creed in Creed II (2018), and is set to star, and make his directorial debut, in Creed III (2022).\n\nJordan's initially broke out in television roles; including Wallace in first season of the HBO crime drama series The Wire (2002); Reggie Montgomery on the ABC soap opera All My Children (2003-2006) and Vince Howard in the NBC sports drama series Friday Night Lights (2009–2011). His other film performances include Red Tails (2012), Chronicle (2012), That Awkward Moment (2014), Fantastic Four (2015) and Just Mercy (2019), where he portrayed Bryan Stevenson.\n\nIn 2020, Jordan was named one of the 100 most influential people in the world by Time magazine, as well as People's Sexiest Man Alive. In the same year, The New York Times ranked him #15 on its list of the 25 Greatest Actors of the 21st Century.\n\n​From Wikipedia, the free encyclopedia",
+			"profile_path": "/kfcn0yyEdN2aJfVaxW0NIoKVF4J.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1979169,
+			"name": "Dorothy Steel",
+			"biography": "Dorothy Steel (February 23, 1926 – October 15, 2021) was an American film and television actress who was known for starting her career in the industry at the age of 88, appearing in Hollywood films including Black Panther, Poms, Jumanji: The Next Level and her last film was Black Panther: Wakanda Forever.",
+			"profile_path": "/5KpjansHF7JUhozyWZhDTAsOjM9.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1187540,
+			"name": "Zainab Jah",
+			"biography": "",
+			"profile_path": "/A5YstJLHjhCHWAk0os1D1TrYs1X.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1431508,
+			"name": "Sope Aluko",
+			"biography": "Sope Aluko (\"Shaw-peh Ah-loo-koh\") was born in Nigeria (West Africa). Sope is a multilingual, dual citizen of both the US and the UK. She speaks five languages, including her native language, Yoruba/Nigerian, French, and Bahasa/Indonesian.\n\nSope's early years were spent living in some of the most beautiful countries in the world, including France, Switzerland, Tanzania, Trinidad & Tobago, and Indonesia. Her father being in the diplomatic service, exposed Sope and her sisters to appreciate the beauty of these countries, as well as the people, their languages, struggles and politics. Sope reflects that she and her sisters grew up feeling like \"gypsy children\" in the best possible way. All the world was a classroom and the people were their teachers.\n\nAs early as she could talk, Sope loved to perform. She decided as a very young girl that she would be an actor. Sope cultivated her acting chops in the UK, primarily Shakespearean stage plays, certified by the London Academy of Music and Dramatic Arts (LAMDA) and the Royal Academy of Dramatic Arts (RADA).\n\nAs an extended artistic expression to her acting, Sope studied various forms of dance, including Balinese and African dance. She had the privilege of performing the world famous South African \"Ipi Tombi\" dance at the National Arts Theater in Nigeria.\n\nA lover of education, Sope obtained an undergraduate degree in Engineering and Master's degree in Marketing. She had a successful corporate career in England and America for several years before returning to her acting career. Sope is a wife and mom of two young boys and lives in Los Angeles and Miami.\n\n- IMDb Mini Biography",
+			"profile_path": "/dNfAM8jNgwa1693nuplfjp70Ls4.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 131133,
+			"name": "Trevor Noah",
+			"biography": "​Trevor Noah is a South African actor, presenter, comedian and radio DJ who began his career with a cameo role on the SABC3 soapie Isidingo, in 2002.  After his stint on the show he spent two years years hosting an educational show for SABC2 during which time he started hosting his own radio show on Yfm called Noah's Ark.  At Yfm his show was called Trevor Noah and was on between 00h00 and 03h00. He is also very involved in the South African comedy circuit and has performed at various comedy festivals.  On television he hosted the SABC1 celebrity gossip show The Real Goboza in 2007 and also hosted SABC's sports show Siyadlala.  In 2008 he was the runner-up on SABC2's reality dance competition Strictly Come Dancing 4, losing to actor Emmanuel Castis in the grand finale. His professional dance partner was Hayley Hammond.  From May to August 2008 he was the co-host (with Pabi Moloi) of the SABC1 interactive dating game show The Amazing Date.  He hosted the 3rd annual SAFTA Awards at the State Theatre in Pretoria on Saturday 7 February, 2009.  Trevor was the host (along with Eugene Khoza) of the e.tv reality competition series The AXE Sweet Life from March to May, 2009.  He hosted the 15th annual South African Music Awards (SAMAs) at the Sun City Superbowl on 2 May, 2009. He was invited back to host the SAMAs in 2010.  Trevor began hosting his own talk show on M-Net in August 2010, entitled Tonight with Trevor Noah, based on international shows such as The Tonight Show with Jay Leno, The Late Show with Conan O'Brien and satirical fare like The Daily Show with Jon Stewart.  The show moved to DStv's Mzansi Magic channel for it second season, which premiered on 5 November, 2010",
+			"profile_path": "/xwJ3MUh5wJ39KQZ3Lz8v8jzMTng.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 81097,
+			"name": "Shawn Roberts",
+			"biography": "Shawn Roberts (born April 2, 1984) is a Canadian actor.\n\nDescription above from the Wikipedia article Shawn Roberts, licensed under CC-BY-SA, full list of contributors on Wikipedia.​",
+			"profile_path": "/vrA6GKTV7TuRHYlNFGLuqmCweBu.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1979176,
+			"name": "Zola Williams",
+			"biography": "",
+			"profile_path": "/j1eJLQQbrfG4EZRFIgNuSsH6A8D.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1580160,
+			"name": "Janeshia Adams-Ginyard",
+			"biography": "",
+			"profile_path": "/j6Euv6cfgGxQhA7kf9MSenfB8Vl.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783370,
+			"name": "Jemini Powell",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1979170,
+			"name": "Marija Abney",
+			"biography": "",
+			"profile_path": "/t7hF4WRqEDMksYPSNRx3fxEN6GY.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2639668,
+			"name": "Keisha Tucker",
+			"biography": "",
+			"profile_path": "/9oCv21QokGSj7yd5Sa4An9wsHQl.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3271487,
+			"name": "Ivy Haralson",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783366,
+			"name": "Jabari Exum",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783367,
+			"name": "Massamba Diop",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3009829,
+			"name": "Magatte Saw",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783374,
+			"name": "Gerardo Aldana",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 167197,
+			"name": "Gigi Bermingham",
+			"biography": "",
+			"profile_path": "/7DuIm4IhGFadYYu5vXnfucFZXHO.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783383,
+			"name": "Rudolph Massanga",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1936486,
+			"name": "Michael Blake Kruse",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2145383,
+			"name": "Justin James Boykin",
+			"biography": "",
+			"profile_path": "/uKduJ7UggxShJSu9nsIxd4gxbC8.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1217309,
+			"name": "Anderson Cooper",
+			"biography": "Anderson Hays Cooper is an American journalist, television personality, and author. He is the primary anchor of the CNN news show Anderson Cooper 360°.",
+			"profile_path": "/p2p0b6NSJb37DdCZSRtatva1Ob9.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783392,
+			"name": "Mackenro Alexander",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1655358,
+			"name": "Kamaru Usman",
+			"biography": "Professional mixed martial artist competing in the UFC Welterweight division.",
+			"profile_path": "/qLb0Wkpy7uz7JFfKDMF7n3Ffqr4.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1367313,
+			"name": "T. Love",
+			"biography": "",
+			"profile_path": "/cXSKpa4rts3r8AIqxP5MsRRTdYd.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1934535,
+			"name": "Jermaine Brantley",
+			"biography": "",
+			"profile_path": "/9jSVLdZKKW9sX93xpPKFzqbL5dQ.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783396,
+			"name": "Granger Summerset II",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783398,
+			"name": "Luke Lenza",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 121204,
+			"name": "Alan Wells",
+			"biography": "",
+			"profile_path": "/a1QXPDZ65zizago8UzV48JxAZUS.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3063865,
+			"name": "Bill Barrett",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783401,
+			"name": "Lieiry J. Perez Escalera",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783403,
+			"name": "Sevyn Hill",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783404,
+			"name": "Gavin Macon",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783405,
+			"name": "Skylar Ebron",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783406,
+			"name": "Taylor Holmes",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783407,
+			"name": "Angela Cipra",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783408,
+			"name": "Faya Madrid",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1460794,
+			"name": "María Telón",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1460792,
+			"name": "María Mercedes Coroy",
+			"biography": "María Mercedes Coroy is a Guatemalan actress. Coroy grew up in Santa María de Jesús, Guatemala. She speaks Mayan Kaqchikel. She was discovered via a casting call by Jayro Bustamante. In 2016, she graduated from University of San Carlos de Guatemala with a degree in acting.",
+			"profile_path": "/l5QMYwvg7UefUxMrkMSc8Y1dIiN.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3577420,
+			"name": "Josué Maychi",
+			"biography": "Josué Maychi is a Mexican film, theater and television actor, known for his work in Malinche (2018) as Cuauhtémoc, Hernán (2019) as Potonchán and Black Panther: Wakanda Forever (2022) as Attuma.\n\nMaychi was born in Hopelchén, Campeche, Mexico, where he lived until he was 18 years old, and then emigrated to San Francisco de Campeche where he studied theater. He comes from a family of Mayan origin , which is why he is a native speaker of the Mayan language.  He moved to Mexico City and graduated in 2011 with a degree in Administration, but almost at the same time she began a career in Theater, which has allowed her to participate in projects that have precisely contributed to making visible the situation that people from original towns.  In 2015 the actor worked in the play 'El Molino de Maiz', which focuses on the visibility of Mayan women and later, in 2017 he participated in the play 'Andares' by Makuyeika Creativo Teatral and directed by Héctor Flores Komatsu, in where he met with actors from Chiapas, Morelos and Oaxaca and shared from their stories, the experience of their childhoods, life in their communities and how they face society. This work allowed them to tour theaters in China, New York, Chicago, Germany, Chile, France and Holland.  He has participated in television projects such as Malinche (2018), Hernán (2019) and will make her film debut with the film Presencias (2021), directed by Luis Mandoki , and acting alongside Alberto Ammann and Yalitza Aparicio.  As a playwright, he wrote Jats'uts sáastal Bello Amanecer (2014), collaborates in Andares (2017), Deer Walkers (2017), and Ch'e'en: peeking into the well; works in the Mayan language. He has also served as an advisor for theater projects in the Mayan language.",
+			"profile_path": "/ud3Oirvolasnf1eCtSBdtJlvL4l.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 8666,
+			"name": "Sal Lopez",
+			"biography": "",
+			"profile_path": "/8m7m6qGjYz8TD3NhP8hGfbhgL8f.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2113850,
+			"name": "Irma Estella La Guerre",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3720013,
+			"name": "Manuel Chavez",
+			"biography": "",
+			"profile_path": "/4ao1ogN1f80ig1HIZGy5ylWIXUT.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3320451,
+			"name": "Leonardo Castro",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 168147,
+			"name": "Juan Carlos Cantu",
+			"biography": "Juan Carlos Cantu is an actor.",
+			"profile_path": "/zg0zGiingVYY2MxAsj0nAazHYMA.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2557488,
+			"name": "Shawntae Hughes",
+			"biography": "",
+			"profile_path": "/7iASzSNsyyZ0CLAQqKNNsNU3Smz.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2700648,
+			"name": "Corey Hibbert",
+			"biography": "",
+			"profile_path": "/f7nt4UrgN01sJYaWK5w2aDcDiQK.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783409,
+			"name": "Zaiden James",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1510786,
+			"name": "Aba Arthur",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1496728,
+			"name": "Délé Ogundiran",
+			"biography": "",
+			"profile_path": "/7emkHGk1Brp98vhqgBUEJCztzDv.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2303244,
+			"name": "Kevin Changaris",
+			"biography": "",
+			"profile_path": "/xH2SVCc3XaqMSvJxrovSiLP67H9.jpg"
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783410,
+			"name": "Valerio Dorvillen",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783411,
+			"name": "Don Castor",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783412,
+			"name": "Jonathan González Collins",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3783413,
+			"name": "Divine Love Konadu-Sun",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 505642,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 172069,
+			"name": "Chadwick Boseman",
+			"biography": "Chadwick Boseman was an American actor, playwright, and screenwriter hailing from Anderson, South Carolina. He graduated from Howard University and went on to study at the British American Dramatic Academy in Oxford.  Boseman's play \"Deep Azure\" was nominated for a 2006 Joseph Jefferson Award for New Work.  His breakout role was playing the lead Jackie Robinson in 2013's 42.\n\nBoseman was best remembered for portraying T’Challa/Black Panther in the Marvel Cinematic Universe. He has portrayed the character in Captain America: Civil War (2016), Black Panther (2018), Avengers: Infinity War (2018), and Avengers: Endgame (2019).",
+			"profile_path": "/nL16SKfyP1b7Hk6LsuWiqMfbdb8.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1396124,
+			"name": "Sosie Bacon",
+			"biography": "Sosie Ruth Bacon (born March 15, 1992) is an American actress. Her first role was playing 10-year-old Emily in the movie Loverboy (2005), which was directed by her father, Kevin Bacon. James Duff, producer of The Closer, was compelled by Bacon's performance in Loverboy to suggest that she play the role of Deputy Chief Brenda Leigh Johnson's niece Charlie in the fifth season of the show. Although her parents were opposed to her being involved in acting, Bacon accepted the role and appeared in four episodes alongside her mother, who played the role of Chief Johnson. Bacon portrayed the character Skye Miller in the TV series 13 Reasons Why.",
+			"profile_path": "/hMsjirweIK9wGuy49l52b8SnLuv.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 59219,
+			"name": "Kyle Gallner",
+			"biography": "From Wikipedia, the free encyclopedia\n\nKyle Gallner (born October 22, 1986) is an American actor. He is possibly best known for his portrayal of Cassidy \"Beaver\" Casablancas in the Teen neo-noir television series Veronica Mars, and for guest-starring in teen sci-fi drama Smallville as superhero Bart Allen, an adaptation of the character of The Flash and Impulse comic book. He is also well known for portraying Reed Garrett, Mac Taylor's stepson, on CSI: NY beginning in 2006, and for his roles in the horror films The Haunting in Connecticut, Jennifer's Body and the remake of A Nightmare on Elm Street.\n\nDescription above from the Wikipedia article Kyle Gallner, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/v7wfYXfakHyeNudiATORtlQ6mny.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 145245,
+			"name": "Caitlin Stasey",
+			"biography": "Caitlin Jean Stasey is an Australian actress who is well known for her roles as Francesca Thomas in The Sleepover Club, Rachel Kinski in Neighbours and Ellie Linton in the film adaptation of John Marsden's best seller 'Tomorrow When the War Began'\n\nCaitlin is from Victoria, Australia, She began taking an interest in acting/performing when she was about six years of age. She also has an active interest in writing screenplays and documentary film making.\n\nCaitlin was featured as part of the Australian Girls Choir in a Qantas commercial, singing \"I Still Call Australia Home\" and traveled the world as a member of the choir to film the commercial in 2000 before the Sydney Olympics. This commercial was named the \"Greatest Australian Commercial\" on 20 to 1.\n\nIn Caitlin's early years she played the role of Francesca \"Frankie\" Thomas which made a hit in both Australia, UK and Americas Nickelodeon TV.\n\nHer role in Tomorrow When the War Began was highly praised by critics and won her an IF (inside film) award in 2010 for best actress. one of the most prestigious film awards in Australia\n\nShe moved to Los Angeles in 2010.",
+			"profile_path": "/8Cxs1enzkEsvIlfBaiuadsNTX8J.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 198847,
+			"name": "Jessie T. Usher",
+			"biography": "Jessie Usher is an American film and television actor.",
+			"profile_path": "/iiu9dkYEkHJPMf7TzbrhhgwRvlt.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 53493,
+			"name": "Kal Penn",
+			"biography": "Kalpen Suresh Modi, known professionally as Kal Penn, is an American actor, comedian, and former White House staff member in the Obama administration.",
+			"profile_path": "/yICM1JcxKbEpaqTUreY0yFMIc8W.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1281250,
+			"name": "Rob Morgan",
+			"biography": "Rob Morgan is an American actor known for his role as Turk Barrett in the Netflix series Daredevil, Jessica Jones, Luke Cage, Iron Fist, The Defenders, and The Punisher, and Hap Jackson in Mudbound. He is the only actor to appear in all six of Marvel's Netflix television series.",
+			"profile_path": "/yIQd0L0kn1HyZGeEMkUREzMslP0.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 79087,
+			"name": "Robin Weigert",
+			"biography": "Robin Weigert (born July 7, 1969) is an American television and film actress. Weigert was born in Washington, D.C. of Jewish heritage. After graduating from Brandeis University in 1991, Weigert attended New York University, earning a Master of Fine Arts degree in the acting program at the Tisch School of the Arts. After a decade as a stage actress based in New York City, she moved to Los Angeles and has appeared in various movies, TV shows and mini-series. Weigert is best known for her much-lauded portrayal of the unkempt, foul-mooded, foul-mouthed drunkard Calamity Jane in the HBO television series Deadwood. In 2004, Weigert was nominated for an Emmy for Outstanding Supporting Actress in a Drama Series for the role. To date, her highest profile role in film has been as Hannelore in Steven Soderbergh's The Good German (2006), with her character featured on the film's official release one sheet. In 2010, it was announced that Weigert would be joining the cast of the FX drama Sons of Anarchy. She will play the titular motorcycle club's lawyer.",
+			"profile_path": "/2BTXaQ4i9febM7yUjlukPX86Wag.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 159657,
+			"name": "Judy Reyes",
+			"biography": "From Wikipedia, the free encyclopedia.\n\nJudy Reyes (born November 5, 1967 in the Bronx, New York) is an American actress of Dominican heritage. She is best known for her portrayal of nurse Carla Espinosa on the TV comedy Scrubs.",
+			"profile_path": "/zKcbJWitVsDOFJuXgnf5cldEYIq.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 212766,
+			"name": "Gillian Zinser",
+			"biography": "Gillian Amalia Zinser is an American actress, known for her appearances as Ivy Sullivan in 90210. She attended New York University in New York City, NY. Prior to 90210 she appeared in Southland, Cold Case and Cupid.",
+			"profile_path": "/peEd36FXGBmUQup5n0qEsb28vvS.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3727281,
+			"name": "Meghan Brown Pratt",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1952010,
+			"name": "Nick Arapoglou",
+			"biography": "",
+			"profile_path": "/3ZM2dRRRFrz1nLsshETs6egpKYX.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2089988,
+			"name": "Jared Johnston",
+			"biography": "",
+			"profile_path": "/9gNea3RMlyzTHWCr0phMOlfksfB.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1257724,
+			"name": "Shevy Gutierrez",
+			"biography": "",
+			"profile_path": "/tFBaMMhbcVxdSGTV4SGNnA0DYhX.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3527387,
+			"name": "Ura Yoana Sánchez",
+			"biography": "",
+			"profile_path": "/nbV2Z0hMLCEHkFoB8m8oB6Q8WLL.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3742734,
+			"name": "Scot Teller",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3598140,
+			"name": "Dora Kiss",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3598149,
+			"name": "Michelle Persiano",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3432738,
+			"name": "Setty Brosevelt",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3096014,
+			"name": "Jerry Lobrow",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3598145,
+			"name": "Brandon Brigman",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2088489,
+			"name": "Vanessa Cozart",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1506821,
+			"name": "Sara Kapner",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3598147,
+			"name": "Nadia Ramdass",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3598148,
+			"name": "Matthew Lamb",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3598150,
+			"name": "Shu Q",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3598151,
+			"name": "Athena Smiley",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2680950,
+			"name": "Rachel Yong",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3598154,
+			"name": "Asia Hernandez",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3328598,
+			"name": "Ilene Blackman",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3598156,
+			"name": "Steven Bullock",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3598157,
+			"name": "Felix Melendez Jr.",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3667994,
+			"name": "Kevin Keppy",
+			"biography": "",
+			"profile_path": "/52KbtEvQylLmtfGpqFZW3jXme6Y.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1287088,
+			"name": "Marti Matulis",
+			"biography": "Marti Matulis is an American actor/cinematographer who normally plays roles of non-human characters. known for American Horror Story (2011), Teen Wolf (2011), Evil (1019-2022), Studio 666 (2022) and Smile (2022).\n\nHe was born on July 4, 1970 in Orange, California (USA).",
+			"profile_path": "/25DZvZLqQfkPA4FNlOjNT1Di3Zp.jpg"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2946250,
+			"name": "Steven Strickland",
+			"biography": "",
+			"profile_path": null
 		}
 	},
 	{
 		"pk": 436270,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 59521,
-			"name": "Jaume Collet-Serra",
-			"biography": "Jaume Collet-Serra (born March 23, 1974 in Sant Iscle de Vallalta, Spain) is a Spanish film director and producer.\n\nCollet-Serra is most famous for the 2005 remake House of Wax, and 2009's Orphan. In 2010 he directed the Dark Castle drama-thriller Unknown which stars Frank Langella, Liam Neeson, January Jones and Diane Kruger.\n\nDescription above from the Wikipedia article Jaume Collet-Serra, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
-			"profile_path": "/saAeTFfgt9YRAybXmzfmIz01UCB.jpg"
+			"actor_id": 18918,
+			"name": "Dwayne Johnson",
+			"biography": "An American and Canadian actor, producer and semi-retired professional wrestler, signed with WWE.  Johnson is half-Black and half-Samoan. His father, Rocky Johnson, is a Black Canadian, from Nova Scotia, and part of the first Black tag team champions in WWE history back when it was known as the WWF along with Tony Atlas. His mother is Samoan and the daughter of Peter Maivia, who was also a pro wrestler. Maivia's wife, Lia Maivia, was one of wrestling's few female promoters, taking over Polynesian Pacific Pro Wrestling after her husband's death in 1982, until 1988. Through his mother, he is considered a non-blood relative of the Anoa'i wrestling family. On March 29, 2008, The Rock inducted his father and his grandfather into the WWE Hall of Fame.\n\nAs of 2014, Johnson has a home in Southwest Ranches, Florida as well as Los Angeles, California. He also owns a farm in Virginia. In 2009, Johnson gained citizenship in Canada in honor of his father's background. Though Johnson was previously registered as a Republican, he voted for Barack Obama in the 2008 and 2012 United States presidential elections and is now an independent voter. He stated he did not vote in the 2016 U.S. election.\n\nIn recognition of his service to the Samoan people, and because he is a descendant of Samoan chiefs, Johnson had the noble title of Seiuli bestowed upon him by Malietoa Tanumafili II during his visit there in July 2004. He received a partial Samoan pe'a tattoo on his left side in 2003,and, in 2017, had the small \"Brahma bull\" tattoo on his right arm covered with a larger half-sleeve tattoo of a bull's skull.\n\nJohnson married Dany Garcia on May 3, 1997. Their only child together, a daughter named Simone, was born in August 2001. On June 1, 2007, they announced they were splitting up amicably. Johnson then began dating Lauren Hashian, daughter of Boston drummer Sib Hashian. They first met in 2006 while Johnson was filming The Game Plan. Their first child together, a daughter, was born in December 2015. Their second child, another daughter, was born in April 2018.\n\nJohnson attended the 2000 Democratic National Convention as part of WWE's non-partisan \"Smackdown Your Vote\" campaign, which aimed to influence young people to vote. He also had a speaking role at the 2000 Republican National Convention that same year.\n\nIn 2006, Johnson founded the Dwayne Johnson Rock Foundation, a charity working with at-risk and terminally ill children. On October 2, 2007, he and his ex-wife donated $1 million to the University of Miami to support the renovation of its football facilities; it was noted as the largest donation ever given to the university's athletics department by former students. The University of Miami renamed the Hurricanes' locker room in Johnson's honor. In 2015, Johnson donated $1,500 to a GoFundMe to pay for an abandoned dog's surgery. In 2017, he donated $25,000 to Hurricane Harvey relief efforts. In 2018, Johnson donated a gym to a military base in Oahu, Hawaii. After the 2018 Hawaii floods, he worked with Malama Kauai, a nonprofit organization, to help repair damages caused by the floods.",
+			"profile_path": "/cgoy7t5Ve075naBPcewZrc08qGw.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 83860,
+			"name": "Aldis Hodge",
+			"biography": "Aldis Alexander Basil Hodge (born September 20, 1986) is an American actor best known for portraying Alec Hardison on the TNT series Leverage. He also portrayed MC Ren in the 2015 biopic, Straight Outta Compton.\n\nHodge was born on September 20, 1986 in Onslow County, North Carolina. Both of his parents, Aldis Basil Hodge and Yolette Evangeline Richardson, served in the U.S. Marine Corps. Hodge's mother is from Florida, while his father is originally from Dominica. Aldis is the younger brother of actor Edwin Hodge.\n\nHodge played both the clarinet and the violin as a child, but as an adult, his focus is on the violin; he purchased his first at the age of 18. In addition to acting, Hodge designs watches, writes, and paints.\n\nIn 2007, Hodge was awarded the role of Alec Hardison on the day of his twenty-first birthday. In 2010, he received a Saturn Award nomination for Best Supporting Actor in Television for this role on Leverage. The win went to Aaron Paul of AMC's Breaking Bad.\n\nDescription above from the Wikipedia article Aldis Hodge, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/jPpnaAGFXaIeOrRNUHIHxk3fIJL.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1253353,
+			"name": "Noah Centineo",
+			"biography": "Noah Gregory Centineo is a US actor. He is known for his roles in the television series The Fosters, the television film How to Build a Better Boy, and Netflix's To All the Boys I've Loved Before.",
+			"profile_path": "/p1bcst401RyxfDGykx2iQLI7CV5.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 164945,
+			"name": "Sarah Shahi",
+			"biography": "Sarah Shahi (born January 10, 1980) is an American actress and a former NFL Cheerleader.",
+			"profile_path": "/shiLCJNyvi9xlUZw4bTuRkhrKpm.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2042690,
+			"name": "Quintessa Swindell",
+			"biography": "Quintessa Swindell (born February 7, 1997) is an American actor best known for their roles in television series Euphoria and Trinkets.",
+			"profile_path": "/xKUFfFJR6o5Ka7AmetGMYjSmBGO.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 935235,
+			"name": "Marwan Kenzari",
+			"biography": "Marwan Kenzari was born on January 16, 1983 in The Hague, Zuid-Holland, Netherlands. He is an actor and costume designer.",
+			"profile_path": "/66903sgNtyzHN0Mi3D88UYgbH86.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1293978,
+			"name": "Mo Amer",
+			"biography": "",
+			"profile_path": "/vA78SdELZxQCLt7BF3OOHMxlh87.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2426321,
+			"name": "Bodhi Sabongui",
+			"biography": "",
+			"profile_path": "/eSsi0SrWwp3TfXeUo7HfXqlROjG.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 517,
+			"name": "Pierce Brosnan",
+			"biography": "Pierce Brendan Brosnan, OBE (16 May 1953) is an Irish actor, film producer and environmentalist who holds Irish and American citizenship.\n\nAfter leaving school at 16, Brosnan began training in commercial illustration, but trained at the Drama Centre in London for three years. Following a stage acting career he rose to popularity in the television series Remington Steele (1982–87). After Remington Steele, Brosnan took the lead in many films such as Dante's Peak and The Thomas Crown Affair. In 1995, he became the fifth actor to portray secret agent James Bond in the official film series, starring in four films between 1995 and 2002. He also provided his voice and likeness to Bond in the 2004 video game James Bond 007: Everything or Nothing.\n\nSince playing Bond, he has starred in such successes as The Matador (nominated for a Golden Globe, 2005), Mamma Mia! (National Movie Award, 2008), and The Ghost Writer (2010). In 1996, along with Beau St. Clair, Brosnan formed Irish DreamTime, a Los Angeles-based production company.\n\nIn later years, he has become known for his charitable work and environmental activism. He was married to Australian actress Cassandra Harris from 1980 until her death in 1991. He married American journalist and author Keely Shaye Smith in 2001, becoming an American citizen in 2004.",
+			"profile_path": "/dzXVwwJLPwiZeXOnf7YxorqVEEM.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2430192,
+			"name": "James Cusati-Moyer",
+			"biography": "",
+			"profile_path": "/hzdNg0B4iyslssXP0FuYXIS3P7I.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1925441,
+			"name": "Jalon Christian",
+			"biography": "",
+			"profile_path": "/4LERZ6t9aQdze9Kw8yoGSTZsLES.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1230371,
+			"name": "Benjamin Patterson",
+			"biography": "",
+			"profile_path": "/iQ5m0rglateZV1Qb3NDEdLYKyC9.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1639904,
+			"name": "Odelya Halevi",
+			"biography": "",
+			"profile_path": "/26jv3dcS5Us8Ut13Tu9PmvT7uPh.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1384511,
+			"name": "Uli Latukefu",
+			"biography": "Talia'uli \"Uli\" Latukefu is an Australian actor and singer, best known for his role as Byamba in the American Netflix series Marco Polo. Wikipedia",
+			"profile_path": "/zyxYWpO64oRVViVutloKsvr8o7s.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 87165,
+			"name": "Jennifer Holland",
+			"biography": "Jennifer Holland is an American actress. She is known for her work as Emilia Harcourt in the film The Suicide Squad and the television series Peacemaker. She also worked in American Pie Presents: The Book of Love.",
+			"profile_path": "/mv8EcqDIBITO5dwoBKREcJoRjKo.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 31903,
+			"name": "Henry Winkler",
+			"biography": "Henry Franklin Winkler (born October 30, 1945) is an American actor, director, producer, and author.\n\nWinkler is best known for his role as Fonzie on the 1970s American sitcom Happy Days. \"The Fonz,\" a leather-clad greaser and auto mechanic, started out as a minor character at the show's beginning but had achieved top billing by the time the show ended.",
+			"profile_path": "/8OmkbGkeN7yZj3iIJNo485BBGTC.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 59350,
+			"name": "Chaim Jeraffi",
+			"biography": "",
+			"profile_path": "/odxOLYdm8mOihxpkWzNI1FMdU1I.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1634619,
+			"name": "Sharon Gee",
+			"biography": "",
+			"profile_path": "/4caWT1DZfGXNAh2d5UXtnSn9IEp.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 6909,
+			"name": "Stephan Jones",
+			"biography": "",
+			"profile_path": "/zui1oPy46gJEm91qL5YpCQxipnU.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3763400,
+			"name": "A. Manuel Miranda",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 938,
+			"name": "Djimon Hounsou",
+			"biography": "A Beninese-American actor and model. As an actor, Hounsou has been nominated for two Academy Awards.\n\nHounsou became a naturalized American citizen in 2007. He was reluctant to renounce his Beninese citizenship and therefore opted to become a dual citizen of both Benin and the United States, effectively rendering him a Beninese-American.\n\nDjimon Hounsou was born in Cotonou, Benin, in 1964, to lbertine and Pierre Hounsou. He immigrated to Lyon in France at the age of thirteen with his brother, Edmond. In 1987, he became a model and established a career in Paris. He moved to the U.S. in 1990. One year before obtaining his college degree, he dropped out of school.\n\nIn the 1989 he appeared in a music video of Straight Up by Paula Abdul. Hounsou's film debut was in the 1990 Sandra Bernhard film Without You I’m Nothing, and he has had television parts on Beverly Hills, 90210 and ER and a guest starring role on Alias, but received a larger role in the science fiction film Stargate. His first on-screen appearance was in the 1990 Janet Jackson video “Love Will Never Do (Without You).” He also starred in a 2002 Gap commercial directed by Peter Lindbergh, dancing to a rendition of John Lee Hooker's \"Boom Boom\" by Arrested Development's Baba Oje.\n\nHe received wide critical acclaim and a Golden Globe Award nomination for his role as Cinqué in the 1997 Steven Spielberg film Amistad. He gained further notice as Juba, in the 2000 film Gladiator. He was nominated for the Academy Award for Best Supporting Actor, for In America, in 2004, becoming the fourth African male to be nominated for an Oscar (along with Basil Rathbone, Cecil Kellaway and Omar Sharif). In 2006, he won the National Board of Review Award for Best Supporting Actor for his performance in Blood Diamond; he received Broadcast Film Critics Association, Screen Actors Guild Award, and Academy Award nominations for this performance.\n\nIn 2007, Hounsou began dating model/CEO of Baby Phat, Kimora Lee Simmons. In 2008 Hounsou and Simmons visited Hounsou's family and while there, the two participated in a traditional commitment ceremony. On May 30, 2009, Simmons gave birth to their son, Kenzo Lee Hounsou, reportedly named because Kenzo means 3 (Kimora's third child). Hounsou is now a naturalized United States citizen and resides in Los Angeles.  ",
+			"profile_path": "/hco0KMbrxACYTmBfAkSzCf23CXV.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1431483,
+			"name": "Raj Kala",
+			"biography": "Raj Kala is an actor.",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2295515,
+			"name": "E. Lloyd Napier",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3763403,
+			"name": "Kiara Rashawn",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3016275,
+			"name": "Onye Eme-Akwari",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2465248,
+			"name": "Sanna Erica",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 196934,
+			"name": "Vince Canlas",
+			"biography": "",
+			"profile_path": "/4H6eHIiJNSABsTzKqtr96sHu2MB.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 18347,
+			"name": "Tonea Stewart",
+			"biography": "",
+			"profile_path": "/wWmYTgwq6Llqhy4IoLC6FCUFQlq.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3763404,
+			"name": "Meghna Nagarajan",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 102742,
+			"name": "Patrick Sabongui",
+			"biography": "",
+			"profile_path": "/yI8xBqEi5IAeyoEgGcdbcyEc9vO.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3433788,
+			"name": "Alex Parkinson",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 58508,
+			"name": "Joseph Gatt",
+			"biography": "Joseph Gatt is an English actor, model, and voice artist. Wikipedia",
+			"profile_path": "/ufXNVj0gOpGOB6uUnNuTIzk5rpb.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1923367,
+			"name": "Kamen Casey",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3764469,
+			"name": "Dennis Dawson",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1559690,
+			"name": "Mike Senior",
+			"biography": "",
+			"profile_path": "/hruBzjxRvB2OMiP4OTsoaisay3J.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1838518,
+			"name": "Jermaine Rivers",
+			"biography": "",
+			"profile_path": "/4p3XXHBRNhGHJLc3aholtumj7wq.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1613974,
+			"name": "Regina Ting Chen",
+			"biography": "",
+			"profile_path": "/7Lqwq6UYbZd7XyMujUKUVUHGSIb.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 172046,
+			"name": "Sekou Laidlow",
+			"biography": "",
+			"profile_path": "/6BQNIrx7CKUn5MV4gqYOe8fNK7H.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1310853,
+			"name": "Cameron Moir",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1769802,
+			"name": "Donny Carrington",
+			"biography": "",
+			"profile_path": "/bjU5fNiV4dWsHJ6drQpFYgLjbnD.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2024835,
+			"name": "Boone Platt",
+			"biography": "Boone Platt is an American stage, film and television actor known for his work on Black Lightning (2017), Sorry for Your Loss (2018) and S.W.A.T. (2017).",
+			"profile_path": "/dnG5oqrU1obnzCxkWsSVzZRcivy.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1310179,
+			"name": "Philip Fornah",
+			"biography": "",
+			"profile_path": "/mH6UjRLpoHkwwDzCMkzXfyFAlje.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1628383,
+			"name": "Derek Russo",
+			"biography": "SAG-Aftra actor, stunt man, and voice actor moved to Atlanta from Miami in August 2015.\n\nIt is my sincere belief that the majority of talented people in this world fall somewhere between \"fairly unknown\" and \"completely unknown\". I believe that the more that we--the talented unknowns--work with each other....the better it is for all of us.\n\nFormer Marine, former college and Minor-League football player, former model & exotic dancer turned comedian/entertainer......the All-American dream, right?\n\n- IMDb Mini Biography By: Derek Russo",
+			"profile_path": "/5x5b61WVyydJV9qHPVIBzefCsMf.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3192942,
+			"name": "Angel Rosario Jr.",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 587237,
+			"name": "Tang Nguyen",
+			"biography": "",
+			"profile_path": "/iQVARCRBryVnoQHekUYYT8FqyDq.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1358061,
+			"name": "Christopher Matthew Cook",
+			"biography": "Christopher Matthew Cook is an actor.",
+			"profile_path": "/vwBubfT4jCNH7TVt5dXjBzUJbKt.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3764471,
+			"name": "Natasha Ellie",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2874031,
+			"name": "Daniel Danca",
+			"biography": "Daniel Danca is a  Romanian actor and model. He is a graduate of the The William Esper Studio in New York City.",
+			"profile_path": "/2miJH1JWJdVw4AMV6Q0IcTNrWmO.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3348191,
+			"name": "Yssa Mei Panganiban",
+			"biography": "",
+			"profile_path": "/fGYBNdnZe8uu5x2Ly8Zkvg83IAB.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 19492,
+			"name": "Viola Davis",
+			"biography": "Viola Davis (born August 11, 1965) is an American actress. Known primarily as a stage actress, Davis won a Tony Award for Best Performance by a Featured Actress in a Play and a Drama Desk Award for her role in King Hedley II (2001). She won a Tony Award for Best Performance by a Leading Actress in a Play for her role in Fences. She won a second Drama Desk Award for Intimate Apparel (2004).\n\nHer films include Traffic (2000), Antwone Fisher (2002), and Solaris (2002). Her performance in Doubt (2008) was nominated for several awards, including an Academy Award for Best Supporting Actress and a Golden Globe Award for Best Supporting Actress in a Motion Picture.\n\nDescription above from the Wikipedia article Viola Davis, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/1QnmK4NBHN8tqVE3bxAzVSOUh80.jpg"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 73968,
+			"name": "Henry Cavill",
+			"biography": "Henry William Dalgliesh Cavill (born 5 May 1983) is a British actor. He is known for his portrayal of Charles Brandon in Showtime's The Tudors (2007–2010), DC Comics character Superman in the DC Extended Universe, Geralt of Rivia in the Netflix fantasy series The Witcher (2019–present), as well as Sherlock Holmes in the Netflix film Enola Holmes (2020). Cavill began his career with roles in the feature adaptations of The Count of Monte Cristo (2002) and I Capture the Castle (2003). He later portrayed supporting roles in several television series, including BBC's The Inspector Lynley Mysteries, ITV's Midsomer Murders, and Showtime's The Tudors. He has since appeared in numerous major studio films, such as Tristan & Isolde (2006), Stardust (2007), Blood Creek (2009), Immortals (2011), The Cold Light of Day (2012), Sand Castle (2017) and Night Hunter (2018). Cavill gained international recognition with his role as Superman in the DC Extended Universe superhero films Man of Steel (2013), Batman v Superman: Dawn of Justice (2016) and Justice League (2017). He also starred in the action spy films The Man from U.N.C.L.E. (2015) and Mission: Impossible – Fallout (2018).\n\nDescription above from the Wikipedia article Henry Cavill, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/iWdKjMry5Pt7vmxU7bmOQsIUyHa.jpg"
 		}
 	},
 	{
 		"pk": 966220,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 3518356,
-			"name": "Marian Bushan",
+			"actor_id": 3258776,
+			"name": "Pavlo Aldoshyn",
+			"biography": "",
+			"profile_path": "/Vi4YZuPX6oFVNeaugZ8YalOFSg.jpg"
+		}
+	},
+	{
+		"pk": 966220,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2232024,
+			"name": "Maryna Koshkina",
+			"biography": "",
+			"profile_path": "/eLPvR0xFkOOKtVjL7UWD6sFs5dF.jpg"
+		}
+	},
+	{
+		"pk": 966220,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2039497,
+			"name": "Andrei Mostrenko",
+			"biography": "",
+			"profile_path": "/ovCSFuWwBqgb42uPOxxbIaKttce.jpg"
+		}
+	},
+	{
+		"pk": 966220,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1916805,
+			"name": "Roman Semysal",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 966220,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2342168,
+			"name": "Roman Yasinovskyi",
+			"biography": "",
+			"profile_path": "/oNGKZ1TJypBbXQjUmSC7ycOU4PF.jpg"
+		}
+	},
+	{
+		"pk": 966220,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1886663,
+			"name": "Oleh Shulha",
+			"biography": "",
+			"profile_path": "/inCAXCrKoEBJgl1sNgXtxg1fMo2.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1882502,
+			"name": "Lauren LaVera",
+			"biography": "",
+			"profile_path": "/wrVoBR5YhdEcadqwPICkcXXTbWk.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1880016,
+			"name": "David Howard Thornton",
+			"biography": "David Howard Thornton (born 20 November 1979) is an American actor. He is an actor known for work in stage, film, and voice over. He is best known for his roles as Grandpa Who in the 1st- 5th national tours of Dr. Seuss' How the Grinch Stole Christmas: The Musical, the voice of Shizoku and others in the video game Invizimals: The Lost Kingdom, The Joker in the YouTube series Nightwing Escalation, and Art the Clown in the film Terrifier.",
+			"profile_path": "/9nYijs4ACzjg93zKezLiLmuRGvp.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2787720,
+			"name": "Elliott Fullam",
+			"biography": "Elliott Fullam is an actor known best for his role as Jonathan in critically acclaimed horror film Terrifier 2 (2022).",
+			"profile_path": "/dNsFLihmWfA2KCENbZCtq9AjSob.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3383606,
+			"name": "Sarah Voigt",
 			"biography": "",
 			"profile_path": null
 		}
@@ -33,28 +1693,508 @@
 		"pk": 663712,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 933176,
-			"name": "Damien Leone",
-			"biography": "Damien Leone is an american director, writer and Special Makeup FX Artist. He is known for his films The 9th Circle (2008), Terrifier (2011), All Hallows' Eve (2013) and Frankenstein vs. the Mummy (2015).\n\nCreator of Art the Clown.",
-			"profile_path": "/kr58jbtYatTS6wuAn35pg2d5YQK.jpg"
-		}
-	},
-	{
-		"pk": 882598,
-		"model": "movies.actor",
-		"fields": {
-			"director_id": 2218465,
-			"name": "Parker Finn",
+			"actor_id": 3678959,
+			"name": "Kailey Hyman",
 			"biography": "",
-			"profile_path": "/2HZPv0IUlxRqCpmgbk7KdovhQaF.jpg"
+			"profile_path": null
 		}
 	},
 	{
-		"pk": 675054,
+		"pk": 663712,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 964826,
-			"name": "Chava Cartas",
+			"actor_id": 1202687,
+			"name": "Casey Hartnett",
+			"biography": "",
+			"profile_path": "/jR87afncFCLivW82l2tlk3CkY5Y.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1190554,
+			"name": "Catherine Corcoran",
+			"biography": "She is best known for her staring role in Troma Entertainments, award-winning, 'Return to Nuke 'Em High' (a revamped, reboot of the 1984 cult classic, 'The Class of Nuke 'Em High'). Her career also includes roles in Gossip Girl, The Good Wife, MTV Pranks, and working under the mentorship of Academy Award Winning directors Peter Jackson (The Lovely Bones) and Josh Fox (Gasland). She has been featured in various publications including The New York Times, Interview Magazine, TIME Magazine, The Hollywood Reporter and Le Figaro. Much in the vein of her mentors, Catherine is also known for spearheading Troma Entertainments, 'Occupy Cannes' Campaign and its subsequent documentary.",
+			"profile_path": "/vv3hncIfLPsTj5XonPrMV4UcbPl.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2807731,
+			"name": "Amelie McLain",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2119066,
+			"name": "Charlie McElveen",
+			"biography": "",
+			"profile_path": "/rxUa628mOE5XSsAHzAGO5bqw8oU.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 74673,
+			"name": "Felissa Rose",
+			"biography": "Felissa Rose (born May 23, 1969) is an American actress and producer.",
+			"profile_path": "/PEiMOmcnhRJGlrOXxD2bSrRc37.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1676771,
+			"name": "Samantha Scaffidi",
+			"biography": "Samantha Scaffidi was born as Samantha Nicole Scaffidi. She is an actress and producer, known for Demon Hole (2017), The Grind TV 1.0 (2016) and Terrifier (2016).",
+			"profile_path": "/jwd0XXuc4ibXAXjOxmhsFP0fQEO.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1576649,
+			"name": "Sarah Grace Sanders",
+			"biography": "",
+			"profile_path": "/jgcOHFGrse4TluVYl4DbYjQ7EtT.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2034960,
+			"name": "Griffin Santopietro",
+			"biography": "",
+			"profile_path": "/17qhVXBdsFh7AsuHGCRJGPJgsD1.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1414791,
+			"name": "Tamara Glynn",
+			"biography": "",
+			"profile_path": "/9hH8uczz8HvNFkI9I8jYrPU1htx.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2787721,
+			"name": "Devon Roth",
+			"biography": "",
+			"profile_path": "/1CY5jlGOlqWM4AyvpUtqiNrm5o3.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 105656,
+			"name": "Chris Irvine",
+			"biography": "Christopher Keith Irvine, better known by the ring name Chris Jericho, is an American-Canadian professional wrestler and singer. He is currently signed to All Elite Wrestling (AEW), where he is the leader of the stable known as Jericho Appreciation Society. Noted for his over-the-top rock star persona, he has been named by journalists and industry colleagues as one of the greatest professional wrestlers of all time.\n\nDuring the 1990s, Jericho performed for American organizations Extreme Championship Wrestling (ECW) and World Championship Wrestling (WCW), as well as for promotions in countries such as Canada, Japan, and Mexico. At the end of 1999, he made his debut in the World Wrestling Federation (WWF). In 2001, he became the first Undisputed WWF Champion, and thus the final holder of the WCW World Heavyweight Championship (then referred to as the World Championship), having won and unified the WWF and World titles by defeating Stone Cold Steve Austin and The Rock on the same night. Jericho headlined multiple pay-per-view (PPV) events during his time with the WWF/WWE, including WrestleMania X8 and the inaugural TLC and the Elimination Chamber matches and the shows itself. He was inducted into the Wrestling Observer Newsletter Hall of Fame in 2010.\n\nWithin the WWF/WWE, Jericho is a six-time world champion, having won the Undisputed WWF Championship once, the WCW/World Championship twice and the World Heavyweight Championship three times. He has also held the WWE Intercontinental Championship a record nine times and was the ninth Triple Crown Champion, as well as the fourth Grand Slam Champion in history. In addition, he was the 2008 Superstar of the Year Slammy Award winner and (along with Big Show as Jeri-Show) won the 2009 Tag Team of the Year Slammy Award—making him the only winner of both Superstar and Tag Team of the Year.\n\nAfter his departure from WWE in 2018, Jericho signed with New Japan Pro-Wrestling (NJPW), where he became a one-time IWGP Intercontinental Champion, and becoming the first man to have held both the WWE and IWGP Intercontinental Championships. Jericho joined AEW in January 2019 and became the inaugural holder of the AEW World Championship in August of that year. All totalled, between ECW, WCW, WWE, NJPW and AEW, Jericho has held 36 championships (including seven World Championships, and 10 Intercontinental Championships).\n\nIn 1999, Jericho became lead vocalist of heavy metal band Fozzy, who released their eponymous debut album the following year. The group's early work is composed largely of cover versions, although they have focused primarily on original material from their third album, All That Remains (2005), onward. Jericho has also appeared on numerous television shows over the years, including the 2011 season of Dancing With the Stars. He hosted the ABC game show Downfall, the 2011 edition of the Revolver Golden Gods Awards, and the UK's Metal Hammer Golden Gods Awards in 2012 and 2017.",
+			"profile_path": "/5nmmftjJt7aYPEnRT73PlbAsT96.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 225216,
+			"name": "Katie Maguire",
+			"biography": "",
+			"profile_path": "/e2NArSgGrpFTVxG8OrvuSSPMGCZ.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750561,
+			"name": "Jackie Adragna",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3729892,
+			"name": "Georgia MacPhail",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2185895,
+			"name": "Rachel Keefe",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750564,
+			"name": "Rick Styczynski",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1751948,
+			"name": "Amy Russ",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3087063,
+			"name": "Marcus Slabine",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3110932,
+			"name": "Leah Voysey",
+			"biography": "",
+			"profile_path": "/asyDhgNyXHaolbHT6hduMJS0jxY.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1687511,
+			"name": "Cory DuVal",
+			"biography": "",
+			"profile_path": "/4o5ZwdIICnxxmE6kVXE9JbTAdh3.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2222389,
+			"name": "Jason Leavy",
+			"biography": "",
+			"profile_path": "/MXWWWjqXpCbFqTZ2i156j5yzoN.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2531838,
+			"name": "Owen Myre",
+			"biography": "",
+			"profile_path": "/vcaXQmjSkhkVZ9wJ1DNSFPop2Y7.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750566,
+			"name": "Ryan James",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2004533,
+			"name": "Gilbrando Acevedo",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3503959,
+			"name": "Wesley Holloway",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750570,
+			"name": "Johnath Davis",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2574883,
+			"name": "Mark A. Langston",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3392273,
+			"name": "Elizabeth Piper S.",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750573,
+			"name": "Thomas Rickman",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750574,
+			"name": "Nedim Jahić",
+			"biography": "Bosnian actor Nedim Jahic was born on August 27, 2001 in Gracanica, Bosnia and Herzegovina. He finished elementary and high school in his hometown. (High school for a mechanical technician). After that, he studies mechanical engineering at a private college.\n\nHe started singing in 2013, but had no major influence until 2019. In 2019, he begins to appear in the media and releases a single song that is massively appearing on music platforms. With that song he gains more popularity in his country. A year later, he publishes the album \"Ekstrovertan\". The album exploded with popularity, and the songs were released individually and without announcement. The album was not released in its entirety even in 2022, according to the Genius platform.\n\nHe started acting as a child, showed an interest in drama in elementary school, and became a big fan of horror movies. In his country, he acted in comedies, and the horror film Terrifier 2 (2022), which was filmed in the United States, attracted his interest. Many media wrote about Nedim Jahic's performance in that film, and gave him a great rating for it. The media mentioned Nedim in several other films in which he had a minor role.",
+			"profile_path": "/ot00xXU4RFQl9Ao8UAHVOvxOslK.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750575,
+			"name": "Briana Calcagno",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3026600,
+			"name": "Michelle Santiago",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3326214,
+			"name": "Jonathan A. Streetzel",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750578,
+			"name": "Reid Richards",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3326220,
+			"name": "Craig Sapenoff",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750582,
+			"name": "Ross Caudill Jr.",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1992589,
+			"name": "Sheri Fairchild",
+			"biography": "Sheri Fairchild is known for her part in Return to Nuke Em High Vol 1 & 2, Wormchild 2 & 3, as The Oracle at Delphi in The Muse, The Oracle and Baby J and for her make-up work and zombie capabilities in Stand Off and Annulment.",
+			"profile_path": "/kCDPioG3YTLkjdexkJNpge6rtNO.jpg"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750584,
+			"name": "Geordie McGillivray",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750585,
+			"name": "Mick Gaughan",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2558017,
+			"name": "Matthew Hammond",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750586,
+			"name": "Craig Loydgren",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2616752,
+			"name": "Robert Privitera",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750590,
+			"name": "Marisa Bertani",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750592,
+			"name": "Ryan Denning",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3381888,
+			"name": "Steven Kiseleski",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750594,
+			"name": "Miche Brill",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750595,
+			"name": "Curtis J. Watson",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750597,
+			"name": "Sarah Brill",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3750598,
+			"name": "Ava O'Donnell",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2581438,
+			"name": "Bengt Emil Johnson",
 			"biography": "",
 			"profile_path": null
 		}
@@ -63,48 +2203,1148 @@
 		"pk": 829280,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 173847,
-			"name": "Harry Bradbeer",
-			"biography": "Harry Bradbeer is a British television and film director, most well known for directing all but one episode of Phoebe Waller Bridge's TV tragicomedy \"Fleabag\", directing all of the first season of the spy thriller \"Killing Eve\" and the Sherlock Holmes spin-off feature film \"Enola Holmes\".",
-			"profile_path": "/1fGaCCtKp3ZCXCkWRzOn4l7YnBE.jpg"
+			"actor_id": 1356210,
+			"name": "Millie Bobby Brown",
+			"biography": "Millie Bobby Brown (born 19 February 2004) is a British actress and producer. She gained recognition for playing Eleven in the Netflix science fiction series Stranger Things (2016–present), for which she received nominations for two Primetime Emmy Awards. Brown has starred in the adventure film Godzilla: King of the Monsters (2019) and its sequel Godzilla vs. Kong (2021). She also starred in and produced the Netflix mystery film Enola Holmes (2020) and its 2022 sequel.\n\nIn 2018, Brown was featured in the Time 100 list of the world's most influential people, and was appointed as a UNICEF Goodwill Ambassador, the then youngest person selected for this position.",
+			"profile_path": "/2685xGmq68G6tmnUbfgSR6rywEV.jpg"
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 73968,
+			"name": "Henry Cavill",
+			"biography": "Henry William Dalgliesh Cavill (born 5 May 1983) is a British actor. He is known for his portrayal of Charles Brandon in Showtime's The Tudors (2007–2010), DC Comics character Superman in the DC Extended Universe, Geralt of Rivia in the Netflix fantasy series The Witcher (2019–present), as well as Sherlock Holmes in the Netflix film Enola Holmes (2020). Cavill began his career with roles in the feature adaptations of The Count of Monte Cristo (2002) and I Capture the Castle (2003). He later portrayed supporting roles in several television series, including BBC's The Inspector Lynley Mysteries, ITV's Midsomer Murders, and Showtime's The Tudors. He has since appeared in numerous major studio films, such as Tristan & Isolde (2006), Stardust (2007), Blood Creek (2009), Immortals (2011), The Cold Light of Day (2012), Sand Castle (2017) and Night Hunter (2018). Cavill gained international recognition with his role as Superman in the DC Extended Universe superhero films Man of Steel (2013), Batman v Superman: Dawn of Justice (2016) and Justice League (2017). He also starred in the action spy films The Man from U.N.C.L.E. (2015) and Mission: Impossible – Fallout (2018).\n\nDescription above from the Wikipedia article Henry Cavill, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/iWdKjMry5Pt7vmxU7bmOQsIUyHa.jpg"
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1558986,
+			"name": "Louis Partridge",
+			"biography": "Louis Partridge is an English actor, born in London. Louis is a recurring player in the television series Medici in the role of Piero de Medici who went on to appear in the feature films Enola Holmes (2020) and Paddington 2 (2017). He also plays Peter Pan in The Lost Girls (2021).",
+			"profile_path": "/wuZNRskGHWWLo3uS22VcgKcJgZB.jpg"
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1283,
+			"name": "Helena Bonham Carter",
+			"biography": "Helena Bonham Carter CBE (born 26 May 1966) is an English actress. Known for her roles in independent films and blockbusters, especially period dramas, she is the recipient of various accolades, including a British Academy Film Award and three Screen Actors Guild Awards, in addition to nominations for two Academy Awards, four British Academy Television Awards, nine Golden Globe Awards, and five Primetime Emmy Awards.\n\nBonham Carter rose to prominence by playing Lucy Honeychurch in A Room with a View (1985) and the title character in Lady Jane (1986). Her early period roles saw her typecast as a virginal \"English rose\", a label she was uncomfortable with. She is best known for her eccentric fashion, dark aesthetic, and for often playing quirky women. For her role as Kate Croy in The Wings of the Dove (1997), Bonham Carter received a nomination for the Academy Award for Best Actress, and for her portrayal of Queen Elizabeth The Queen Mother in The King's Speech (2010), she won the BAFTA Award for Best Actress in a Supporting Role, and was nominated for the Academy Award for Best Supporting Actress. Her other films include Hamlet (1990), Howards End (1992), Mary Shelley's Frankenstein (1994), Mighty Aphrodite (1995), Fight Club (1999), Wallace & Gromit: The Curse of the Were-Rabbit (2005), the Harry Potter series (2007–2011) as Bellatrix Lestrange, Great Expectations (2012) as Miss Havisham, Les Misérables (2012), Cinderella (2015), Ocean's 8 (2018), and Enola Holmes (2020). Her collaborations with director Tim Burton, her former domestic partner, include Big Fish (2003), Corpse Bride (2005), Charlie and the Chocolate Factory (2005), Sweeney Todd: The Demon Barber of Fleet Street (2007) as Mrs. Lovett, Alice in Wonderland (2010) as the Red Queen, and Dark Shadows (2012).\n\nFor her role as children's author Enid Blyton in the BBC Four biographical film Enid (2009), she won the 2010 International Emmy Award for Best Actress and was nominated for the British Academy Television Award for Best Actress. Her other television films include Fatal Deception: Mrs. Lee Harvey Oswald (1993), Live from Baghdad (2002), Toast (2010), and Burton & Taylor (2013). From 2019 to 2020, she portrayed Princess Margaret, Countess of Snowdon in seasons three and four of Netflix's The Crown.",
+			"profile_path": "/DDeITcCpnBd0CkAIRPhggy9bt5.jpg"
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 11207,
+			"name": "David Thewlis",
+			"biography": "David Wheeler (born 20 March 1963), better known as David Thewlis, is an English actor, director, screenwriter, and author.\n\nThewlis rose to prominence when he starred in the film Naked (1993), for which he won the Cannes Film Festival Award for Best Actor. His most commercially successful roles have been Remus Lupin in the Harry Potter franchise (2004–2011) and Sir Patrick Morgan / Ares in Wonder Woman (2017). Other film roles include Total Eclipse (1995), James and the Giant Peach (1996), Dragonheart (1996), Seven Years in Tibet (1997), Kingdom of Heaven (2005), The Boy in the Striped Pyjamas (2008), War Horse (2011), The Theory of Everything (2014), Anomalisa (2015), and I'm Thinking of Ending Things (2020). He will appear in Enola Holmes 2 (2022) and Avatar 3 (2024).\n\nThewlis' most notable television roles are Cyrus Crabb in the miniseries Dinotopia (2002), V. M. Varga in the third series of Fargo (2017), the voice of the Shame Wizard in the animated sitcom Big Mouth (2017–present), and Christopher Edwards in the miniseries Landscapers (2021). His performance in Fargo earned him nominations for an Emmy, a Golden Globe, and a Critics' Choice Award.",
+			"profile_path": "/sNuYyT8ocLlQr3TdAW9CoKVbCU8.jpg"
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1531926,
+			"name": "Susan Wokoma",
+			"biography": "Susan \"Susie\" Indiaba Wokoma (born 31 December 1987 in Southwark, London, England) is an award-winning British actress of Nigerian descent. She is best known for her roles as \"Raquel\" in the E4/Netflix show Crazyhead and \"Cynthia\" in Chewing Gum. Wokoma was a child participant in CBBC's Serious Jungle in 2002. She was also a member of The National Youth Theatre, making her professional acting debut in the BAFTA-winning That Summer Day before going on to train at RADA aged 19.\n\nHer television appearances have included Phoebe Waller-Bridge's show Crashing, Bluestone 42, Uncle, Misfits, as well as the film adaptation of Half of a Yellow Sun and The Inbetweeners 2. Her theatre work includes productions at the Royal Court, Bush Theatre, Royal Exchange, Manchester, Almeida Theatre, Crucible Theatre, and The Royal National Theatre. Wokoma also joined the New York transfers of Phyllida Lloyd's all female Donmar Warehouse productions of Henry IV and Julius Caesar at St. Ann's Warehouse.\n\nIn 2016 she won Best Supporting Actor at the BBC Audio Drama Awards for her performance in the radio adaptation of Marie NDiaye's Three Strong Women.\n\nLater the same year it was announced that she would star in the E4/ Netflix original television series Crazyhead alongside Cara Theobold. She went on to win the RTS Best On-Screen Performance award for Crazyhead in 2017. Wokoma is also a writer.",
+			"profile_path": "/uzcYkQ1KWlNEOrwnklGH8C3qB1Y.jpg"
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 81840,
+			"name": "Adeel Akhtar",
+			"biography": "Akhtar is known for the bumbling Muslim extremist Faisal in Chris Morris's film Four Lions. Other comedic performances include Gupta in The Angelos Epithemiou Show, Maroush in The Dictator and Smee in Joe Wright and Pan.\n\nAkhtar has also won acclaim for his dramatic performances: in 2015, he was nominated for a BAFTA for Best Supporting Actor for his 2014 role as Wilson Wilson on Channel 4's Utopia. He played shopkeeper Ahmed alongside Toby Jones in the BBC mini-series Capital, and DS Ira King in the BBC's River. Reviewing River in The Daily Telegraph, Michael Hogan wrote, \"This series was beautifully written by Abi Morgan, stylishly directed, and most of all, superbly acted. The quieter, less showy supporting players also shone. Not just stalwarts [...] but fresher faces: Adeel Akhtar as River's endlessly patient sidekick and Georgina Rich as his psychiatrist\".\n\nIn 2016 Akhtar appeared as Shahzad in the BBC one-off drama Murdered by My Father. He won the 2017 BAFTA award for Lead Actor for this role, the first non-white actor to do so. He also appeared as Rob Singhal in the acclaimed BBC miniseries based on John le Carré's The Night Manager.\n\nAdeel became a patron of Half Moon Theatre in autumn 2016.",
+			"profile_path": "/nNdjhe4t5CSqcFGCa7ERe40OW2o.jpg"
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 195666,
+			"name": "Sharon Duncan-Brewster",
+			"biography": "Sharon Duncan-Brewster is a British actress. She is known for her role as Crystal Gordon in Bad Girls during the first four series; her role as Trina Johnson on EastEnders; and her role as Maggie Cain in the autumn 2009 Doctor Who special, The Waters of Mars.",
+			"profile_path": "/av9gsJMlTnkzcRPyURBxAvlq9YX.jpg"
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2301682,
+			"name": "Hannah Dodd",
+			"biography": "",
+			"profile_path": "/55KfjaxQJClbl6pEcPMKHDle4Jj.jpg"
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2692493,
+			"name": "Abbie Hern",
+			"biography": "Abbie Hern is a British actress who is best known for The Twilight Zone (2019), The Pact (2021) and Through the Looking Glass (2020). Born on,  Abbie hails from Cardiff, Wales, United Kingdom",
+			"profile_path": "/duZ7DxzjMxOeFPB7VyIFuHtczAM.jpg"
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3251451,
+			"name": "Gabriel Tierney",
+			"biography": "Gabriel Tierney is a British actor/ He is best known for his roles in Enola Holmes 2 (2022) and Endeavour (2012). Gabriel lives in Chippenham, Wiltshire, UK.",
+			"profile_path": "/gvsGc8NAEVd3FgJDeYlYKITMGpJ.jpg"
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3251452,
+			"name": "Serrana Su-Ling Bliss",
+			"biography": "Serrana Su-Ling Bliss is a multi-talented British film and television actress. She is known for Belfast (2021), Enola Holmes 2 (2022), and Matilda the Musical (2022).",
+			"profile_path": "/h3FCGvanMlV6FQjE3p3TQ5llcNU.jpg"
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3542156,
+			"name": "Róisín Monaghan",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 85629,
+			"name": "David Westhead",
+			"biography": "",
+			"profile_path": "/rgTIZ5Gxnfs4oEPwlvcejUEIFw6.jpg"
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2846031,
+			"name": "Sofia Stavrinou",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1227717,
+			"name": "Himesh Patel",
+			"biography": "Himesh Patel was born on October 13, 1990 in Huntingdon, Cambridgeshire, England as Himesh Jitendra Patel. He is an actor and writer, known for EastEnders: E20 (2010), My Pure Land (2017) and EastEnders (1985).",
+			"profile_path": "/fC6diZ0i3Epot9dRl7b2SSegf4L.jpg"
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3571286,
+			"name": "Catriona Chandler",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 138161,
+			"name": "Lee Boardman",
+			"biography": "",
+			"profile_path": "/ghJ28dk1Zrl5C3KiC62nskgsqUi.jpg"
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 15740,
+			"name": "Tim McMullan",
+			"biography": "Tim McMullan is a British actor, notable for his stage and television work. He trained at the Royal Academy of Dramatic Arts.\n\nHis stage work has included a 2008 adaptation of The Misanthrope alongside Damian Lewis and Keira Knightley along with the 2003 adaptation of His Dark Materials, the 2009 Shakespeare's Globe production of As You Like It and work for Complicite.",
+			"profile_path": "/7RaL5N5riQlgdjEvgK4hWJie4mc.jpg"
 		}
 	},
 	{
 		"pk": 49046,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 221522,
-			"name": "Edward Berger",
-			"biography": "Edward Berger was born 1970 in Wolfsburg, Lower Saxony, Germany. He is a TV and film director/writer known for Deutschland 83 (2015), The Terror (2018), Patrick Melrose (2018), All My Loving (2019), and All Quiet on the Western Front (2022).",
-			"profile_path": "/aBpMZi6vqvY9tacRIALPnXpde2t.jpg"
+			"actor_id": 3631223,
+			"name": "Felix Kammerer",
+			"biography": "",
+			"profile_path": "/5BaOoPpTaYavo4mnmuPU1CffuwX.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1111158,
+			"name": "Albrecht Schuch",
+			"biography": "Albrecht Schuch was born in 1985 as Albrecht Abraham Schuch. He is an actor, known for Die Vermessung der Welt (2012), Neue Vahr Süd (2010) and Westwind (2011).",
+			"profile_path": "/bYqsnHVbaLTnffo4Dj5UiyPBm4U.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1820948,
+			"name": "Aaron Hilmer",
+			"biography": "Aaron Hilmer is an actor, known for The Most Beautiful Girl in the World (2018), All Quiet on the Western Front (2022) and The Peppercorns (1999).",
+			"profile_path": "/vrckcaBmTCHQAXQOwKSa2tYZMBd.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 212930,
+			"name": "Edin Hasanović",
+			"biography": "",
+			"profile_path": "/MW0VhzAHi3oMtnzNuESbpx02Wa.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 6086,
+			"name": "Devid Striesow",
+			"biography": "Devid Striesow (born October 1, 1973 in Bergen auf Rügen) is a German actor. He starred as \"Sturmbannführer Herzog\" (Bernhard Krüger) in Stefan Ruzowitzky's 2007 film The Counterfeiters, which was awarded the Academy Award for Best Foreign Language Film for that year.\n\nDescription above from the Wikipedia article Devid Striesow, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/dV5Sdfa7ED8gkbof8pWuBfPR7lo.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3872,
+			"name": "Daniel Brühl",
+			"biography": "Daniel César Martín Brühl González Domingo (born 16 June 1978) is a German actor, producer and director. He is best known for Good Bye Lenin! (2003), Inglourious Basterds (2009), Rush (2013) and Captain America: Civil War (2016). Daniel speaks German, Spanish, English, French, Portuguese and Català.",
+			"profile_path": "/3YlmTfiy5qZXkrdKGjaM1uMjGKP.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1818302,
+			"name": "Moritz Klaus",
+			"biography": "",
+			"profile_path": "/33Cw6VIZA64K1bC0fYQMrIzl5T9.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 550554,
+			"name": "Sebastian Hülk",
+			"biography": "",
+			"profile_path": "/qmEnennLfGF2ksDwbt3Pqdo49UQ.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1576708,
+			"name": "Anton von Lucke",
+			"biography": "",
+			"profile_path": "/5oUa4F7bYNvQi6Ybl8C8l8MvKtn.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 20266,
+			"name": "Michael Wittenborn",
+			"biography": "",
+			"profile_path": "/9GEmghNGmJ8h3BrbUeHXLyEROqm.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 235807,
+			"name": "Luc Feit",
+			"biography": "",
+			"profile_path": "/qLg5l56oNwziohvddF6ixivtSD6.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1411011,
+			"name": "Andreas Döhler",
+			"biography": "",
+			"profile_path": "/ie0EpjPa9bZvaqNJKR21xKjs4hf.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1258564,
+			"name": "Tobias Langhoff",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2951325,
+			"name": "Adrian Grünewald",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 19361,
+			"name": "Thibault de Montalembert",
+			"biography": "Thibault Charles Marie Septime de Montalembert (born 10 February 1962) is a French theatre, film and television actor. He is perhaps best known for his roles in the television series The Tunnel (2013–2018) and Call My Agent! (2015–present).\n\nHe was a resident of the Comédie-Française from 1994 to 1996.\n\nSource: Article \"Thibault de Montalembert\" from Wikipedia in english, licensed under CC-BY-SA 3.0.",
+			"profile_path": "/3faDVXNbgVD16GZ247IaZIcNXdl.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1624048,
+			"name": "Nico Ehrenteit",
+			"biography": "",
+			"profile_path": "/4AzmPygq5m1vVLdcUYRTEIy53TZ.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1533547,
+			"name": "Wolf Danny Homann",
+			"biography": "",
+			"profile_path": "/AuOS1urtn4eLKvSoYf9rjkqg7Sc.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1747036,
+			"name": "Charles Morillon",
+			"biography": "",
+			"profile_path": "/rRme4EixYTgMT8sLmiBaMEtiJpo.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2465739,
+			"name": "Jakob Schmidt",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1819333,
+			"name": "Peter Sikorski",
+			"biography": "",
+			"profile_path": "/9b7UG09iZecMOtiI8kGFhQS2uYw.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1905701,
+			"name": "Michael Pitthan",
+			"biography": "",
+			"profile_path": "/dcfJWYyduxuJFSGmCGVkznXbNQs.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 564809,
+			"name": "Sascha Nathan",
+			"biography": "",
+			"profile_path": "/f5CUdBC8yIFfmvsCzWxBG5RaflT.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1759586,
+			"name": "Joe Weintraub",
+			"biography": "",
+			"profile_path": "/9SWHnuJKbCRlffEpr5trdIA9ciI.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3721581,
+			"name": "Alexander Schuster",
+			"biography": "",
+			"profile_path": "/hxmCRs3bFYc1foNPwWeY3bwKemC.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1502005,
+			"name": "Michael Stange",
+			"biography": "",
+			"profile_path": "/4aLkSITel8ws2G06hRqN2tIewXB.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1727943,
+			"name": "Daniel Kamen",
+			"biography": "",
+			"profile_path": "/pP6jejcnqrfun25rZrnAd20kANf.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 553003,
+			"name": "Markus Tomczyk",
+			"biography": "",
+			"profile_path": "/yxwhUtUkXEJultcnZjlRi6PcWB1.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2538842,
+			"name": "Dominikus Weileder",
+			"biography": "",
+			"profile_path": "/1N4qD8q1L68z6VncKAdNHg5YpQw.jpg"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 55805,
+			"name": "André Marcon",
+			"biography": "André Marcon (born 6 July 1948) is a French actor. In 1980 he starred in Le Voyage en douce directed by Michel Deville.\n\nSource: Article \"André Marcon\" from Wikipedia in english, licensed under CC-BY-SA 3.0.",
+			"profile_path": "/tQFEk49npJO1XHh4OfSAjCfQTIz.jpg"
 		}
 	},
 	{
 		"pk": 979924,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 1564258,
-			"name": "Romuald Boulanger",
+			"actor_id": 2461,
+			"name": "Mel Gibson",
+			"biography": "Mel Columcille Gerard Gibson (born January 3, 1956) is an actor, film director, producer and screenwriter. Born in Peekskill, New York, Gibson moved with his parents to Sydney, Australia when he was 12 years old and later studied acting at the Australian National Institute of Dramatic Art. After appearing in the \"Mad Max\" and \"Lethal Weapon\" series, Gibson went on to direct and star in the Academy Award-winning \"Braveheart\" (1995). In 2004, he directed and produced \"The Passion of the Christ,\" a controversial yet successful film portraying the last hours in the life of Jesus Christ.",
+			"profile_path": "/jnqHMaOslt8cef2atSmOpGRvNla.jpg"
+		}
+	},
+	{
+		"pk": 979924,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 6863,
+			"name": "Kevin Dillon",
+			"biography": "Kevin Brady Dillon (born August 19, 1965) is an American actor best known as Johnny \"Drama\" Chase on the HBO dramedy Entourage. He has been nominated for three Primetime Emmy Awards and a Golden Globe Award for his performance on the show.\n\nDescription above from the Wikipedia article Kevin Dillon, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/tIadFMFzA6LcXaAaVpJmrd7waXQ.jpg"
+		}
+	},
+	{
+		"pk": 979924,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 5528,
+			"name": "William Moseley",
+			"biography": "William Moseley is an English actor.",
+			"profile_path": "/wPahfIdOR6ohIgmgVrCb3RPApAU.jpg"
+		}
+	},
+	{
+		"pk": 979924,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 19197,
+			"name": "John Robinson",
+			"biography": "​From Wikipedia, the free encyclopedia.  \n\nJohn Robinson (born October 25, 1985) is an American actor. He portrayed John McFarland in Gus Van Sant's Elephant and Stacy Peralta in the skateboarding film Lords of Dogtown.\n\nRobinson enjoys snowboarding and played lacrosse in high school. He has also done some modeling. He is a 2005 graduate of the Oregon Episcopal School.\n\nDescription above from the Wikipedia article John Robinson, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/prehpEqJzLvsGHzu7gbhFsDSo1J.jpg"
+		}
+	},
+	{
+		"pk": 979924,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 34627,
+			"name": "Nadia Farès",
 			"biography": "",
-			"profile_path": "/t1i8zXWH6rEm9AeSYtvY1Ky7wvt.jpg"
+			"profile_path": "/uvomxwk2CfO8scOsR60CxHGM2J3.jpg"
+		}
+	},
+	{
+		"pk": 979924,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1535059,
+			"name": "Alia Seror-O'Neill",
+			"biography": "",
+			"profile_path": "/yTCWy64wzfu8hDPoc2ryDIjM0DE.jpg"
+		}
+	},
+	{
+		"pk": 979924,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1186112,
+			"name": "Yoli Fuller",
+			"biography": "",
+			"profile_path": "/iYAaposeFivaPaGW1rREoNoqxSW.jpg"
+		}
+	},
+	{
+		"pk": 979924,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1200059,
+			"name": "Yann Bean",
+			"biography": "",
+			"profile_path": "/mt1AjqrEdCH8c5QQLaprYYbgl1W.jpg"
+		}
+	},
+	{
+		"pk": 979924,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 944099,
+			"name": "Enrique Arce",
+			"biography": "From Wikipedia, the free encyclopedia\n\nEnrique Javier Arce Temple (born October 8, 1972) is a Spanish television and film actor.",
+			"profile_path": "/1lACQepfukuZ0l6FnUpMO03WxcJ.jpg"
+		}
+	},
+	{
+		"pk": 979924,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1778568,
+			"name": "Carole Weyers",
+			"biography": "",
+			"profile_path": "/x0AMwBYXFv2XkLPnp8rNDYoIpLc.jpg"
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1310902,
+			"name": "Bárbara de Regil",
+			"biography": "Mexican television actress. She made her TV debut on the soap opera \"Bajo el Alma\". Her most recognizable work is Rosario, the lead character in the Mexican adaptation of the Colombian series of the same name, \"Rosario Tijeras\".",
+			"profile_path": "/70TU7lNXo7AOY1zpe44OPpWb0it.jpg"
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2177750,
+			"name": "Iñaki Godoy",
+			"biography": "",
+			"profile_path": "/cjgF30gIyrHMzEk2dvilmRanDAL.jpg"
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1240118,
+			"name": "Sara Maldonado",
+			"biography": "Sara Maldonado Fuentes was born on March 10th 1980 in the city of Jalapa, Veracruz, Mexico. She studied acting in \"Centro de Educación Artística de Televisa\" for 2 years.  She debuted as the protagonist of the Mexican soap \"El Juego de la Vida\"(2001) in the role of Lorena. In 2002 and 2003 she acted as Tatiana in the Mexican hit \"Clase 406\". In 2004 she was chosen again to the leading role of Diana in the soap \"Corazones al límite\".  She participated in the Mexican beauty contest \"El Rostro del Heraldo\", which was organized by Mexican news paper \"Heraldo\", and won the first place.",
+			"profile_path": "/4WqPvFBFkPOP6TMVNW00wInEVCA.jpg"
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3468540,
+			"name": "Vincent Michael Webb",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2385744,
+			"name": "Mayra Batalla",
+			"biography": "Mayra Batalla is an actress, known for \"Qué le dijiste a Dios? (2014)\", \"¿Qué culpa tiene el niño? (2016)\" and \"Partes usadas (2007)\" among other mexican movies.",
+			"profile_path": "/geLzEUg9FDLQr4C2UoipPvmRKS1.jpg"
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2458843,
+			"name": "Alejandro Puente",
+			"biography": "",
+			"profile_path": "/hKxZ5Sw4d5ExbYZZiL68yetsWsD.jpg"
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1214982,
+			"name": "Daniel Tovar",
+			"biography": "",
+			"profile_path": "/506g7rh3arCswDq4BRz1Tx8909x.jpg"
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1018057,
+			"name": "Ricardo Polanco",
+			"biography": "",
+			"profile_path": "/xAqP64xGZJTPIR86AANdyyApqXQ.jpg"
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2126329,
+			"name": "Roberta Damián",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3759490,
+			"name": "Marcelo Barcelo",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1044127,
+			"name": "Alejandro Cuétara",
+			"biography": "",
+			"profile_path": "/my29xV4ubyTlgyb94nh7iUsAQE8.jpg"
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1043824,
+			"name": "Pascacio López",
+			"biography": "",
+			"profile_path": "/89g7oQ26tYHSZZSLaTdD9V8omOW.jpg"
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3759491,
+			"name": "Mario Alberto Monroy",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 933667,
+			"name": "Anna Ciocchetti",
+			"biography": "",
+			"profile_path": "/4mMPocOHhkNcdqrjte6bVCzQY8q.jpg"
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1372823,
+			"name": "Raúl Villegas",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1484107,
+			"name": "Diego Jáuregui",
+			"biography": "",
+			"profile_path": null
 		}
 	},
 	{
 		"pk": 732459,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 61703,
-			"name": "Ron Yuan",
-			"biography": "From Wikipedia, the free encyclopedia\n\nRonald Winston Yuan is an American actor, martial artist, director, and stunt choreographer. He is best known for his roles on Sons of Anarchy, Prison Break, Golden Boy, and CSI: NY. He has acted in numerous films, including an ensemble lead as Sgt. Qiang in Disney's live-action adaptation Mulan. He also supplied the voice of Sgt. Fideltin Rusk in the video game series Star Wars: The Old Republic, and Scorpion in Mortal Kombat 11.\n\nDescription above from the Wikipedia article Ron Yuan, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
-			"profile_path": "/7Co2MdR8T5zlXTrdZ9Z3qjlmKdV.jpg"
+			"actor_id": 1267375,
+			"name": "Anna Akana",
+			"biography": "Anna Kay Akana (born August 18, 1989) is an American filmmaker, producer, actress, comedian, and model. She is known for her YouTube channel, which has over 1.8 million subscribers.",
+			"profile_path": "/taJmE5h3inYhvrLXO7Dq9IMGhEp.jpg"
+		}
+	},
+	{
+		"pk": 732459,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 18702,
+			"name": "Mark Dacascos",
+			"biography": "​From Wikipedia, the free encyclopedia.  \n\nMark Alan Dacascos (born February 26, 1964) is an American actor and martial artist. He won numerous karate and various styles of kung fu championships between the ages of 7 and 18. Beginning in January 2005, Dacascos has portrayed \"the Chairman\" on Food Network's television series Iron Chef America. This role was previously played by Takeshi Kaga in the original Japanese Iron Chef, and Dacascos' character is presented as Kaga's nephew, though the actors are not related. Dacascos went on to continue the role in Iron Chef Australia. His other roles include: Eric Draven in The Crow: Stairway to Heaven, Eubulon, the Advent Master, on Kamen Rider Dragon Knight, the lead role of \"Mani\" in the French film Brotherhood of the Wolf and the lead role of \"Crying Freeman\" in the film of the same name. Dacascos competed in season 9 of Dancing with the Stars. His partner was So You Think You Can Dance finalist Lacey Schwimmer. The pair was eliminated in the 7th episode. On November 2, 2010, CBS announced Dacascos was cast to reprise the role of Steve McGarrett's arch-nemesis, Wo Fat, in the modern remake of Hawaii Five-0.",
+			"profile_path": "/trOACuJz1KzhB51qe6asaxRuxrh.jpg"
+		}
+	},
+	{
+		"pk": 732459,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2252174,
+			"name": "Teresa Ting",
+			"biography": "",
+			"profile_path": "/saHbkcRxQpjlEhYJFGcFV8rfz2F.jpg"
+		}
+	},
+	{
+		"pk": 732459,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 61632,
+			"name": "Dustin Nguyen",
+			"biography": "Dustin Nguyen is a Vietnamese-American actor, director, writer, and martial artist. He is best known for his roles as Harry Truman Ioki on “21 Jump Street”, and as Johnny Loh on “VIP”.  In films, he is known for starring in “Little Fish”, “The Doom Generation” and “The Rebel”.",
+			"profile_path": "/ejgR5tSZYZ9zC5jKQhG6vtHunvT.jpg"
+		}
+	},
+	{
+		"pk": 732459,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 101626,
+			"name": "Dan Southworth",
+			"biography": "Dan Southworth is an accomplished actor with wide experience in feature films, television shows, motion capture, voice over, and commercials. Power Ranger fans know him as Eric Myers, the Quantum Ranger from Power Rangers Time Force. Mortal Kombat fans enjoyed his portrayal of Kenshi in the popular web series Mortal Kombat Legacy 2.",
+			"profile_path": "/2DKM8LkytmWkiQjhq2QGO8n2P5H.jpg"
+		}
+	},
+	{
+		"pk": 732459,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1406627,
+			"name": "Yoshi Sudarso",
+			"biography": "Yoshi Sudarso is an Indonesian-American actor, model, and stuntman. Sudarso was born in Jakarta, Indonesia and now, his nationality is America. He started his career working in stunts working on feature films and television shows such as The Maze Runner, Agents of S.H.I.E.L.D., and Alita: Battle Angel.\n\nFor the first time, he starred in his Indonesian film project, Buffalo Boys. The film is a submission for the Singapore Oscar award for the foreign film category.",
+			"profile_path": "/8EN72XVPCXZWy57oU6AQZZC2Whw.jpg"
+		}
+	},
+	{
+		"pk": 732459,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 112831,
+			"name": "Akira Koieyama",
+			"biography": "",
+			"profile_path": "/udGNTKfxxmYOtGiAbiZfqqa9TVz.jpg"
+		}
+	},
+	{
+		"pk": 732459,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1898017,
+			"name": "Niino Furuhata",
+			"biography": "",
+			"profile_path": "/5nGPyQpN9wKpjTqJQXSICsvhOHd.jpg"
+		}
+	},
+	{
+		"pk": 732459,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3655658,
+			"name": "Luna Fujimoto",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 732459,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2336779,
+			"name": "Chikako Fukuyama",
+			"biography": "",
+			"profile_path": "/lxMECOL5rLeFTjRffEL8vDuYLro.jpg"
+		}
+	},
+	{
+		"pk": 732459,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1324443,
+			"name": "Mike Moh",
+			"biography": "From Wikipedia, the free encyclopedia\n\nMike Moh (born August 19, 1983) is an American actor and martial artist. A fifth degree black belt in American Taekwondo, Moh is perhaps best known for his roles as martial arts legend Bruce Lee in the 2019 film Once Upon a Time in Hollywood, and Ryu in the web series of Street Fighter: Assassin's Fist (2014) and Resurrection (2016) or in the FOX drama series Empire where he made a few appearances.\n\nDescription above from the Wikipedia article Mike Moh, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/8BdgFHa3V74fITOjji4zLCeaHZi.jpg"
+		}
+	},
+	{
+		"pk": 732459,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 145248,
+			"name": "Chris Pang",
+			"biography": "Christopher Pang is an Australian actor and producer of Taiwanese- Chinese descent. He is best known for his role as \"Lee\" in Tomorrow, When the War Began, which was a box office success in Australia.",
+			"profile_path": "/hmIHierOMfu8P82qj2o0GmWoGhv.jpg"
 		}
 	},
 	{
 		"pk": 676701,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 1074721,
-			"name": "Enrique Gato",
+			"actor_id": 1164823,
+			"name": "Óscar Barberán",
+			"biography": "",
+			"profile_path": "/3Knf7YGrqS8sfXNPo7k15TIJe92.jpg"
+		}
+	},
+	{
+		"pk": 676701,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1021607,
+			"name": "Luis Posada",
+			"biography": "",
+			"profile_path": "/tTqHaQkpTbUDg4hPBHRoR4cJiFN.jpg"
+		}
+	},
+	{
+		"pk": 676701,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 114463,
+			"name": "Michelle Jenner",
+			"biography": "",
+			"profile_path": "/g3JyHqwBcV7g1ds3dHtWkDXyXqb.jpg"
+		}
+	},
+	{
+		"pk": 676701,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3641083,
+			"name": "Anuska Alborg",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 676701,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 114460,
+			"name": "Alexandra Jiménez",
+			"biography": "",
+			"profile_path": "/wkVjpWajYRV1Bj7OyJmmFcb5ixF.jpg"
+		}
+	},
+	{
+		"pk": 676701,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3641084,
+			"name": "Tito Valverde",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 676701,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 25911,
+			"name": "Cecilia Suárez",
+			"biography": "From Wikipedia, the free encyclopedia\n\nCecilia Suárez (born November 22, 1971) is an Ariel Award and Emmy International nominated Mexican actress who has played roles in a number of mostly Spanish language films and television series since 1997.\n\nDescription above from the Wikipedia article Cecilia Suárez,licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/m2lUTpivduEiRwyPIrdg8hcI8zq.jpg"
+		}
+	},
+	{
+		"pk": 676701,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 132450,
+			"name": "José Corbacho",
+			"biography": "",
+			"profile_path": "/egQOd80IDmyYifNOMdAp2sW4Ap9.jpg"
+		}
+	},
+	{
+		"pk": 676701,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2838300,
+			"name": "Berta Cortés",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 676701,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1434231,
+			"name": "Manuel Burque",
+			"biography": "",
+			"profile_path": "/cLy6yiV0vGTD9vmxkJar9r12cx1.jpg"
+		}
+	},
+	{
+		"pk": 676701,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2701958,
+			"name": "Roser Aldabó",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 676701,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3641092,
+			"name": "Gloria González",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 676701,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1030255,
+			"name": "Ben Cura",
+			"biography": "",
+			"profile_path": "/rAjP97H9ACXSVzHtpUoKNr3Uu8j.jpg"
+		}
+	},
+	{
+		"pk": 676701,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1350423,
+			"name": "Claudio Serrano",
+			"biography": "Claudio Serrano is Spanish voice actor (april 1970, Parla, Madrid) is known for roles like Batman,  Dean Winchester (Jensen Ackles) in Sobrenatural or Daryl Dixon (Norman Reedus) in The Walking Dead.",
+			"profile_path": "/u30goCUR4e6D6AwmuP2uWgKrQqL.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 77517,
+			"name": "Isabelle Fuhrman",
+			"biography": "Isabelle was born in Washington, DC but grew up in Atlanta, Georgia. She has one older sister, Madeline, and her parents are Elina and Nick Fuhrman. Her career began when a casting director from Cartoon Network spotted her waiting for her sister and cast her for one of the shows, Cartoon Fridays. Isabelle's first acting gig came in 2006 when she booked a commercial for Rooms to Go furniture, and within a month she was asked to fly to LA to audition for shows. During that time, she scored a bunch of commercial and film roles. Isabelle also appeared in several comedy skits on The Tonight Show with Jay Leno (1992), and shortly thereafter her family moved to Los Angeles so she could further pursue her dream.\n\nIsabelle's big break came when she played Esther in Orphan (2009), which landed her critical acclaim and was hailed as \"one of the most momentous examples of acting from a child performer in years.\" She has won the role of Clove in The Hunger Games (2012), the big-screen adaptation of literary sensation The Hunger Games. That went on to become one of the highest-grossing movies ever with over $407 million at the domestic box office.\n\nIsabelle has been featured in spreads for magazines such as Vanity Fair, Nylon, Marie Claire, Teen Vogue, V, H, Bust and Last magazine.",
+			"profile_path": "/borthNRiTGa7oKZjLKHuUGUrZdq.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 12041,
+			"name": "Julia Stiles",
+			"biography": "Julia O'Hara Stiles (born March 28, 1981) is an American actress.\n\nAfter beginning her career in small parts in a New York City theatre troupe, she has moved on to leading roles in plays by writers as diverse as William Shakespeare and David Mamet. Her film career has included both commercial and critical successes, ranging from teen romantic comedies such as 10 Things I Hate About You (1999) to dark art house pictures such as The Business of Strangers (2001). She is also known for playing the supporting character Nicky Parsons in the Bourne film series and the leading role in Save the Last Dance, and for her role in Mona Lisa Smile. She guest starred as Lumen Pierce in the fifth season of the Showtime series Dexter, a role that earned her a Golden Globe Award nomination.\n\nDescription above from the Wikipedia article Julia Stiles, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/9PJ6G5begxnZkkwvqZqMs0Iwn5o.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 58014,
+			"name": "Rossif Sutherland",
+			"biography": "From Wikipedia, the free encyclopedia.\n\nRossif Sutherland (born September 25, 1978) is a Canadian actor.\n\nSutherland was born in Vancouver, British Columbia, the son of Canadian actors Donald Sutherland and Francine Racette, brother of actor Angus Sutherland, and half-brother of actor Kiefer Sutherland. He has appeared in films such as Timeline (as Francois Dontelle), and Red Doors (as Alex). He had a recurring role on the television show ER during its tenth season. Sutherland had a small role in the TV series Monk in the episode Mr. Monk and the Other Detective his first name come from the director Frédéric Rossif.\n\nRossif has since appeared in the movie Poor Boy's Game with Danny Glover and Flex Alexander. Rossif also appeared in the 2009 comedy/drama with Timothy Olyphant in High Life.\n\nDescription above from the Wikipedia article Rossif Sutherland, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/25N7FFIGuPxSTCMqe0vrywzPwnv.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2563029,
+			"name": "Matthew Finlan",
+			"biography": "Matthew Finlan is an actor and writer, known for Frankie Drake Mysteries (2017), Workin' Moms (2017) and The Terror (2018).",
+			"profile_path": "/eAyxxChemfnTDcWOFNDXxr5Zeh8.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 60719,
+			"name": "Hiro Kanagawa",
+			"biography": "From Wikipedia, the free encyclopedia.\n\nHironobu Kanagawa (金川 弘敦, Kanagawa Hironobu, October 13, 1963) is a Japanese-Canadian actor and playwright based in Vancouver, British Columbia. He has appeared in numerous high-profile films and television series shot in the Vancouver area, including Smallville, Caprica, Godzilla, The Man in the High Castle, Altered Carbon, iZombie, Legends of Tomorrow, Heroes Reborn and Kim's Convenience and was a writer on Da Vinci's City Hall. As a voice-over artist, he was the original English-language voice of Gihren Zabi in the Mobile Suit Gundam franchise and played Reed Richards in Fantastic Four: World's Greatest Heroes.\n\nDescription above from the Wikipedia article Hiro Kanagawa, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/dyWOPJmZTfy3r3R5eDY2d7yf8Ze.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3623133,
+			"name": "Samantha Walkes",
+			"biography": "",
+			"profile_path": "/hs7W2su2cbgmrzuQACAIU4zlbur.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 55616,
+			"name": "David Brown",
+			"biography": "",
+			"profile_path": "/aQEVuW5IWam68nWajc7ij6xTyoN.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1923452,
+			"name": "Lauren Cochrane",
+			"biography": "",
+			"profile_path": "/haOurV7B4Vh35TousTqNtwHnDfm.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2404548,
+			"name": "Gwendolyn Collins",
+			"biography": "",
+			"profile_path": "/rd2RHG9lj8fAE0HpwX1CZDNx9Pu.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1849155,
+			"name": "Jeff Strome",
+			"biography": "",
+			"profile_path": "/kU33R3zq69lITBIun1ZvpBQgMLz.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1896596,
+			"name": "Andrea del Campo",
+			"biography": "Andrea del Campo is a Canadian-based actor, producer and improviser. In addition to her work in film and television, she works extensively as a stage actor and has been nominated for multiple awards for her work in musical and non-musical theatre. Andrea is also a professional improviser and has traveled across Canada with her company, Outside Joke.",
+			"profile_path": "/mSuhpFkbJiK7cAAqCWhhEsobW5y.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2537199,
+			"name": "Alec Carlos",
+			"biography": "",
+			"profile_path": "/pJpbBcA79cRuDVmq81KWhYxlz4f.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1701243,
+			"name": "Alicia Johnston",
+			"biography": "",
+			"profile_path": "/fkqNtdoPW3WzUpUSP9wl1lh2z0i.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2862934,
+			"name": "Sarah Luby",
+			"biography": "",
+			"profile_path": "/AtrHWSVfZsgkugqsqgUZ34Skzsb.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3671058,
+			"name": "Maxwell Nelson",
 			"biography": "",
 			"profile_path": null
 		}
@@ -113,68 +3353,1048 @@
 		"pk": 760161,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 62768,
-			"name": "William Brent Bell",
-			"biography": "American film director, screenwriter, and producer. He is known for his work on horror films such as Stay Alive, The Devil Inside, Wer, The Boy, and Orphan: First Kill.",
-			"profile_path": "/f7BvvN72ZhESBQ7wrCVw8M4D9by.jpg"
+			"actor_id": 1106200,
+			"name": "Bradley Sawatzky",
+			"biography": "",
+			"profile_path": "/vXgqU1DWOLteOXhAwZW8TJglEeG.jpg"
 		}
 	},
 	{
-		"pk": 985939,
+		"pk": 760161,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 90812,
-			"name": "Scott Mann",
+			"actor_id": 2154533,
+			"name": "Stephanie Sy",
 			"biography": "",
-			"profile_path": "/8WygpUzfdfztZQqxGE5zn3rCedJ.jpg"
+			"profile_path": "/o2LxSIY7kbSh8WNpnM0FOPP6CVK.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 61160,
+			"name": "Marina Stephenson Kerr",
+			"biography": "Marina Stephenson Kerr is a Canadian Actress.",
+			"profile_path": "/sLEOfwtdFCzpemIhOmpB1xpz6p0.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 81239,
+			"name": "Sharon Bajer",
+			"biography": "",
+			"profile_path": "/oQkahOuFsSSrmdSb7wNWk75sGzX.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2830043,
+			"name": "Kennedy Irwin",
+			"biography": "",
+			"profile_path": "/n3tzQcyQlnmhYvVezZuiuUqHPTf.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3671675,
+			"name": "Sadie Lee",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1633284,
+			"name": "Maxine Sanders",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2170030,
+			"name": "Parker Bohotchuk",
+			"biography": "",
+			"profile_path": "/8SFMKiNtB1akMETfxu6gE8KwXu5.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1303813,
+			"name": "Erik Athavale",
+			"biography": "",
+			"profile_path": "/acGD7GezQl3xCgQUZuZrVFBZ4ew.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3671057,
+			"name": "Liam Stewart-Kanigan",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2537196,
+			"name": "Jade Michael",
+			"biography": "",
+			"profile_path": "/lGPeUVqbN4jJNLOQTQ4QLLJAUDI.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 60279,
+			"name": "Fred Tatasciore",
+			"biography": "Frederick \"Fred\" Tatasciore (born June 15, 1967) is an American voice actor.\n\nTatasciore was born in New York City, New York in 1967. He was a stand-up comedian before turning over to voice acting.\n\nTatasciore has portrayed mostly secondary characters as well as monstrous-looking types. He is best known for voicing the Hulk in countless animated roles, including Ultimate Avengers, Next Avengers, Hulk Vs, Marvel Ultimate Alliance 2 and Avengers: Earth's Mightiest Heroes. In video games, he is known for voicing Saren Arterius from the critically acclaimed series Mass Effect and Damon Baird in the Gears of War video game series, and Zeratul from the game StarCraft II: Wings of Liberty. He also voices the character \"8\" in the Tim Burton-produced film 9 that was released September 9, 2009. His most recent roles are of that as Neftin Prog in Ratchet & Clank: Into the Nexus, Russian Nikolai Belinski in Call of Duty: World at War and Call of Duty: Black Ops, Tookit in Thundercats, and the Business Cat in the webseries \"Our New Electrical Morals\", with episodes posted in the Cartoon Hangover YouTube page, administered by Frederator Studios.",
+			"profile_path": "/busoEz4khUJ0hOoKHexjXwGrsit.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1148697,
+			"name": "Adam Hurtig",
+			"biography": "Adam Hurtig is a Canadian actor.",
+			"profile_path": "/nLOpEqGZkalzE74sXP3JMx4oq43.jpg"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3673665,
+			"name": "Morgan Easton-Fitzgerald",
+			"biography": "",
+			"profile_path": null
 		}
 	},
 	{
 		"pk": 896485,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 52342,
-			"name": "Olivier Marchal",
-			"biography": "Olivier Marchal (b. November 14, 1958 in Talence, France) is a French actor, director, screenwriter, and a former policeman. In 2005, he was nominated for three César Awards (best director, best film, and best writing), for his film 36 Quai des Orfèvres.\n\nDescription above from the Wikipedia article Olivier Marchal, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
-			"profile_path": "/r4NRcHShGE9G0OvI8tSlh5DZMTU.jpg"
+			"actor_id": 1018984,
+			"name": "Sofia Essaïdi",
+			"biography": "",
+			"profile_path": "/6OSQeJhTJ8nWG0VYtk876OIql0P.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 20671,
+			"name": "Assaad Bouab",
+			"biography": "Assaad Bouab is a French-Moroccan actor whose first co-starring role is Whatever Lola Wants, directed by Nabil Ayouch and co-starring Laura Ramsey as Lola. The film premiered 11 December 2007 at the Dubai International Film Festival. Bouab attended Cours Florent from 1999 to 2002, and graduated from CNSAD in Paris in 2006. He has had a regular role in the popular French television series Call My Agent!.",
+			"profile_path": "/zIqK5a0H3e6z2vFhRDdWQCMQIRT.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 110424,
+			"name": "Alberto Ammann",
+			"biography": "",
+			"profile_path": "/8jhuoxRvOTJFHmYh4kmCAZ8Mggj.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 26282,
+			"name": "Nicolas Cazalé",
+			"biography": "Nicolas Cazalé (born 24 April 1977 in Pau, France) is a French model and actor who is most noted for his role in the 2004 French film, Le Grand Voyage for which he won a Jury Award for Best Actor at the 2005 Newport International Film Festival. He was also named one of European cinema's up-and-coming talents and won the Shooting Stars Award in 2008.",
+			"profile_path": "/a1NyEPcJb5BR5l7tHutLP68Jn5D.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1003260,
+			"name": "Nassim Lyes",
+			"biography": "",
+			"profile_path": "/hpj7xUY3Ui8qPYk8Aaui02JsVTm.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2970788,
+			"name": "Naïma Rodric",
+			"biography": "",
+			"profile_path": "/b0b8yqMmhpXkVoeS7csqdSV9Cb4.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 142978,
+			"name": "Kool Shen",
+			"biography": "",
+			"profile_path": "/8rq2iZ0DIMIhIzPSl61YgSs8TeI.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1320862,
+			"name": "Moussa Mansaly",
+			"biography": "",
+			"profile_path": "/e7JlIZnaQnd7eZuC64jBbMFs5NL.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 10917,
+			"name": "Simon Abkarian",
+			"biography": "Simon Abkarian (born 5 March 1962) is a French-Armenian actor.\n\nBorn in Gonesse, Val d'Oise, of Armenian descent, Abkarian spent his childhood in Lebanon. He moved to Los Angeles, where he joined an Armenian theater company managed by Gerald Papazian. He returned to France in 1985, settling in Paris. He took classes at the Acting International school, then he joined Ariane Mnouchkine's Théâtre du Soleil.\n\nAbkarian left the Théâtre du Soleil in 1993 and played in 2001 \"Beast on the Moon\" by Richard Kalinoski, directed by Irina Brook, a play about the life of a survivor of the Genocide of the Armenians, a role which won him critical acclaims and the Molière of the best comedian.\n\nHis first roles in cinema were proposed by French filmaker Cédric Klapisch, who asked him to play in several of his movies, notably in \"Chacun cherche son chat\" (\"When the Cat is Away\" (1996) and in \"Ni pour, ni contre (bien au contraire)\" en 2003.\n\nHe was featured in Sally Potter's Yes (2004), in which he played the lead role.\n\nAbkarian then played Mehdi Ben Barka in the thriller \"J'ai vu tuer Ben Barka\" by Serge Le Péron, about the kidnapping and the murder of the leader of the Moroccan opposition. He then played in \"Prendre Femme\" by Ronit Elkabetz which won him several interpretation prizes. Playing different roles and in different genres, he was featured in the adventure \"Zaïna, cavalière de l'Atlas\" by Bourlem Guerdjou, in the comedy \"Le Démon de midi\" by Marie-Pascale Osterriet. He has also appeared in Atom Egoyan's Ararat (2002), he was Albert in Almost Peaceful (2004) by French Director Michel Deville a film about Holocaust survivors, he was featured in \"Your Dreams\" (2005) by Denis Thybaud. He played the role of villain Alex Dimitrios in the James Bond film, Casino Royale. The character is a Government contractor and arms dealer working against Bond.\n\nHe was featured as Sahak in the thriller \"Les Mauvais Joueurs\" (\"The Gamblers\") (2007) by Frédéric Balekdjian. He has also been the voice of Ebi in the French version of the animated feature \"Persepolis\". Abkarian played the role of the eminent Armenian poet Missak Manouchianin in \"Army of Crime\" (2010) by Robert Guédiguian, a French filmaker based in Marseilles, who is also of Armenian parentage.\n\nHe has also played Dariush Bakhshi, the Iranian Special Consul, in the BBC drama Spooks MI-5.\n\nAbkarian is known for his intensity in acting and for his ecclectism in the roles he choses.\n\nDescription above from the Wikipedia article Simon Abkarian, licensed under CC-BY-SA, full list of contributors on Wikipedia .",
+			"profile_path": "/rpw1AujIl0vJD6cyMDo2ykJ8rZA.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1449871,
+			"name": "Zoé Marchal",
+			"biography": "",
+			"profile_path": "/rcgOgq5LrbCRgTpDkEBiTUbuGjK.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2024089,
+			"name": "Kenza Fortas",
+			"biography": "",
+			"profile_path": "/ltlIN3uQZmOndJjVSZ4aikgm1Sd.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 52346,
+			"name": "Francis Renaud",
+			"biography": "Francis Renaud, (born 27 September 1967 in Thionville, Moselle), is a French film and television actor.\n\nFollowing his experience of a festival dedicated to sick children at Metzervisse (Moselle) he became a patron of the Association Anim'Metzervisse.\n\nDescription above from the Wikipedia article Francis Renaud (actor), licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/ihtkdXp9RG8tznS914bUQYKTx1C.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1165770,
+			"name": "Salem Kali",
+			"biography": "",
+			"profile_path": "/btlsJSpgZeaXvKJkXlw1L4AY8Ih.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3443663,
+			"name": "Daniel Girondeaud",
+			"biography": "",
+			"profile_path": "/oTLqQ4Cj5LhAbopXAq71hodKSdB.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3734817,
+			"name": "Frédéric Guérin",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1089488,
+			"name": "Julie Chevallier",
+			"biography": "",
+			"profile_path": "/fThCmA8lWUaXwuKD7Pru2PGGs0W.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3558286,
+			"name": "Jean Pierre Horcholle",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2197760,
+			"name": "Frédéric Fix",
+			"biography": "",
+			"profile_path": "/1qgOJXoKBzlToAc774OH9CUR3r6.jpg"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2638529,
+			"name": "Philippe Corti",
+			"biography": "",
+			"profile_path": null
 		}
 	},
 	{
 		"pk": 856245,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 1657527,
-			"name": "Agustina San Martín",
+			"actor_id": 3035813,
+			"name": "Tamara Rocca",
 			"biography": "",
-			"profile_path": "/sZxcJ3WgsFOaCzHfoX7dqkgobIq.jpg"
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 856245,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1961671,
+			"name": "Ana Brun",
+			"biography": "",
+			"profile_path": "/i3afBdiRumaPtAgSSSSAy62LSEi.jpg"
+		}
+	},
+	{
+		"pk": 856245,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3181204,
+			"name": "Julieth Micolta",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 856245,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 55012,
+			"name": "João Miguel",
+			"biography": "",
+			"profile_path": "/wjj9wAQ8ISsf4Jb5LE9tezOfuch.jpg"
+		}
+	},
+	{
+		"pk": 856245,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3181205,
+			"name": "Sabrina Grinchspun",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 856245,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3599308,
+			"name": "Kaique de Jesus",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 856245,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3599309,
+			"name": "Carlos Griebler",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 856245,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3599312,
+			"name": "Melanie Gamonal",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 856245,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3599314,
+			"name": "Ariel Lorenzo",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 856245,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3599316,
+			"name": "Ian Kiefer",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 856245,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3599319,
+			"name": "Federico De Elias Bevacqua",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 856245,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3599321,
+			"name": "Anyela Soto Bernales",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 985939,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 54633,
+			"name": "Grace Caroline Currey",
+			"biography": "Grace Caroline Currey (born July 17, 1996) is an American actress, best known for playing Young Melinda Gordon on Ghost Whisperer, Haley Farrel in Bones, and Young Natalie Wood in The Mystery of Natalie Wood. She also played the character Sydney Briggs in Home of the Brave. She starred in the television film Back When We Were Grownups, playing Young Biddy.",
+			"profile_path": "/fhwQWWTwl8r613puGYKMyf9H8mQ.jpg"
+		}
+	},
+	{
+		"pk": 985939,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1279279,
+			"name": "Virginia Gardner",
+			"biography": "Virginia Gardner (born April 18, 1995) is an American actress from Sacramento, California. She is best known for playing Christina Raskin in the found footage film Project Almanac and Karolina Dean in the web television series Marvel's Runaways.",
+			"profile_path": "/1DnNysK267b0te48KCkUlTKoTzj.jpg"
+		}
+	},
+	{
+		"pk": 985939,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 47296,
+			"name": "Jeffrey Dean Morgan",
+			"biography": "Jeffrey Dean Morgan (born April 22, 1966) is an American actor and producer of film and television. He is known for his roles as John Winchester in the CW fantasy horror series Supernatural (2005–2007; 2019), Denny Duquette in the ABC medical drama series Grey's Anatomy (2006–2009), the Comedian in the superhero film Watchmen (2009), Clay in The Losers (2010), Jason Crouse in the CBS political drama series The Good Wife (2015–2016), Negan in the AMC horror drama series The Walking Dead (2016–present), and Harvey Russell in Rampage (2018).",
+			"profile_path": "/m8bdrmh6ExDCGQ64E83mHg002YV.jpg"
+		}
+	},
+	{
+		"pk": 985939,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2174509,
+			"name": "Mason Gooding",
+			"biography": "Mason Cuba Gooding standing in at 6' 2\" (1.88 m) is an American actor. Mason was born on November 14, 1996 (Scorpio) in Los Angeles, CA, to Sara Kapfer and Cuba Gooding Jr.  He is the Grandson of Cuba Goodin, nephew of Omar Gooding, and April Gooding, is the middle sibling of brother Spencer Gooding (born in 1994) and sister Piper Gooding (born in 2005). He attended school in California, graduated from Windward High School in California and is a matriculating student at the Tisch School of the Arts at New York University. In 2019, he co-starred in Olivia Wilde's comedy film Booksmart.",
+			"profile_path": "/bmlry1xqBzNgv8Chm783ss93Cvg.jpg"
+		}
+	},
+	{
+		"pk": 985939,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 945542,
+			"name": "Jasper Cole",
+			"biography": "Jasper Cole is an American actor.",
+			"profile_path": "/18mmNj8eKPn9a1n3G0yvy650Bd8.jpg"
+		}
+	},
+	{
+		"pk": 985939,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1232204,
+			"name": "Darrell Dennis",
+			"biography": "",
+			"profile_path": "/2jOo4B5Nn9oGuzgx1UfoQs0MMCj.jpg"
+		}
+	},
+	{
+		"pk": 985939,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 82168,
+			"name": "Julia Pace Mitchell",
+			"biography": "",
+			"profile_path": "/6iavMrm8BhUJiGpZDSKmfGKgpK6.jpg"
+		}
+	},
+	{
+		"pk": 985939,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1356210,
+			"name": "Millie Bobby Brown",
+			"biography": "Millie Bobby Brown (born 19 February 2004) is a British actress and producer. She gained recognition for playing Eleven in the Netflix science fiction series Stranger Things (2016–present), for which she received nominations for two Primetime Emmy Awards. Brown has starred in the adventure film Godzilla: King of the Monsters (2019) and its sequel Godzilla vs. Kong (2021). She also starred in and produced the Netflix mystery film Enola Holmes (2020) and its 2022 sequel.\n\nIn 2018, Brown was featured in the Time 100 list of the world's most influential people, and was appointed as a UNICEF Goodwill Ambassador, the then youngest person selected for this position.",
+			"profile_path": "/2685xGmq68G6tmnUbfgSR6rywEV.jpg"
+		}
+	},
+	{
+		"pk": 985939,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 17419,
+			"name": "Bryan Cranston",
+			"biography": "Bryan Lee Cranston (born March 7, 1956) is an American actor, voice actor, writer,  and director. He is perhaps best known for his roles as Hal, the father in the Fox situation comedy \"Malcolm in the Middle\", and as Walter White in the AMC drama series Breaking Bad, for which he has won three consecutive Outstanding Lead Actor in a Drama Series Emmy Awards. Other notable roles included Dr. Tim Whatley on Seinfeld, Doug Heffernan's neighbor in The King of Queens, Astronaut Buzz Aldrin in From the Earth to the Moon, and Ted Mosby's boss on How I Met Your Mother.",
+			"profile_path": "/7Jahy5LZX2Fo8fGJltMreAI49hC.jpg"
 		}
 	},
 	{
 		"pk": 717728,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 66212,
-			"name": "Timo Vuorensola",
-			"biography": "From Wikipedia, the free encyclopedia\n\nTimo Vuorensola (born 29 November 1979) is a Finnish film director and actor. He has directed Star Wreck movies Star Wreck V: Lost Contact, and Star Wreck: In the Pirkinning, created by Samuli Torssonen. Vuorensola plays Lieutenant Dwarf in the films, and is currently directing the film Iron Sky. He is also the lead vocalist and co-founder of dark industrial band Älymystö.\n\nDescription above from the Wikipedia article Timo Vuorensola, licensed under CC-BY-SA, full list of contributors on Wikipedia.\n\n​",
-			"profile_path": "/pMxmMdBh5JyV5Uevy4eaAsrJiM7.jpg"
+			"actor_id": 1817397,
+			"name": "Sydney Craven",
+			"biography": "",
+			"profile_path": "/zt0pdMqP5VfJc7Fp2ijh4Evxe0m.jpg"
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2738561,
+			"name": "Imran Adams",
+			"biography": "",
+			"profile_path": "/rMur2CMkMWndIfP4k6c1Jt1wXLU.jpg"
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3425159,
+			"name": "Jarreau Benjamin",
+			"biography": "",
+			"profile_path": "/jugGpoY0ecVwCSN0V2vGWQcGvWU.jpg"
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3326872,
+			"name": "Matt Barkley",
+			"biography": "",
+			"profile_path": "/k1xY3jyYCf24NItpLSnrT01AjgU.jpg"
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1070855,
+			"name": "Peter Brooke",
+			"biography": "Actor / Talent.",
+			"profile_path": "/5fRrmo1Xi9IkiVyypMgOPgZq5ed.jpg"
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1972478,
+			"name": "Ocean Navarro",
+			"biography": "",
+			"profile_path": "/8ZnKpldfwh4vJxC4E0ysIbWxgr.jpg"
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 78463,
+			"name": "Gary Graham",
+			"biography": "",
+			"profile_path": "/uu3S6uK3mlRyjsabMg1NADuV0Vw.jpg"
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1663423,
+			"name": "Gabriel Freilich",
+			"biography": "",
+			"profile_path": "/7rMS0OJtcSPdBx1Dmgvd7eQYumb.jpg"
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 218107,
+			"name": "Terry Bird",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1561310,
+			"name": "Georgia Goodman",
+			"biography": "",
+			"profile_path": "/igrVZq0JVIkFW1TbgaOG9ESd9pR.jpg"
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3571837,
+			"name": "Helen Lauren",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1543489,
+			"name": "Colin Murtagh",
+			"biography": "",
+			"profile_path": "/7wgCFs8xT9LQwi0YxGA6HiGMj1n.jpg"
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3571840,
+			"name": "Alexander Halsall",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1791578,
+			"name": "Sophie Walker",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2638787,
+			"name": "Jodie Mcmullen",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3571845,
+			"name": "Reece Shenton",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3571846,
+			"name": "Joseph Tanner Paul",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 62001,
+			"name": "Dee Wallace",
+			"biography": "An American actress and comedienne. She is perhaps best known for her roles in several popular films. These include the starring role as Elliot's mother in the Steven Spielberg film E.T. the Extra-Terrestrial (1982), her most widely seen role. She also played key roles in popular cult films The Hills Have Eyes (1977) and The Howling (1981) and appeared in The Stepford Wives in 1975 and 10 (1979). In total, Wallace has appeared in more than 85 films.\n\nDescription above from the Wikipedia article Dee Wallace, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/z4IALJKVQhxBqzI5ayUnvUMYaEG.jpg"
 		}
 	},
 	{
 		"pk": 532639,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 24,
-			"name": "Robert Zemeckis",
-			"biography": "Robert Lee Zemeckis (born May 14, 1951) is an American film director, producer and screenwriter. Zemeckis first came to public attention in the 1980s as the director of the comedic time-travel Back to the Future film series, as well as the Academy Award-winning live-action/animation epic Who Framed Roger Rabbit (1988), though in the 1990s he diversified into more dramatic fare, including 1994's Forrest Gump, for which he won an Academy Award for Best Director.\n\nHis films are characterized by an interest in state-of-the-art special effects, including the early use of match moving in Back to the Future Part II (1989) and the pioneering performance capture techniques seen in The Polar Express (2004), Beowulf (2007) and A Christmas Carol (2009). Though Zemeckis has often been pigeonholed as a director interested only in effects, his work has been defended by several critics, including David Thomson, who wrote that \"No other contemporary director has used special effects to more dramatic and narrative purpose.\"",
-			"profile_path": "/lPYDQ5LYNJ12rJZENtyASmVZ1Ql.jpg"
+			"actor_id": 2382044,
+			"name": "Benjamin Evan Ainsworth",
+			"biography": "",
+			"profile_path": "/qElUQYuKtV4oRmH5yTmg1Seh1Iq.jpg"
+		}
+	},
+	{
+		"pk": 532639,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 31,
+			"name": "Tom Hanks",
+			"biography": "Thomas Jeffrey Hanks (born July 9, 1956) is an American actor and filmmaker. Known for both his comedic and dramatic roles, Hanks is one of the most popular and recognizable film stars worldwide, and is widely regarded as an American cultural icon.\n\nHanks made his breakthrough with leading roles in the comedies Splash (1984) and Big (1988). He won two consecutive Academy Awards for Best Actor for starring as a gay lawyer suffering from AIDS in Philadelphia (1993) and a young man with below-average IQ in Forrest Gump (1994). Hanks collaborated with film director Steven Spielberg on five films: Saving Private Ryan (1998), Catch Me If You Can (2002), The Terminal (2004), Bridge of Spies (2015), and The Post (2017), as well as the 2001 miniseries Band of Brothers, which launched him as a director, producer, and screenwriter.\n\nHanks' other notable films include the romantic comedies Sleepless in Seattle (1993) and You've Got Mail (1998); the dramas Apollo 13 (1995), The Green Mile (1999), Cast Away (2000), Road to Perdition (2002), and Cloud Atlas (2012); and the biographical dramas Saving Mr. Banks (2013), Captain Phillips (2013), Sully (2016), and A Beautiful Day in the Neighborhood (2019). He has also appeared as the title character in the Robert Langdon film series, and has voiced Sheriff Woody in the Toy Story film series.\n\nDescription above from the Wikipedia article Tom Hanks, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/xndWFsBlClOJFRdhSt4NBwiPq2o.jpg"
+		}
+	},
+	{
+		"pk": 532639,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 24045,
+			"name": "Joseph Gordon-Levitt",
+			"biography": "Joseph Leonard Gordon-Levitt (born February 17, 1981) is an American actor and filmmaker. He has received various accolades, including nominations for the Golden Globe Award for Best Actor – Motion Picture Musical or Comedy for his leading performances in 500 Days of Summer (2009) and 50/50 (2011). He is the founder of the online media platform HitRecord whose projects such as HitRecord on TV (2014–15) and Create Together (2020) won him two Primetime Emmy Awards in the category of Outstanding Interactive Program.\n\nBorn in Los Angeles to a Jewish family, Gordon-Levitt began his acting career as a child, appearing in the films A River Runs Through It (1992), Holy Matrimony (1994), and Angels in the Outfield (1994), which earned him a Young Artist Award and a Saturn Award nomination. He played the role of Tommy Solomon in the TV series 3rd Rock from the Sun (1996–2001) for which he received three nominations at the Screen Actors Guild Awards. He had a supporting role in 10 Things I Hate About You (1999) and voiced Jim Hawkins in the Disney animated Treasure Planet (2002) before taking a break from acting to study at Columbia University, but dropped out in 2004 to resume his acting career.\n\nSince returning to acting, Gordon-Levitt has starred in Manic (2001), Mysterious Skin (2004), Brick (2005), The Lookout (2007), The Brothers Bloom (2008), Miracle at St. Anna (2008), G.I. Joe: The Rise of Cobra (2009), Inception (2010), Hesher (2010), Premium Rush (2012), The Dark Knight Rises (2012), Looper (2012), and Lincoln (2012). He portrayed Philippe Petit in the Robert Zemeckis-directed film The Walk (2015) and whistleblower Edward Snowden in the Oliver Stone film Snowden (2016). In 2020, he starred in the legal drama The Trial of the Chicago 7, for which he won the Critics' Choice Movie Award for Best Acting Ensemble and the Screen Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture.\n\nIn 2013, he wrote and directed Don Jon, a comedy-drama film that was released to critical acclaim, earning him an Independent Spirit Award nomination for Best First Screenplay. He previously directed and edited two short films, both of which were released in 2010: Morgan M. Morgansen's Date with Destiny and Morgan and Destiny's Eleventeenth Date: The Zeppelin Zoo. In 2021, he wrote, directed and starred in a comedy drama series Mr. Corman on Apple TV+.",
+			"profile_path": "/dhv9f3AaozOjpvjAwVzOWlmmT2V.jpg"
+		}
+	},
+	{
+		"pk": 532639,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 114019,
+			"name": "Luke Evans",
+			"biography": "Luke George Evans (born 15 April 1979) is a Welsh actor. Evans began his career on the stage, performing in many of London's West End productions such as Rent, Miss Saigon, and Piaf before making his film breakthrough in the Clash of the Titans 2010 remake. Following his debut, Evans was cast in such action and thriller films as Immortals (2011), The Raven (2012), and the re-imagined The Three Musketeers (2011).\n\nIn 2013, Evans starred as the main antagonist Owen Shaw in the blockbuster Fast & Furious 6, and also played Bard the Bowman in Peter Jackson's three-part adaptation of J. R. R. Tolkien's The Hobbit. Evans also portrayed the vampire Dracula in the character's film origin story, Dracula Untold. In 2017, Evans starred as Gaston in Disney's live action adaptation of Beauty and the Beast, and portrayed American psychologist William Moulton Marston, creator of fictional character Wonder Woman, in the biographical drama Professor Marston and the Wonder Women.\n\nFrom Wikipedia, the free encyclopedia",
+			"profile_path": "/qUkYJcrDc4M0LHNYASs30luFvw0.jpg"
+		}
+	},
+	{
+		"pk": 532639,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1765068,
+			"name": "Cynthia Erivo",
+			"biography": "Cynthia Erivo (born 8 January 1987) is a British actress, singer, and songwriter. Erivo began her acting career on stage, and in 2015 she starred in the Broadway revival of The Color Purple which won her a Tony Award for Best Actress in a Musical. Erivo made her film industry breakthrough after being cast in Steve McQueen's Widows (2018), her debut film role.",
+			"profile_path": "/vWLhplaio80fuv5mACLImjstg2v.jpg"
+		}
+	},
+	{
+		"pk": 532639,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 298410,
+			"name": "Keegan-Michael Key",
+			"biography": "Keegan-Michael Key (born March 22, 1971, height 6' 1\" (1,85 m)) is an American actor and comedian best known for starring in the Comedy Central sketch series Key & Peele and for his six seasons as a cast member on MADtv.\n\nEarly life Key was born in Southfield, Michigan and raised in Detroit. His father is African-American and his mother is European-American. He was adopted as a child. In 1989 he graduated from Shrine Catholic High School in Royal Oak, Michigan. Key attended the University of Detroit as an undergraduate and earned his Master of Fine Arts at the Pennsylvania State University School of Theatre. While at The University of Detroit Mercy, he was a brother of Phi Kappa Theta.",
+			"profile_path": "/vAR5gVXRG2Cl6WskXT99wgkAoH8.jpg"
+		}
+	},
+	{
+		"pk": 532639,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 11478,
+			"name": "Lorraine Bracco",
+			"biography": "Lorraine Bracco (born October 2, 1954) is an American actress. She is known for her roles as Karen Hill in Goodfellas and Dr. Jennifer Melfi on the HBO television series, The Sopranos.\n\nDescription above from the Wikipedia article Lorraine Bracco, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/cmVcc09jfmoOqGLY595aBQu3IsP.jpg"
+		}
+	},
+	{
+		"pk": 532639,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3674601,
+			"name": "Kyanne Lamaya",
+			"biography": "",
+			"profile_path": "/g4CYmaId24wXdTMccsMEsSsa8Jc.jpg"
+		}
+	},
+	{
+		"pk": 532639,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 933640,
+			"name": "Angus Wright",
+			"biography": "Angus Wright is a British actor.",
+			"profile_path": "/7VOW55b8WF0eyFJiCjiBXSRA5mG.jpg"
+		}
+	},
+	{
+		"pk": 532639,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1470911,
+			"name": "Jamie Demetriou",
+			"biography": "James Demetriou (born November 1987) is an English-Cypriot comedian, actor, and screenwriter known for his roles in Fleabag and the BAFTA nominated Stath Lets Flats which he also writes.",
+			"profile_path": "/owXXYV1MNijRAVJV2Q47WEWT9Wv.jpg"
+		}
+	},
+	{
+		"pk": 532639,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1577873,
+			"name": "Jaquita Ta'le",
+			"biography": "",
+			"profile_path": "/bQKU9nuWz8PwIf3LD2NDnj0NIpm.jpg"
+		}
+	},
+	{
+		"pk": 532639,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2368172,
+			"name": "Lewin Lloyd",
+			"biography": "",
+			"profile_path": "/oENFdIdiILwPZmKVNJ0ud5JCcNl.jpg"
+		}
+	},
+	{
+		"pk": 532639,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 7541,
+			"name": "Giuseppe Battiston",
+			"biography": "",
+			"profile_path": "/sxIznY7GyG0Rt6vk3Kfr58N50Rb.jpg"
+		}
+	},
+	{
+		"pk": 532639,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1851642,
+			"name": "Sheila Atim",
+			"biography": "From Wikipedia, the free encyclopedia\n\nSheila Atim MBE (born January 1991) is a Ugandan-British actress, singer, composer, and playwright. She made her professional acting debut in 2013 at Shakespeare's Globe in The Lightning Child, a musical that she co-wrote along with her acting teacher Ché Walker.\n\nDescription above from the Wikipedia article Sheila Atim, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/18aYPCThID2ZDemeMp8iAUuMVCX.jpg"
+		}
+	},
+	{
+		"pk": 532639,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1379275,
+			"name": "Hannah Flynn",
+			"biography": "",
+			"profile_path": "/lD08fHgyEIjGjsxzi5b59wvqWUj.jpg"
 		}
 	},
 	{
 		"pk": 944864,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 1282094,
-			"name": "Annemarie van de Mond",
+			"actor_id": 1486382,
+			"name": "Holly Mae Brood",
+			"biography": "",
+			"profile_path": "/qMuMi409ww5b9QJKF3LCTL4Se6u.jpg"
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 567001,
+			"name": "Géza Weisz",
+			"biography": "Géza Weisz is a Dutch actor. He is the son of director Frans Weisz.",
+			"profile_path": "/vi5Lglnuz3b8dqIbIH1sfbxeYQD.jpg"
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1112244,
+			"name": "Susan Radder",
+			"biography": "",
+			"profile_path": "/uw5TCYjVdUq7flR9jxUgIEHroTG.jpg"
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 43643,
+			"name": "Frank Lammers",
+			"biography": "",
+			"profile_path": "/rGIikThUCilyt8rgHkeJAxxEhCO.jpg"
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1287876,
+			"name": "Noortje Herlaar",
+			"biography": "",
+			"profile_path": "/9UupimmSLCQ7uoLCg2wDOcmTjAJ.jpg"
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1254013,
+			"name": "Walid Benmbarek",
+			"biography": "",
+			"profile_path": "/vw5LwsaJ0Y8toLqMp9SHW9JOxix.jpg"
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1444132,
+			"name": "Lawrence Sheldon",
+			"biography": "",
+			"profile_path": "/2X0bQ5DX5C99PV52mBy0lILQqg3.jpg"
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1834808,
+			"name": "Jenny Hsia",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2133373,
+			"name": "Faye Kimmijser",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2175086,
+			"name": "Mike Wijdenbosch",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 211114,
+			"name": "Carly Wijs",
+			"biography": "",
+			"profile_path": "/dWs6BWb6DqZDaT7t8a3ET0xKolw.jpg"
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1924517,
+			"name": "Thomas Dudkiewicz",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2130019,
+			"name": "Kyra Isako Smith",
+			"biography": "",
+			"profile_path": "/1NC8xLbD6gE7zGKYBnyeDuAMPZo.jpg"
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1388539,
+			"name": "Burt Rutteman",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1509081,
+			"name": "Bas Heerkens",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2051961,
+			"name": "Kok-Hwa Lie",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3076027,
+			"name": "Jeremiah Fleming",
+			"biography": "",
+			"profile_path": "/zDBfOhgalp3T2CtDiPpxY7U3KWz.jpg"
+		}
+	},
+	{
+		"pk": 1033107,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2614,
+			"name": "Mothusi Magano",
 			"biography": "",
 			"profile_path": null
 		}
@@ -183,9 +4403,119 @@
 		"pk": 1033107,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 3744992,
-			"name": "Fabian Medea",
+			"actor_id": 1181396,
+			"name": "Chris Chameleon",
 			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 1033107,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 93913,
+			"name": "Frank Rautenbach",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 1033107,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1358443,
+			"name": "Izel Bezuidenhout",
+			"biography": "",
+			"profile_path": "/lLCWvkZyUWmcwxmKyKFYB3GaiTk.jpg"
+		}
+	},
+	{
+		"pk": 1033107,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3731854,
+			"name": "Phoenix Baaitse",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 1033107,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1148671,
+			"name": "Deon Coetzee",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 1033107,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1277543,
+			"name": "Brendon Daniels",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 1033107,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3731857,
+			"name": "Michelle Douglas",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 1033107,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 190625,
+			"name": "Nicola Hanekom",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 1033107,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3731859,
+			"name": "Campbell Meas",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 1033107,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3731861,
+			"name": "Mona Monyane",
+			"biography": "",
+			"profile_path": null
+		}
+	},
+	{
+		"pk": 1033107,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 107528,
+			"name": "Louw Venter",
+			"biography": "Louw Venter is an actor and writer.",
+			"profile_path": "/nNkOGJYppoRg6nvbBflJnJIBtSF.jpg"
+		}
+	},
+	{
+		"pk": 1033107,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1040321,
+			"name": "Erica Wessels",
+			"biography": "Erica Wessels is a South African actress who has appeared in many TV series and movies including Troy: Fall of a City, Labyrinth, Warrior and more. She clearly shows off her diversity as an actress by appearing in different roles such as Mrs Scott in The Book of Negroes and Penelope in Troy: Fall of a City.",
 			"profile_path": null
 		}
 	},
@@ -193,10 +4523,180 @@
 		"pk": 642885,
 		"model": "movies.actor",
 		"fields": {
-			"director_id": 29214,
-			"name": "Anne Fletcher",
-			"biography": "Anne Fletcher (born May 1, 1966) is an American film director and choreographer.\n\nFletcher took dance lessons as a child. At the age of 15, she appeared on the show Salute to the Superstars; later she moved to California, where she was trained by Joe Tremaine. She worked as a choreographer and worked in this capacity for six years with Jeff Andrews. The duo worked among other things on television work and music videos.\n\nIn her first film roles Fletcher appeared as a dancer, including The Flintstones (1994), The Mask (1994) and Tank Girl (1995). She developed choreography for the Oscar-nominated film drama Boogie Nights (1997) with Mark Wahlberg, Burt Reynolds, Julianne Moore and Heather Graham – in which she appeared herself as a dancer – as well as for the comedy A Life Less Ordinary with Ewan McGregor and Cameron Diaz.\n\n​From Wikipedia, the free encyclopedia",
-			"profile_path": "/yAhFS3NZjQU8zExfJQ3SXEYGMfP.jpg"
+			"actor_id": 73931,
+			"name": "Bette Midler",
+			"biography": "Bette Midler (born December 1, 1945) is an American singer, songwriter, actress, comedian, and film producer. Born in Honolulu, Hawaii, Midler began her professional career in several Off-Off-Broadway plays, prior to her engagements in Fiddler on the Roof and Salvation on Broadway in the late 1960s. She came to prominence in 1970 when she began singing in the Continental Baths, a local gay bathhouse where she managed to build up a core following. Since 1970, Midler has released 14 studio albums as a solo artist. Throughout her career, many of her songs became hits on the record charts, including her renditions of \"The Rose\", \"Wind Beneath My Wings\", \"Do You Want to Dance\", \"Boogie Woogie Bugle Boy\", and \"From a Distance\".\n\nIn a career spanning almost half a century, Midler has won three Grammy Awards, four Golden Globes, three Emmy Awards, and a Tony Award. She has sold over 30 million records worldwide, and has received four Gold, three Platinum, and three Multiplatinum albums by RIAA.\n\nDescription above from the Wikipedia article Bette Midler, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/AboHBmgeoFkCwp7mQHyfORnbOPY.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 520,
+			"name": "Sarah Jessica Parker",
+			"biography": "Sarah Jessica Parker (born March 25, 1965) is an American actress and television producer. She is the recipient of numerous accolades, including six Golden Globe Awards and two Primetime Emmy Awards. Time magazine named her one of the 100 most influential people in the world in 2022.\n\nShe is known for her role as Carrie Bradshaw on the HBO television series Sex and the City (1998–2004), for which she won two Emmy Awards, four Golden Globe Awards for Best Actress in a Comedy Series and three Screen Actors Guild Awards. The character was widely popular during the airing of the series and was later recognized as one of the greatest female characters in American television. She later reprised the role in films Sex and the City (2008) and Sex and the City 2 (2010), as well as the television show And Just Like That... (2021–present).\n\nParker made her Broadway debut at the age of 11 in the 1976 revival of The Innocents, before going on to star in the title role of the Broadway musical Annie in 1979. She made her first major film appearances in the 1984 dramas Footloose and Firstborn. Her other film roles include L.A. Story (1991), Honeymoon in Vegas (1992), Hocus Pocus (1993), Ed Wood (1994), The First Wives Club (1996), The Family Stone (2005), Failure to Launch (2006), Did You Hear About the Morgans? (2009), and New Year's Eve (2011).\n\nIn 2012, Parker returned to television for the first time since Sex and the City, portraying Isabelle Wright in three episodes of the FOX series Glee. She starred as Frances Dufresne in the HBO series Divorce (2016–2019), for which she was nominated for a Golden Globe Award. Since 2005, she has run her own production company, Pretty Matches, which has been creating content for HBO and other channels.",
+			"profile_path": "/bKatYGFy4wsuarnmti12OpAohsL.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 11074,
+			"name": "Kathy Najimy",
+			"biography": "Kathy Ann Najimy (born February 6, 1957) is an American actress, most notable as Olive Massery on the television series Veronica's Closet, Sister Mary Patrick in Sister Act and the voice of Peggy Hill on the animated television series King of the Hill. Prior to her film work, she was best known for two Off Broadway shows with Mo Gaffney working as the duo Kathy and Mo. One of the shows became an HBO comedy special and garnered Najimy her first nationwide fan base.\n\nDescription above from the Wikipedia article Kathy Najimy, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+			"profile_path": "/nqbZF7Igr0SC8Xq8y0jwmx0mLDN.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1842860,
+			"name": "Whitney Peak",
+			"biography": "Whitney Peak is a Ugandan-Canadian actress. She stars in the 2021 HBO Max revival of Gossip Girl. Her other work includes the Apple TV+ series Home Before Dark and the Netflix series Chilling Adventures of Sabrina.",
+			"profile_path": "/aBogCMMVunFxMKqm8kOFXczv2uU.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2381442,
+			"name": "Belissa Escobedo",
+			"biography": "",
+			"profile_path": "/584tOsPVFbzq7GJxET5diOGZ8p0.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2129491,
+			"name": "Lilia Buckingham",
+			"biography": "Lilia Buckingham is an American Internet personality, actress, dancer, author, and producer.",
+			"profile_path": "/bid1ljw6d15lLHzbalyUv32cQDD.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1798797,
+			"name": "Froy Gutierrez",
+			"biography": "Froy Gutierrez is an American actor born and raised in Dallas, Texas. He went to Booker T. Washington High School for the Performing and Visual Arts where he studied theatre. After an agent saw him in a local play, he began submitting audition tapes in the summer of 2015.",
+			"profile_path": "/8sCm6Jl8jDUwRBin6k7CIFIm0yg.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1429453,
+			"name": "Sam Richardson",
+			"biography": "Sam Richardson is an actor and writer, known for Veep (2012), Detroiters (2017) and Mike and Dave Need Wedding Dates (2016).",
+			"profile_path": "/9GonbfsghKD33PZlvAttAhCS8S8.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 17005,
+			"name": "Doug Jones",
+			"biography": "The youngest of four brothers, Doug Jones was born on May 24, 1960 in Indianapolis, Indiana, and grew up in the city's Northeastside. After attending Bishop Chatard High School, he headed off to Ball State University, where he graduated in 1982 with a Bachelor's degree in Telecommunications, with a minor in Theatre.\n\nHe learned mime at school, joining a troupe and doing the whole white-face thing, and has also worked as a contortionist.\n\nAfter a hitch in theater in Indiana, he moved to Los Angeles in 1985, and has not been out of work since - he's acted in over 25 films, many television series (Including the award-winning Buffy the Vampire Slayer (1997), his episode 'Hush' garnered two Emmy nominations) and over 90 commercials and music videos with the likes of Madonna and Marilyn Manson.\n\nAlthough known mostly for his work under prosthetics, he has also performed as 'himself' in such highly-rated films as Adaptation. (2002) with Nicolas Cage and indie projects such as Phil Donlon's A Series of Small Things (2005).\n\nBut it is his sensitive and elegant performance as 'Abe Sapien' in Hellboy (2004), which stormed to the top of the U.S. box office in the spring of 2004, that has brought him an even higher profile and much praise from audiences and critics alike.\n\nHe has been portraying the Kelpien Saru on the show Star Trek: Discovery.",
+			"profile_path": "/4C2rJbkgpD3wsdIzJHxk5rcEqTZ.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 25147,
+			"name": "Tony Hale",
+			"biography": "Tony Hale (born September 30, 1970) is an American two time Emmy Award-winning film and television actor and author, best known for playing neurotic Byron \"Buster\" Bluth on FOX's comedy series Arrested Development, as well as Gary Walsh, the downtrodden personal aide to Julia Louis-Dreyfus's Vice President Selina Meyers on HBO's Emmy Award-winning political comedy, Veep.",
+			"profile_path": "/ar4uapp4w5wMkThZcqWUNMSTO8z.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1278487,
+			"name": "Hannah Waddingham",
+			"biography": "Hannah Waddingham was born on 1974, in Wandsworth, London. Her family was involved in performing arts as her mother, Melodie Kelly, and both her maternal grandparents were opera singers.",
+			"profile_path": "/eHAICyhvjiRZCgzKyJCk9hWnnjr.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3292783,
+			"name": "Nina Kitchen",
+			"biography": "",
+			"profile_path": "/qPofL0NQTflnexJdYHFC81TvvOg.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2425569,
+			"name": "Juju Journey Brener",
+			"biography": "",
+			"profile_path": "/ftCiijdwW7R2p8NTe4OKhXY3Kss.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3343355,
+			"name": "David Torres Jr.",
+			"biography": "",
+			"profile_path": "/ibAitzJX3vLzMaacnmkofjZbVFJ.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 1877692,
+			"name": "Ginger Minj",
+			"biography": "Ginger Minj is the stage name of drag actor Joshua Allan Eads.",
+			"profile_path": "/8yjbKH7rlB8Tot9mcOUnG2b6pan.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 3291495,
+			"name": "Kornbread Jeté",
+			"biography": "Kornbread \"The Snack\" Jeté is the stage name of Demoria Elise Williams, a drag performer and one of the contestants of the fourteenth season of RuPaul's Drag Race.",
+			"profile_path": "/d1IMwGgOkXZtzAoCz2NriwQ6iZk.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2992571,
+			"name": "Kahmora Hall",
+			"biography": "",
+			"profile_path": "/sZLHwmiuDQ1lcsM0JGpMnhBAqfA.jpg"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.actor",
+		"fields": {
+			"actor_id": 2175565,
+			"name": "Amanda Shepherd",
+			"biography": "",
+			"profile_path": "/aJmRnDlGqO76hwDzPeg9QnyVmEk.jpg"
 		}
 	}
 ]

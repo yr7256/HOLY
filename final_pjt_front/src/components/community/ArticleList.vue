@@ -1,6 +1,6 @@
 <template>
   <div class="article-list">
-    <h3>Article List</h3>
+    <h3>게시글</h3>
     <ArticleListItem
       v-for="article in articles"
       :key="article.id"
@@ -26,6 +26,6 @@ export default {
 
 <style>
 .article-list {
-  text-align: start;
+  text-align: center;
 }
 </style>

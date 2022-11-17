@@ -1,7 +1,7 @@
 <template>
   <div id="head" v-if="isLogin">
-    <h3>{{ $store.state.username }}</h3>
     <nav>
+      <h3>{{ $store.state.username }}님 안녕하세요!</h3>
       <router-link :to="{ name: 'MovieView' }">메인</router-link> |
       <router-link :to="{ name: 'ArticleView' }">커뮤니티</router-link> |
       <router-link @click.native="logout" :to="{ name: 'LoginView' }">로그아웃</router-link>
@@ -39,13 +39,7 @@ export default {
     logout() {
       this.$store.dispatch('logout')
     },
-    getUser() {
-      this.$store.dispatch('getUser')
-    },
   },
-  created() {
-    this.getUser()
-  }
 }
 </script>
 

@@ -1,13 +1,13 @@
 <template>
   <div>
-    <h5>{{ article.id }}</h5>
-    <p>작성자 : {{ article.username }}</p>
-    <p>{{ article.title }}</p>
+    <!-- <h5>{{ article.id }}</h5> -->
     <router-link
       :to="{ name: 'DetailView', params: { id: article.id} }"
-    >[DETAIL]
+    >
+    <span>
+      {{ article.title }} | 작성자 : {{ article.username }}
+    </span>
     </router-link>
-    <hr>
   </div>
 </template>
 
@@ -21,4 +21,7 @@ export default {
 </script>
 
 <style>
+a {
+  text-decoration: none;
+}
 </style>

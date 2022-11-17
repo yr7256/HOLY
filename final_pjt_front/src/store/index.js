@@ -17,6 +17,7 @@ export default new Vuex.Store({
     createPersistedState(),
   ],
   state: {
+    // article_id : null,
     articles: [],
     token: null,
     username: null
@@ -25,20 +26,6 @@ export default new Vuex.Store({
     isLogin(state) {
       return state.token ? true : false
     },
-    // getUser(state) {
-    //   axios({
-    //     method: 'get',
-    //     url: `${API_URL}/accounts/user/`,
-    //     headers: {
-    //       Authorization: `Token ${ state.token }`
-    //     }
-    //   })
-    //     .then((res) => {
-    //       state.username = res.data.username
-    //       return state.username
-    //     })
-    //     .catch(err => console.log(err))
-    // },
   },
   mutations: {
     GET_ARTICLES(state, articles) {
@@ -46,17 +33,23 @@ export default new Vuex.Store({
     },
     SAVE_TOKEN(state, token){
       state.token = token
+      state.username = token.username
       router.push({name: 'ArticleView'})
     },
-    SAVE_USERNAME(state, username){
-      state.username = username
-    },
+    // SAVE_USERNAME(state, username){
+    //   state.username = username
+    // },
     LOGOUT (state) {
       state.username = null
       state.token = null
       localStorage.removeItem('username')
       localStorage.removeItem('token')
       location.reload();
+    },
+    DELETE_ARTICLE(state, id) {
+      state.articles = state.articles.filter((article) => {
+        return !(article.id === id)
+      })
     }
   },
   actions: {
@@ -104,22 +97,22 @@ export default new Vuex.Store({
         })
         .catch(err => console.log(err))
     },
-    getUser(context) {
-      axios({
-        method: 'get',
-        url: `${API_URL}/accounts/user/`,
-        headers: {
-          Authorization: `Token ${ context.state.token }`
-        }
-      })
-        .then((res) => {
-          context.commit('SAVE_USERNAME',res.data.username)
-        })
-        .catch(err => console.log(err))
-    },
+    // getUser(context) {
+    //   axios({
+    //     method: 'get',
+    //     url: `${API_URL}/accounts/user/`,
+    //     headers: {
+    //       Authorization: `Token ${ context.state.token }`
+    //     }
+    //   })
+    //     .then((res) => {
+    //       context.commit('SAVE_USERNAME',res.data.username)
+    //     })
+    //     .catch(err => console.log(err))
+    // },
     logout(context) {
       context.commit('LOGOUT')
-    }
+    },
   },
   modules: {
   }

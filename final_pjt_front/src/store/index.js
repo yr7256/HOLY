@@ -24,7 +24,21 @@ export default new Vuex.Store({
   getters: {
     isLogin(state) {
       return state.token ? true : false
-    }
+    },
+    // getUser(state) {
+    //   axios({
+    //     method: 'get',
+    //     url: `${API_URL}/accounts/user/`,
+    //     headers: {
+    //       Authorization: `Token ${ state.token }`
+    //     }
+    //   })
+    //     .then((res) => {
+    //       state.username = res.data.username
+    //       return state.username
+    //     })
+    //     .catch(err => console.log(err))
+    // },
   },
   mutations: {
     GET_ARTICLES(state, articles) {
@@ -86,6 +100,7 @@ export default new Vuex.Store({
       })
         .then(res => {
           context.commit('SAVE_TOKEN', res.data.key)
+          location.reload();
         })
         .catch(err => console.log(err))
     },

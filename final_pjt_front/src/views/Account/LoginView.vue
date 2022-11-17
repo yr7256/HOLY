@@ -2,13 +2,13 @@
   <div>
     <h1>LogIn Page</h1>
     <form @submit.prevent="logIn">
-      <label for="username">username : </label>
+      <label for="username">Username : </label>
       <input type="text" id="username" v-model="username"><br>
 
-      <label for="password"> password : </label>
+      <label for="password"> Password : </label>
       <input type="password" id="password" v-model="password"><br>
 
-      <input type="submit" value="logIn">
+      <input type="submit" value="로그인">
     </form>
   </div>
 </template>
@@ -31,6 +31,6 @@ export default {
       }
       this.$store.dispatch('logIn', payload)
     },
-  }
+  },
 }
 </script>

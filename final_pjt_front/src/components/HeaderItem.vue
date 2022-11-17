@@ -9,7 +9,6 @@
     <router-view/>
   </div>
   <div id="head" v-else>
-    <h3>{{ $store.state.username }}</h3>
     <nav>
       <router-link :to="{ name: 'MovieView' }">메인</router-link> |
       <router-link :to="{ name: 'ArticleView' }">커뮤니티</router-link> |
@@ -34,15 +33,15 @@ export default {
   computed: {
     isLogin() {
       return this.$store.getters.isLogin
-    }
+    },
   },
   methods: {
+    logout() {
+      this.$store.dispatch('logout')
+    },
     getUser() {
       this.$store.dispatch('getUser')
     },
-    logout() {
-      this.$store.dispatch('logout')
-    }
   },
   created() {
     this.getUser()

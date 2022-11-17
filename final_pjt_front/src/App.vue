@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <!-- <div id="app">
     <nav>
       <router-link :to="{ name: 'MovieView' }">메인</router-link> |
       <router-link :to="{ name: 'ArticleView' }">커뮤니티</router-link> |
@@ -7,8 +7,18 @@
       <router-link :to="{ name: 'SignUpView' }">회원가입</router-link>
     </nav>
     <router-view/>
-  </div>
+  </div> -->
+  <HeaderItem/>
 </template>
+<script>
+import HeaderItem from '@/components/HeaderItem.vue'
+
+export default ({
+  components: {
+    HeaderItem
+  },
+})
+</script>
 
 <style>
 #app {

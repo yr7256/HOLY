@@ -8,6 +8,7 @@ Vue.use(Vuex)
 
 
 const API_URL = 'http://127.0.0.1:8000'
+// const FRONT_URL = 'http://localhost:8080'
 
 
 
@@ -17,7 +18,8 @@ export default new Vuex.Store({
   ],
   state: {
     articles: [],
-    token: null
+    token: null,
+    username: null
   },
   getters: {
     isLogin(state) {
@@ -32,6 +34,16 @@ export default new Vuex.Store({
       state.token = token
       router.push({name: 'ArticleView'})
     },
+    SAVE_USERNAME(state, username){
+      state.username = username
+    },
+    LOGOUT (state) {
+      state.username = null
+      state.token = null
+      localStorage.removeItem('username')
+      localStorage.removeItem('token')
+      location.reload();
+    }
   },
   actions: {
     getArticles(context) {
@@ -76,6 +88,22 @@ export default new Vuex.Store({
           context.commit('SAVE_TOKEN', res.data.key)
         })
         .catch(err => console.log(err))
+    },
+    getUser(context) {
+      axios({
+        method: 'get',
+        url: `${API_URL}/accounts/user/`,
+        headers: {
+          Authorization: `Token ${ context.state.token }`
+        }
+      })
+        .then((res) => {
+          context.commit('SAVE_USERNAME',res.data.username)
+        })
+        .catch(err => console.log(err))
+    },
+    logout(context) {
+      context.commit('LOGOUT')
     }
   },
   modules: {

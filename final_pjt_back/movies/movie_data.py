@@ -29,7 +29,7 @@ def get_movie_datas():
 
                 data = {
                     "pk": movie['id'],
-                    "model": "movies.movie",
+                    "model": "credits.movie",
                     "fields": fields
                 }
 
@@ -39,3 +39,4 @@ def get_movie_datas():
         json.dump(total_data, w, indent="\t", ensure_ascii=False)
 
 get_movie_datas()
+

@@ -1,240 +1,240 @@
 [
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 1083010,
 			"known_for_department": "Acting",
 			"name": "Letitia Wright",
-			"popularity": 93.287,
+			"popularity": 88.786,
 			"profile_path": "/i6fbYNn5jWA6swWtaqgzaj02RMc.jpg",
 			"character": "Shuri"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 1267329,
 			"known_for_department": "Acting",
 			"name": "Lupita Nyong'o",
-			"popularity": 20.832,
+			"popularity": 18.25,
 			"profile_path": "/mJMpsADPpt0bmXEzs3ywrUiCkpD.jpg",
 			"character": "Nakia"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 82104,
 			"known_for_department": "Acting",
 			"name": "Danai Gurira",
-			"popularity": 14.638,
+			"popularity": 18.791,
 			"profile_path": "/bCjz32aVpyufnPjzLPOtV5DEXKK.jpg",
 			"character": "Okoye"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 1447932,
 			"known_for_department": "Acting",
 			"name": "Winston Duke",
-			"popularity": 16.825,
+			"popularity": 18.248,
 			"profile_path": "/MhBiZbryibwuoEtPL9Ns8pYHC1.jpg",
 			"character": "M'Baku"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 2133996,
 			"known_for_department": "Acting",
 			"name": "Dominique Thorne",
-			"popularity": 31.642,
+			"popularity": 25.093,
 			"profile_path": "/tuLlp79SfYc4mLzzjdC2ekLI7qd.jpg",
 			"character": "Riri Williams / Ironheart"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 87265,
 			"known_for_department": "Acting",
 			"name": "Tenoch Huerta",
-			"popularity": 64.436,
+			"popularity": 70.131,
 			"profile_path": "/5qoAmQpcPCjf4Pd6aTZOeINGYzk.jpg",
 			"character": "Namor"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 9780,
 			"known_for_department": "Acting",
 			"name": "Angela Bassett",
-			"popularity": 72.48,
+			"popularity": 58.144,
 			"profile_path": "/7Oz53NKdglRzAzI2MKjM3eQXwn.jpg",
 			"character": "Ramonda"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 139900,
 			"known_for_department": "Acting",
 			"name": "Florence Kasumba",
-			"popularity": 6.619,
+			"popularity": 6.786,
 			"profile_path": "/vivJLQhtwca5hupqoRRgL8BRs6o.jpg",
 			"character": "Ayo"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 1368012,
 			"known_for_department": "Acting",
 			"name": "Michaela Coel",
-			"popularity": 10.161,
+			"popularity": 7.448,
 			"profile_path": "/rbN1F0R8DMUh6IYwl0owyD8LukN.jpg",
 			"character": "Aneka"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 2213811,
 			"known_for_department": "Acting",
 			"name": "Mabel Cadena",
-			"popularity": 31.039,
+			"popularity": 23.712,
 			"profile_path": "/i7JL6cnvaLywKXN5rMCODztYKT4.jpg",
 			"character": "Namora"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 25703,
 			"known_for_department": "Acting",
 			"name": "Lake Bell",
-			"popularity": 25.571,
+			"popularity": 26.471,
 			"profile_path": "/tpBmxNKBebx04vQGnnQ3QNs6nvV.jpg",
 			"character": "Dr. Graham"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 992386,
 			"known_for_department": "Acting",
 			"name": "Alex Livinalli",
-			"popularity": 15.319,
+			"popularity": 10.196,
 			"profile_path": "/qagXyIZI8oSfpNLuZRChFEwEvNo.jpg",
 			"character": "Attuma"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 31512,
 			"known_for_department": "Acting",
 			"name": "Robert John Burke",
-			"popularity": 8.517,
+			"popularity": 7.355,
 			"profile_path": "/4uCjxK6QmPW98W56aCldwINSOcX.jpg",
 			"character": "Smitty"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 165424,
 			"known_for_department": "Acting",
 			"name": "Danny Sapani",
-			"popularity": 8.161,
+			"popularity": 10.848,
 			"profile_path": "/h6goTpKA74Z6ePB2BAEEyQnGtCF.jpg",
 			"character": "Border Tribe Elder"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 4812,
 			"known_for_department": "Acting",
 			"name": "Isaach De Bankolé",
-			"popularity": 9.728,
+			"popularity": 5.837,
 			"profile_path": "/tIihjWrBfzZahWaAwf8XFuYO0JS.jpg",
 			"character": "River Tribe Elder"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 1181397,
 			"known_for_department": "Acting",
 			"name": "Connie Chiume",
-			"popularity": 2.71,
+			"popularity": 2.013,
 			"profile_path": "/3ET4rE2aAEyczhognWWi1rPAdWo.jpg",
 			"character": "Zawavari"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 7060,
 			"known_for_department": "Acting",
 			"name": "Martin Freeman",
-			"popularity": 32.416,
+			"popularity": 31.325,
 			"profile_path": "/pLG7mmxBXXTVAgzXvQl0ap3qlJU.jpg",
 			"character": "Everett Ross"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 15886,
 			"known_for_department": "Acting",
 			"name": "Julia Louis-Dreyfus",
-			"popularity": 7.784,
+			"popularity": 9.135,
 			"profile_path": "/pDzlVQhjxKQBpb9NcQ3hR20kz3z.jpg",
 			"character": "Valentina Allegra de Fontaine"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 31028,
 			"known_for_department": "Acting",
 			"name": "Richard Schiff",
-			"popularity": 22.192,
+			"popularity": 21.858,
 			"profile_path": "/oFDka3Y5H3DBiZRqbdPabtX8ncP.jpg",
 			"character": "U.S. Secretary of State"
 		}
 	},
 	{
 		"pk": 505642,
-		"model": "movies.actor",
+		"model": "movies.actorlist",
 		"fields": {
 			"actor_id": 135651,
 			"known_for_department": "Acting",
 			"name": "Michael B. Jordan",
-			"popularity": 38.688,
+			"popularity": 28.406,
 			"profile_path": "/kfcn0yyEdN2aJfVaxW0NIoKVF4J.jpg",
 			"character": "N'Jadaka / Erik 'Killmonger' Stevens"
 		}

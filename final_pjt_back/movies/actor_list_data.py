@@ -4,8 +4,6 @@ import json
 TMDB_API_KEY = '5ef064e7f4721766a54899e612e85f67'
 
 
-# https://api.themoviedb.org/3/movie/{movie_id}/credits?api_key=<<api_key>>&language=ko-KR
-
 def get_actor_datas():
     total_data = []
 
@@ -27,7 +25,7 @@ def get_actor_datas():
                 request_url = f"https://api.themoviedb.org/3/movie/{movie_id}/credits?api_key={TMDB_API_KEY}&language=ko-KR"
                 actor_list = requests.get(request_url).json()
                 for actor in actor_list['cast']:
-                    if (actor.get('known_for_department', '') == "Acting" and not actor.get('department', '')):
+                    if actor.get('known_for_department', '') == "Acting":
                         fields = {
                             'actor_id': actor['id'],
                             'known_for_department' : actor['known_for_department'],
@@ -39,7 +37,7 @@ def get_actor_datas():
                         
                         data = {
                             "pk": movie['id'],
-                            "model": "movies.actor",
+                            "model": "movies.actorlist",
                             "fields": fields
                         }
                         

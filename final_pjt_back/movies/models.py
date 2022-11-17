@@ -39,7 +39,7 @@ class Directorlist(models.Model):
     known_for_department = models.CharField(max_length=100)
     name = models.CharField(max_length=100)
     popularity = models.FloatField(null=True, blank=True)
-    poster_path = models.CharField(max_length=200, null=True, blank=True)
+    profile_path = models.CharField(max_length=200, null=True, blank=True)
     department = models.CharField(max_length=100)
     job = models.CharField(max_length=100)
 

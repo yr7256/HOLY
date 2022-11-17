@@ -1,0 +1,262 @@
+[
+	{
+		"pk": 505642,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 1056121,
+			"known_for_department": "Directing",
+			"name": "Ryan Coogler",
+			"popularity": 12.006,
+			"profile_path": "/40n61jOMzHpDSnzLBQOSEEWlxEw.jpg",
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 436270,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 59521,
+			"known_for_department": "Directing",
+			"name": "Jaume Collet-Serra",
+			"popularity": 11.903,
+			"profile_path": "/saAeTFfgt9YRAybXmzfmIz01UCB.jpg",
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 966220,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 3518356,
+			"known_for_department": "Directing",
+			"name": "Marian Bushan",
+			"popularity": 1.094,
+			"profile_path": null,
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 663712,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 933176,
+			"known_for_department": "Directing",
+			"name": "Damien Leone",
+			"popularity": 19.633,
+			"profile_path": "/kr58jbtYatTS6wuAn35pg2d5YQK.jpg",
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 829280,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 173847,
+			"known_for_department": "Directing",
+			"name": "Harry Bradbeer",
+			"popularity": 11.679,
+			"profile_path": "/1fGaCCtKp3ZCXCkWRzOn4l7YnBE.jpg",
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 882598,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 2218465,
+			"known_for_department": "Directing",
+			"name": "Parker Finn",
+			"popularity": 4.13,
+			"profile_path": "/2HZPv0IUlxRqCpmgbk7KdovhQaF.jpg",
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 675054,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 964826,
+			"known_for_department": "Directing",
+			"name": "Chava Cartas",
+			"popularity": 2.809,
+			"profile_path": null,
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 49046,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 221522,
+			"known_for_department": "Directing",
+			"name": "Edward Berger",
+			"popularity": 5.682,
+			"profile_path": "/aBpMZi6vqvY9tacRIALPnXpde2t.jpg",
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 979924,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 1564258,
+			"known_for_department": "Writing",
+			"name": "Romuald Boulanger",
+			"popularity": 4.448,
+			"profile_path": "/t1i8zXWH6rEm9AeSYtvY1Ky7wvt.jpg",
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 732459,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 61703,
+			"known_for_department": "Acting",
+			"name": "Ron Yuan",
+			"popularity": 8.955,
+			"profile_path": "/7Co2MdR8T5zlXTrdZ9Z3qjlmKdV.jpg",
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 676701,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 1074721,
+			"known_for_department": "Directing",
+			"name": "Enrique Gato",
+			"popularity": 3.278,
+			"profile_path": null,
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 760161,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 62768,
+			"known_for_department": "Directing",
+			"name": "William Brent Bell",
+			"popularity": 4.393,
+			"profile_path": "/f7BvvN72ZhESBQ7wrCVw8M4D9by.jpg",
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 985939,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 90812,
+			"known_for_department": "Directing",
+			"name": "Scott Mann",
+			"popularity": 3.857,
+			"profile_path": "/8WygpUzfdfztZQqxGE5zn3rCedJ.jpg",
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 896485,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 52342,
+			"known_for_department": "Acting",
+			"name": "Olivier Marchal",
+			"popularity": 7.112,
+			"profile_path": "/r4NRcHShGE9G0OvI8tSlh5DZMTU.jpg",
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 856245,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 1657527,
+			"known_for_department": "Directing",
+			"name": "Agustina San Martín",
+			"popularity": 0.972,
+			"profile_path": "/sZxcJ3WgsFOaCzHfoX7dqkgobIq.jpg",
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 717728,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 66212,
+			"known_for_department": "Directing",
+			"name": "Timo Vuorensola",
+			"popularity": 3.187,
+			"profile_path": "/pMxmMdBh5JyV5Uevy4eaAsrJiM7.jpg",
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 532639,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 24,
+			"known_for_department": "Directing",
+			"name": "Robert Zemeckis",
+			"popularity": 25.906,
+			"profile_path": "/lPYDQ5LYNJ12rJZENtyASmVZ1Ql.jpg",
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 944864,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 1282094,
+			"known_for_department": "Directing",
+			"name": "Annemarie van de Mond",
+			"popularity": 2.155,
+			"profile_path": null,
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 1033107,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 3744992,
+			"known_for_department": "Directing",
+			"name": "Fabian Medea",
+			"popularity": 1.217,
+			"profile_path": null,
+			"department": "Directing",
+			"job": "Director"
+		}
+	},
+	{
+		"pk": 642885,
+		"model": "movies.director",
+		"fields": {
+			"director_id": 29214,
+			"known_for_department": "Directing",
+			"name": "Anne Fletcher",
+			"popularity": 6.255,
+			"profile_path": "/yAhFS3NZjQU8zExfJQ3SXEYGMfP.jpg",
+			"department": "Directing",
+			"job": "Director"
+		}
+	}
+]

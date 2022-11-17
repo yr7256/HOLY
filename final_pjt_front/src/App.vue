@@ -7,7 +7,7 @@
       <router-link :to="{ name: 'SignUpView' }">회원가입</router-link>
     </nav>
     <router-view/>
-  </div> -->
+  </div> --> 
   <HeaderItem/>
 </template>
 <script>

@@ -6,6 +6,8 @@ import NotFound404 from '@/components/NotFound404'
 import ArticleView from '@/views/Community/ArticleView'
 import LoginView from '@/views/Account/LoginView'
 import SignUpView from '@/views/Account/SignUpView'
+import CreateView from '@/views/Community/CreateView'
+import DetailView from '@/views/Community/DetailView'
 
 Vue.use(VueRouter)
 
@@ -34,6 +36,16 @@ const routes = [
     path: '/signup',
     name: 'SignUpView',
     component: SignUpView
+  },
+  {
+    path: '/community/:id',
+    name: 'DetailView',
+    component: DetailView,
+  },
+  {
+    path: '/community/create',
+    name: 'CreateView',
+    component: CreateView
   },
   {
     path: '/errors/404NotFound',

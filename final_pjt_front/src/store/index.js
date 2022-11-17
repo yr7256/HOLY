@@ -2,22 +2,43 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
 import router from '../router'
+import createPersistedState from 'vuex-persistedstate'
 
 Vue.use(Vuex)
 
 
 const API_URL = 'http://127.0.0.1:8000'
+// const FRONT_URL = 'http://localhost:8080'
+
 
 
 export default new Vuex.Store({
+  plugins: [
+    createPersistedState(),
+  ],
   state: {
     articles: [],
-    token: null
+    token: null,
+    username: null
   },
   getters: {
     isLogin(state) {
       return state.token ? true : false
-    }
+    },
+    // getUser(state) {
+    //   axios({
+    //     method: 'get',
+    //     url: `${API_URL}/accounts/user/`,
+    //     headers: {
+    //       Authorization: `Token ${ state.token }`
+    //     }
+    //   })
+    //     .then((res) => {
+    //       state.username = res.data.username
+    //       return state.username
+    //     })
+    //     .catch(err => console.log(err))
+    // },
   },
   mutations: {
     GET_ARTICLES(state, articles) {
@@ -27,12 +48,22 @@ export default new Vuex.Store({
       state.token = token
       router.push({name: 'ArticleView'})
     },
+    SAVE_USERNAME(state, username){
+      state.username = username
+    },
+    LOGOUT (state) {
+      state.username = null
+      state.token = null
+      localStorage.removeItem('username')
+      localStorage.removeItem('token')
+      location.reload();
+    }
   },
   actions: {
     getArticles(context) {
       axios({
         method: 'get',
-        url: `${API_URL}/api/v1/articles/`,
+        url: `${API_URL}/community/articles/`,
         headers: {
           Authorization: `Token ${ context.state.token }`
         }
@@ -69,8 +100,25 @@ export default new Vuex.Store({
       })
         .then(res => {
           context.commit('SAVE_TOKEN', res.data.key)
+          location.reload();
         })
         .catch(err => console.log(err))
+    },
+    getUser(context) {
+      axios({
+        method: 'get',
+        url: `${API_URL}/accounts/user/`,
+        headers: {
+          Authorization: `Token ${ context.state.token }`
+        }
+      })
+        .then((res) => {
+          context.commit('SAVE_USERNAME',res.data.username)
+        })
+        .catch(err => console.log(err))
+    },
+    logout(context) {
+      context.commit('LOGOUT')
     }
   },
   modules: {

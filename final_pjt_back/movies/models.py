@@ -28,30 +28,12 @@ class Rate(models.Model):
 
 class Actor(models.Model):
     actor_id = models.IntegerField(primary_key=True)
-    known_for_department = models.CharField(max_length=100)
     name = models.CharField(max_length=100)
-    popularity = models.IntegerField()
+    biography = models.TextField(null=True, blank=True)
     profile_path = models.CharField(max_length=200, null=True, blank=True)
-    character = models.CharField(max_length=200)
 
 class Director(models.Model):
     director_id = models.IntegerField(primary_key=True)
-    known_for_department = models.CharField(max_length=100)
     name = models.CharField(max_length=100)
-    popularity = models.IntegerField()
+    biography = models.TextField(null=True, blank=True)
     profile_path = models.CharField(max_length=200, null=True, blank=True)
-    
-    
-
-
-class Person(models.Model):
-    person_id = models.IntegerField(primary_key=True)
-    name = models.CharField(max_length=100)
-    overview = models.TextField(null=True, blank=True)
-    profile_path = models.CharField(max_length=200, null=True, blank=True)
-
-class PersonMovie(models.Model):
-    personmovie_id = models.IntegerField(primary_key=True)
-    #pk 뭐로 할 지 고민하기
-    title =  models.CharField(max_length=100)
-    

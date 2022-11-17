@@ -20,23 +20,24 @@ def get_director_datas():
         # print(movies['total_pages'])
         for movie in movies['results']:
             # print(movie['id'])
-            # print(movie)
+
             if movie.get('id', ''):
                 # print(movie)
                 movie_id = movie['id']
                 
                 request_url = f"https://api.themoviedb.org/3/movie/{movie_id}/credits?api_key={TMDB_API_KEY}&language=ko-KR"
                 director_list = requests.get(request_url).json()
-                for director in director_list['cast']:
-                    
-                    if director.get('job', '') == 'Director':
+                for director in director_list['crew']:
+                    if director.get('job', '') == 'Director' and director.get('department', '') == 'Directing':
                         fields = {
                             'director_id': director['id'],
                             'known_for_department' : director['known_for_department'],
                             'name':director['name'],
                             'popularity': director['popularity'],
                             'profile_path': director['profile_path'],
-                            # 'job' : director['job']
+
+                            'department' : director['department'],
+                            'job' : director['job']
                         }
                         
                         data = {

@@ -2,7 +2,7 @@
   <div>
     <h1>게시판</h1>
     <ArticleList/>
-    <router-link :to="{ name: 'CreateView' }"><button class="btn-gradient yellow mini">글쓰기</button></router-link>
+    <button @click="getCreate" class="btn-gradient yellow mini">글쓰기</button>
   </div>
 </template>
 
@@ -24,13 +24,16 @@ export default {
   },
   methods: {
     getArticles() {
-      if (this.isLogin) {
       this.$store.dispatch('getArticles')
+    },
+    getCreate() {
+      if (this.isLogin) {
+      this.$router.push({ name: 'CreateView'})
       } else {
         alert('로그인이 필요한 서비스 입니다.')
         this.$router.push({ name: 'LoginView' })
       }
-    },
+    }
   }
 }
 </script>

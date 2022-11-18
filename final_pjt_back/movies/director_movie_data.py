@@ -33,7 +33,7 @@ def get_director_datas():
                                     'overview': movielist['overview'],
                                     'popularity':  movielist['popularity'],
                                     'poster_path': movielist['poster_path'],
-                                    'released_date': movielist['release_date'],
+                                    'release_date': movielist['release_date'],
                                     'title': movielist['title'],
                                     'department': movielist['department'],
                                     'job': movielist['job']

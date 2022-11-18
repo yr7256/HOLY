@@ -9,7 +9,6 @@ TMDB_API_KEY = '5ef064e7f4721766a54899e612e85f67'
 def get_director_datas():
     total_data = []
 
-    # 1페이지부터 500페이지까지
     for i in range(1, 2):
         movie_request_url = f"https://api.themoviedb.org/3/movie/popular?api_key={TMDB_API_KEY}&language=ko-KR&page={i}"
         res = requests.get(movie_request_url)
@@ -35,7 +34,7 @@ def get_director_datas():
                                     'overview': movielist['overview'],
                                     'popularity':  movielist['popularity'],
                                     'poster_path': movielist['poster_path'],
-                                    'released_date': movielist['release_date'],
+                                    'release_date': movielist['release_date'],
                                     'title': movielist['title'],
                                     'character': movielist['character']
                                 }

@@ -9,6 +9,7 @@ import SignUpView from '@/views/Account/SignUpView'
 import CreateView from '@/views/Community/CreateView'
 import DetailView from '@/views/Community/DetailView'
 import UpdateView from '@/views/Community/UpdateView'
+import MyPageView from '@/views/Account/MyPageView'
 
 Vue.use(VueRouter)
 
@@ -37,6 +38,11 @@ const routes = [
     path: '/signup',
     name: 'SignUpView',
     component: SignUpView
+  },
+  {
+    path:'/mypage',
+    name:'MyPageView',
+    component: MyPageView,
   },
   {
     path: '/community/:id',
@@ -68,6 +74,9 @@ const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes
+})
+router.afterEach(() => {
+  window.scrollTo(0,0);
 })
 
 export default router

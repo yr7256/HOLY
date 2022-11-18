@@ -9,7 +9,7 @@
       <input type="password" id="password" v-model="password"><br>
 
       <input type="submit" value="로그인">
-      <GoogleLogin/>
+      <!-- <GoogleLogin/> -->
      
     </form>
   </div>
@@ -17,7 +17,7 @@
 
 
 <script>
-import GoogleLogin from '@/components/GoogleLogin.vue'
+// import GoogleLogin from '@/components/GoogleLogin.vue'
 
 export default {
   name: 'LogInView',
@@ -28,7 +28,7 @@ export default {
     }
   },
   components: {
-    GoogleLogin
+    // GoogleLogin
   },
   methods: {
     logIn() {

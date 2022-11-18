@@ -2,7 +2,7 @@
   <div>
     <h1>게시판</h1>
     <ArticleList/>
-    <router-link :to="{ name: 'CreateView' }">글쓰기</router-link>
+    <router-link :to="{ name: 'CreateView' }"><button class="btn-gradient yellow mini">글쓰기</button></router-link>
   </div>
 </template>
 

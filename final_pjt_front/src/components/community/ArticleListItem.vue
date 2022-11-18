@@ -1,13 +1,12 @@
 <template>
-  <div>
+  <div >
     <!-- <h5>{{ article.id }}</h5> -->
     <router-link
       :to="{ name: 'DetailView', params: { id: article.id} }"
     >
-    <span>
       {{ article.title }} | 작성자 : {{ article.username }}
-    </span>
     </router-link>
+    <hr>
   </div>
 </template>
 

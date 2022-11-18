@@ -17,7 +17,7 @@ export default new Vuex.Store({
     createPersistedState(),
   ],
   state: {
-    // article_id : null,
+    movies: [],
     articles: [],
     token: null,
     username: null
@@ -43,11 +43,9 @@ export default new Vuex.Store({
       localStorage.removeItem('token')
       location.reload();
     },
-    // DELETE_ARTICLE(state, id) {
-    //   state.articles = state.articles.filter((article) => {
-    //     return !(article.id === id)
-    //   })
-    // }
+    GET_MOVIES(state, movies) {
+      state.movies = movies
+    },
   },
   actions: {
     getArticles(context) {
@@ -96,6 +94,17 @@ export default new Vuex.Store({
     },
     logout(context) {
       context.commit('LOGOUT')
+    },
+    getMovies(context) {
+      axios({
+        method: 'get',
+        url: `${API_URL}/movies/`,
+      })
+        .then((res) => {
+          context.commit('GET_MOVIES', res.data)
+          console.log(res.data)
+        })
+        .catch(err => console.log(err))
     },
   },
   modules: {

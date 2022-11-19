@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="body">
     <img class="full" alt="" src="../assets/main.png">
     <MovieList/>
   </div>
@@ -19,5 +19,10 @@ export default {
 <style>
 .full {
   width: 100vw;
+}
+.body {
+  top:0;
+  padding-top: 75px;
+  /* 생략 */
 }
 </style>

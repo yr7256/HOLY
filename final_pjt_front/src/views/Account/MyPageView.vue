@@ -1,18 +1,21 @@
 <template>
-  <div>
+  <div class="body">
     <h1>User Profile</h1>
     <userInfo/>
+    <favoriteMovie/>
 
   </div>
 </template>
 
 <script>
 import userInfo from '@/components/Accounts/userInfo.vue'
+import favoriteMovie from '@/components/Accounts/favoriteMovie.vue'
 
 export default {
   name: 'MyPageView',
   components: {
-    userInfo
+    userInfo,
+    favoriteMovie
 
   },
   data: function () {
@@ -49,5 +52,8 @@ export default {
 </script>
 
 <style>
-
+.body {
+  padding-top: 75px;
+  /* 생략 */
+}
 </style>

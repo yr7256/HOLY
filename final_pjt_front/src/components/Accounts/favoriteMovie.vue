@@ -1,12 +1,16 @@
 <template>
-  <div >
-    <h1>404 Not Found</h1>
+  <div>
+    <nav>
+      <h1>Favorites</h1>
+    </nav>
+    
   </div>
 </template>
 
 <script>
 export default {
-  name: 'NotFound404',
+  name: "favoriteMovie"
+
 }
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="body">
     <h1>Detail</h1>
     <p>글 번호 : {{ article?.id }}</p>
     <p>제목 : {{ article?.title }}</p>
@@ -23,8 +23,10 @@ import CommentCreate from '@/components/community/CommentCreate'
 
 const API_URL = 'http://127.0.0.1:8000'
 
+
 export default {
   name: 'DetailView',
+ 
   data() {
     return {
       article: null,
@@ -66,3 +68,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.body {
+  padding-top: 75px;
+  /* 생략 */
+}
+</style>

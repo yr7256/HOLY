@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="body">
     <h1>LogIn Page</h1>
     <form @submit.prevent="logIn">
       <label for="username">Username : </label>
@@ -44,3 +44,9 @@ export default {
 
 </script>
 
+<style>
+.body {
+  padding-top: 75px;
+  /* 생략 */
+}
+</style>

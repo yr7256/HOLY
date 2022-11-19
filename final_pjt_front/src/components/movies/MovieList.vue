@@ -1,11 +1,11 @@
 <template>
-  <div>
-    <h1>Now Playing</h1>
-    <div v-for="(movie, index) in movies" :key="index">
-      <div v-if="index <=8">
-        <div class="">
-          <img :src="MoviePosterurl+`${movie.poster_path}`" alt="">
-          {{ movie.title }}
+  <div class="w-75 mx-auto">
+    <h1 class="text-center">Now Playing</h1>
+    <div class="row">
+      <div class="col-2" v-for="(movie, index) in sortmovies" :key="index">
+        <div class="card" v-if="index <=11">
+          <img class="card-img-top" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
+          <p class="card-text">{{ movie.title }}</p>
         </div>
       </div>
     </div>
@@ -44,6 +44,5 @@ export default {
 </script>
 
 <style>
-
 
 </style>

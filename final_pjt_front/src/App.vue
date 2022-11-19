@@ -1,14 +1,7 @@
 <template>
-  <!-- <div id="app">
-    <nav>
-      <router-link :to="{ name: 'MovieView' }">메인</router-link> |
-      <router-link :to="{ name: 'ArticleView' }">커뮤니티</router-link> |
-      <router-link :to="{ name: 'LoginView' }">로그인</router-link> |
-      <router-link :to="{ name: 'SignUpView' }">회원가입</router-link>
-    </nav>
-    <router-view/>
-  </div> --> 
-  <HeaderItem/>
+  <div id="app">
+    <HeaderItem/>
+  </div>
 </template>
 <script>
 import HeaderItem from '@/components/HeaderItem.vue'
@@ -25,7 +18,7 @@ export default ({
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
 }
 

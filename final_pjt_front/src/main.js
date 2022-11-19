@@ -12,6 +12,11 @@ new Vue({
 }).$mount('#app')
 
 import Meta from 'vue-meta'
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+Vue.use(BootstrapVue)
 Vue.use(Meta, {
   attribute: 'data-vue-meta'
 })

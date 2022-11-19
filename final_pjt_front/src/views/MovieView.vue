@@ -1,6 +1,6 @@
 <template>
-  <div class="body">
-    <img class="full" alt="" src="../assets/main.png">
+  <div class='page'>
+    <img class="full mt-auto" alt="" src="../assets/main.png">
     <MovieList/>
   </div>
 </template>
@@ -17,12 +17,5 @@ export default {
 </script>
 
 <style>
-.full {
-  width: 100vw;
-}
-.body {
-  top:0;
-  padding-top: 75px;
-  /* 생략 */
-}
+
 </style>

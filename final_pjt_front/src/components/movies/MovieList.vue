@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>무비리스트</h1>
-    <div v-for="(movie, index) in movies" :key="index">
+    <div v-for="(movie, index) in sortmovies" :key="index">
       <img :src="MoviePosterurl+`${movie.poster_path}`" alt="">
       {{ movie.title }}
     </div>
@@ -9,7 +9,7 @@
 </template>
 
 <script>
-
+import _ from "lodash"
 export default {
   name: 'MovieList',
   data() {
@@ -21,6 +21,9 @@ export default {
   computed: {
     movieurl() {
       return this.img_url+this.movie.poster_path
+    },
+    sortmovies() {
+      return _.sortBy(this.movies,'popularity')
     }
   },
   created() {

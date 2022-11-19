@@ -19,15 +19,6 @@ export default new Vuex.Store({
   state: {
     movies: [],
     articles: [],
-    comments: [
-      {
-        id: 1,
-        title: 'title1',
-        content: 'content1',
-        createdAt: new Date().getTime()
-      }
-
-    ],
     token: null,
     username: null
   },

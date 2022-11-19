@@ -22,6 +22,14 @@ export default {
     movieurl() {
       return this.img_url+this.movie.poster_path
     }
+  },
+  created() {
+    this.getMovies()
+  },
+  methods: {
+    getMovies() {
+      this.$store.dispatch('getMovies')
+    },
   }
 }
 

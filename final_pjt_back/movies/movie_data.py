@@ -8,7 +8,8 @@ def get_movie_datas():
 
     # 1페이지부터 500페이지까지의 데이터를 가져옴.
     for i in range(1, 5):
-        request_url = f"https://api.themoviedb.org/3/movie/popular?api_key={TMDB_API_KEY}&language=ko-KR&page={i}"
+        # request_url = f"https://api.themoviedb.org/3/movie/popular?api_key={TMDB_API_KEY}&language=ko-KR&page={i}"
+        request_url = f"https://api.themoviedb.org/3/movie/now_playing?api_key={TMDB_API_KEY}&language=ko-KR&page={i}"
         movies = requests.get(request_url).json()
 
         for movie in movies['results']:
@@ -17,7 +18,7 @@ def get_movie_datas():
                 fields = {
                     'title': movie['title'],
                     'release_date': movie['release_date'],
-                    'popularity': movie['popularity'],
+                    'popularity': -movie['popularity']*movie['vote_count'],
                     'vote_avg': movie['vote_average'],
                     'overview': movie['overview'],
                     'poster_path': movie['poster_path'],

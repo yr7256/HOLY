@@ -15,7 +15,7 @@
       <div v-for="(comment, index) in comment_set" :key='index'>
         <p>댓글 내용: {{ comment.content }}</p>
         <!-- <button @click="updateComment" class="btn-gradient yellow mini">수정</button> -->
-        <p @click="deleteComment" class="btn-gradient yellow mini">삭제</p><br>
+        <p @click="deleteComment(comment.id)" class="btn-gradient yellow mini">삭제</p><br>
       </div>
   </div>
     <CommentCreate/>
@@ -58,7 +58,6 @@ export default {
         this.article = res.data
         this.comment_set = res.data.comment_set
         this.comment_count = res.data.comment_count
-        this.id = res.data.id
       })
       .catch(err => console.log(err))
     },
@@ -73,17 +72,14 @@ export default {
       })
       .catch(err => console.log(err))
     },
-    deleteComment() {
+    deleteComment(comment_id) {
       axios({
         method: 'delete',
-        url: `${API_URL}/community/comments/${this.comment_set.index}/`,
-        
+        url: `${API_URL}/community/comments/${comment_id}/`,
       })
       .then((res) => {
         console.log(res)
-        // this.comment_set.splice(this.comment_set.index, 1)
-        this.$router.push({
-          path:"DetailView"}) 
+        location.reload();
         })
         .catch(err => console.log(err))
       

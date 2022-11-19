@@ -13,6 +13,7 @@
 </template>
 
 <script>
+import _ from "lodash"
 
 export default {
   name: 'MovieList',
@@ -25,6 +26,9 @@ export default {
   computed: {
     movieurl() {
       return this.img_url+this.movie.poster_path
+    },
+    sortmovies() {
+      return _.sortBy(this.movies,'popularity')
     }
   },
   created() {

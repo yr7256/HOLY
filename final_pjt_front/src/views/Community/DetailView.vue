@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="body">
     <h1>Detail</h1>
     <p>글 번호 : {{ article?.id }}</p>
     <p>제목 : {{ article?.title }}</p>
@@ -9,6 +9,7 @@
     <router-link :to="{ name: 'ArticleView' }"><button class="btn-gradient yellow mini">뒤로가기</button></router-link>
     <router-link :to="{ name: 'UpdateView' }"><button class="btn-gradient yellow mini">글 수정</button></router-link>
     <button class="btn-gradient yellow mini" @click="deleteArticle">삭제</button>
+    
   </div>
 </template>
 
@@ -16,8 +17,10 @@
 import axios from 'axios'
 const API_URL = 'http://127.0.0.1:8000'
 
+
 export default {
   name: 'DetailView',
+ 
   data() {
     return {
       article: null
@@ -52,3 +55,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.body {
+  padding-top: 75px;
+  /* 생략 */
+}
+</style>

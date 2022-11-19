@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="body">
     <h1>게시글 작성</h1>
     <p>{{ article }}</p>
     <form @submit.prevent="updateArticle">
@@ -74,5 +74,9 @@ export default {
 </script>
 
 <style>
+.body {
+  padding-top: 75px;
+  /* 생략 */
+}
 
 </style>

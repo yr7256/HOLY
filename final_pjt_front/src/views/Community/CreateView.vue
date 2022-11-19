@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="body">
     <h1>게시글 작성</h1>
     <form @submit.prevent="createArticle">
       <label for="title">제목 : </label>
@@ -15,6 +15,7 @@
 <script>
 import axios from 'axios'
 const API_URL = 'http://127.0.0.1:8000'
+
 export default {
   name: 'CreateView',
   data() {
@@ -56,4 +57,8 @@ export default {
 </script>
 
 <style>
+.body {
+  padding-top: 75px;
+  /* 생략 */
+}
 </style>

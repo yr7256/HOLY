@@ -9,12 +9,18 @@
     <router-link :to="{ name: 'ArticleView' }"><button class="btn-gradient yellow mini">뒤로가기</button></router-link>
     <router-link :to="{ name: 'UpdateView' }"><button class="btn-gradient yellow mini">글 수정</button></router-link>
     <button class="btn-gradient yellow mini" @click="deleteArticle">삭제</button>
-    
+    <p>댓글 수 : {{ comment_count }}</p>
+    <div v-for="(comment, index) in comment_set" :key='index'>
+      <p>댓글 내용: {{ comment.content }}</p>
+    </div>
+    <CommentCreate/>
   </div>
 </template>
 
 <script>
 import axios from 'axios'
+import CommentCreate from '@/components/community/CommentCreate'
+
 const API_URL = 'http://127.0.0.1:8000'
 
 
@@ -23,11 +29,16 @@ export default {
  
   data() {
     return {
-      article: null
+      article: null,
+      comment_set: null,
+      comment_count: null,
     }
   },
   created() {
     this.getArticleDetail()
+  },
+  components: {
+    CommentCreate
   },
   methods: {
     getArticleDetail() {
@@ -38,6 +49,8 @@ export default {
       .then((res) => {
         console.log(res)
         this.article = res.data
+        this.comment_set = res.data.comment_set
+        this.comment_count = res.data.comment_count
       })
       .catch(err => console.log(err))
     },

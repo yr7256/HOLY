@@ -1,9 +1,13 @@
 <template>
   <div>
-    <h1>무비리스트</h1>
+    <h1>Now Playing</h1>
     <div v-for="(movie, index) in movies" :key="index">
-      <img :src="MoviePosterurl+`${movie.poster_path}`" alt="">
-      {{ movie.title }}
+      <div v-if="index <=8">
+        <div class="">
+          <img :src="MoviePosterurl+`${movie.poster_path}`" alt="">
+          {{ movie.title }}
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -36,5 +40,6 @@ export default {
 </script>
 
 <style>
+
 
 </style>

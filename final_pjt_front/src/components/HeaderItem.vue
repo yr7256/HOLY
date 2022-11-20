@@ -10,7 +10,7 @@
           <h5>{{ $store.state.username }}님 안녕하세요!</h5>
         </div>
         <div class="col-2 text-end">
-          <router-link :to="{ name: 'MyPageView' }">마이페이지</router-link> |
+          <router-link :to="{ name: 'MyPageView', params: { id: $store.state.username} }">마이페이지</router-link> |
           <router-link @click.native="logout" :to="{ name: 'LoginView' }">로그아웃</router-link>
         </div>
       </nav>

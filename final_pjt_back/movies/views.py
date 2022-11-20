@@ -71,7 +71,6 @@ def movie_like(request, movie_pk):
 
     like_movie_register = {
         'id': serializer.data.get('id'),
-        # 'like_movie_users_count': movie.like_movie_users.count(), 나중에 확인해보기
         'like_movie_users': serializer.data.get('like_movie_users'),
     }
     return JsonResponse(like_movie_register)

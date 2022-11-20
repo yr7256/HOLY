@@ -10,11 +10,11 @@
     <router-link :to="{ name: 'UpdateView' }"><button class="btn-gradient yellow mini">글 수정</button></router-link>
     <button class="btn-gradient yellow mini" @click="deleteArticle">삭제</button>
     <div>
+      <!-- <p class="btn-gradient yellow mini" @click="ArticleLike">좋아요</p> -->
       
       <p>댓글 수 : {{ comment_count }}</p>
       <div v-for="(comment, index) in comment_set" :key='index'>
         <p>댓글 내용: {{ comment.content }}</p>
-        <!-- <button @click="updateComment" class="btn-gradient yellow mini">수정</button> -->
         <p @click="deleteComment(comment.id)" class="btn-gradient yellow mini">삭제</p><br>
       </div>
   </div>
@@ -37,7 +37,8 @@ export default {
       article: null,
       comment_set: null,
       comment_count: null,
-      id: null
+      id: null,
+      like_users: []
     }
   },
   created() {
@@ -84,6 +85,30 @@ export default {
         .catch(err => console.log(err))
       
     },
+    // ArticleLike() {
+    //   const like_users = this.like_users
+    //   axios({
+    //     method: 'post',
+    //     url: `${API_URL}/communtiy/articles/${this.$route.params.id}/likes/`,
+    //     headers: {
+    //       Authorization: `Token ${ this.$store.state.token }`
+    //     },
+    //     data: {
+    //       like_users : like_users
+    //     }
+    //   }),
+    //     .then((res) => {
+    //       const isLiked =res.data.is_liked
+    //       const LikeBtn = 
+    //       if (isLiked === true) {
+
+    //       }
+    //       console.log(res)
+    //       location.reload();
+    //     })
+    //     .catch(err => console.log(err))
+
+    // }
     // updateComment() {
     //   this.$router.push({
     //     path:"DetailView",
@@ -94,7 +119,7 @@ export default {
     //  },
 
     }
-  }
+}
 
 </script>
 

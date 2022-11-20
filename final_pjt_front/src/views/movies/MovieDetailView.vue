@@ -1,8 +1,7 @@
 <template>
-  <div>
-    <h1> {{$route.params.id}} </h1>
-    <!-- <h1>{{ movie?.title }}</h1> -->
-    <!-- <img :src="MoviePosterurl+`${movie.poster_path}`" alt=""> -->
+  <div class="body">
+    <h1>{{ movie.title }}</h1>
+    <img :src="MoviePosterurl+`${movie.poster_path}`" alt="">
   </div>
 
 </template>
@@ -18,8 +17,10 @@ export default {
     return {
       movie: null,
       MoviePosterurl: 'https://www.themoviedb.org/t/p/w300_and_h450_bestv2'
-
     }
+  },
+    created() {
+    this.getMovieDetail()
   },
   methods: {
     getMovieDetail() {
@@ -29,8 +30,7 @@ export default {
       })
         .then((res) => {
           console.log(res)
-          console.log(this.$route.params.id)
-          
+          this.movie = res.data
         })
     }
   }
@@ -38,5 +38,8 @@ export default {
 </script>
 
 <style>
-
+.body {
+  padding-top: 75px;
+  /* 생략 */
+}
 </style>

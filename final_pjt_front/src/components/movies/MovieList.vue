@@ -3,10 +3,12 @@
     <h1 class="text-center">Now Playing</h1>
     <div class="row">
       <div class="col-2" v-for="(movie, index) in sortmovies" :key="index">
-        <div class="card" v-if="index <=11">
-          <img class="card-img-top" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
-          <p class="card-text">{{ movie.title }}</p>
-        </div>
+        <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id} }">
+          <div class="card" v-if="index <=11">
+            <img class="card-img-top" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
+            <p class="card-text">{{ movie.title }}</p>
+          </div>
+        </router-link>
       </div>
     </div>
   </div>
@@ -24,9 +26,6 @@ export default {
     }
   },
   computed: {
-    movieurl() {
-      return this.img_url+this.movie.poster_path
-    },
     sortmovies() {
       return _.sortBy(this.movies,'popularity')
     }
@@ -38,6 +37,9 @@ export default {
     getMovies() {
       this.$store.dispatch('getMovies')
     },
+    // goDetail() {
+    //   this.$router.push({ name: 'MovieDetailView' })
+    // }
   }
 }
 

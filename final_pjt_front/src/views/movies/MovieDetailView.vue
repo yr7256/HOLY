@@ -33,6 +33,7 @@ export default {
   data() {
     return {
       movie: null,
+
       MoviePosterurl: "https://www.themoviedb.org/t/p/w300_and_h450_bestv2",
       actors: [],
       actorsLength: 0,
@@ -40,6 +41,9 @@ export default {
   },
   created() {
     this.getMovieDetail();
+  },
+  created() {
+    this.getMovieDetail()
   },
   methods: {
     getMovieDetail() {
@@ -74,5 +78,6 @@ export default {
   padding-top: 75px;
   /* 생략 */
 }
+
 
 </style>

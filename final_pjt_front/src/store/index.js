@@ -34,7 +34,7 @@ export default new Vuex.Store({
     SAVE_TOKEN(state, token){
       state.token = token.key
       state.username = token.username
-      router.push({name: 'ArticleView'})
+      router.push({name: 'MovieView'})
     },
     LOGOUT (state) {
       state.username = null

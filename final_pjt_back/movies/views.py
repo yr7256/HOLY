@@ -1,3 +1,4 @@
+from datetime import date
 from django.shortcuts import render
 from django.db.models import Count
 from rest_framework.response import Response
@@ -9,14 +10,18 @@ from .serializers import MovieSerializer, ActorSerializer, DirectorSerializer, M
 from rest_framework import status
 from django.http import JsonResponse
 
-# Create your views here.
-# movies = Movie.objects.annotate(
-#     like_movie_users_count=Count('like_movie_users', distinct=True))
-
 
 @api_view(['GET'])
 def movie_list(request):
-    movies = Movie.objects.all()
+    # movies = Movie.objects.all()
+    movies = Movie.objects.filter().order_by('popularity')[:30] # 더보기 출력하기 도전
+    serializer = MovieSerializer(movies, many=True)
+    return Response(serializer.data)
+
+
+@api_view(['GET'])
+def new_movie_list(request):
+    movies = Movie.objects.filter(release_date__lte=date.today()).order_by('-release_date', 'popularity')[:12]
     serializer = MovieSerializer(movies, many=True)
     return Response(serializer.data)
 

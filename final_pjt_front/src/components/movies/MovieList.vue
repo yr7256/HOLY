@@ -4,7 +4,8 @@
     <div class="row">
       <div class="col-2" v-for="(movie, index) in sortmovies" :key="index">
         <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id} }">
-          <div class="card" v-if="index <=11">
+          <!-- <div class="card" v-if="index <=11"> -->
+          <div class="card">
             <img class="card-img-top" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
             <p class="card-text">{{ movie.title }}</p>
           </div>

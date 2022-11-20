@@ -46,7 +46,7 @@ const routes = [
     component: SignUpView
   },
   {
-    path:'/mypage',
+    path:'/mypage/:id',
     name:'MyPageView',
     component: MyPageView,
   },

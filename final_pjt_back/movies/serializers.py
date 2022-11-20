@@ -6,7 +6,6 @@ User = get_user_model()
 
 # 전체 영화
 class MovieSerializer(serializers.ModelSerializer):
-    # like_movie_users_count = serializers.IntegerField()
     class Meta:
         model = Movie
         fields = '__all__'

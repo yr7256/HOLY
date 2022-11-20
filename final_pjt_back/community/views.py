@@ -1,3 +1,4 @@
+from django.shortcuts import redirect
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 # Authentication Decorators
@@ -91,3 +92,20 @@ def comment_create(request, article_pk):
     if serializer.is_valid(raise_exception=True):
         serializer.save(article=article)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+
+@api_view(['POST'])
+def likes(request, article_pk):
+    if request.user.is_authenticated:
+        article = get_object_or_404(pk=article_pk)
+        if article.like_user.filter(pk=request.user.pk).exists():
+            article.like_user.remove(request.user)
+            is_liked = False
+        else:
+            article.like_users.add(request.user)
+            is_liked = True
+        context = {
+            'is_liked': is_liked,
+        }
+        return Response(context)
+    return redirect('accounts:login')

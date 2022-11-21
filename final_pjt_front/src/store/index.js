@@ -19,6 +19,7 @@ export default new Vuex.Store({
   state: {
     movies: [],
     articles: [],
+    newmovies: [],
     token: null,
     username: null
   },
@@ -48,6 +49,9 @@ export default new Vuex.Store({
     },
     GET_USERID(state, userid) {
       state.userid = userid
+    },
+    GET_NEW_MOVIES(state, movies) {
+      state.newmovies = movies
     }
   },
   actions: {
@@ -105,6 +109,17 @@ export default new Vuex.Store({
       })
         .then((res) => {
           context.commit('GET_MOVIES', res.data)
+          console.log(res.data)
+        })
+        .catch(err => console.log(err))
+    },
+    getNewMovies(context) {
+      axios({
+        method: 'get',
+        url: `${API_URL}/movies/new/`,
+      })
+        .then((res) => {
+          context.commit('GET_NEW_MOVIES', res.data)
           console.log(res.data)
         })
         .catch(err => console.log(err))

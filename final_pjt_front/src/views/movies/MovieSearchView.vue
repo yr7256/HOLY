@@ -59,12 +59,6 @@ export default {
 
 <style>
 .body {
-  padding-top: 75px;
-  /* 생략 */
+  padding-top: 60px;
 }
-.img {
-  max-width: 100%;
-  transition: all 0.2s linear;
-}
-
 </style>

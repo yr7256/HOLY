@@ -1,28 +1,30 @@
 # from datetime import date
 import datetime
 from django.shortcuts import render
-from django.db.models import Count
+from django.db.models import Count, Q
 from rest_framework.response import Response
-from rest_framework.decorators import api_view, permission_classes
+from rest_framework.decorators import api_view, permission_classes, APIView
 from django.shortcuts import get_object_or_404, get_list_or_404
 from rest_framework.permissions import *
 from .models import Movie, Actor, Director
 from .serializers import MovieSerializer, ActorSerializer, DirectorSerializer, MovieLikeSerialzer
 from rest_framework import status
 from django.http import JsonResponse
+from rest_framework.pagination import PageNumberPagination
 
 
 @api_view(['GET'])
 def movie_list(request):
     # movies = Movie.objects.all()
-    movies = Movie.objects.filter().order_by('popularity')[:30] # 더보기 출력하기 도전
+    movies = Movie.objects.filter().order_by('popularity')[:30]  # 더보기 출력하기 도전
     serializer = MovieSerializer(movies, many=True)
     return Response(serializer.data)
 
 
 @api_view(['GET'])
 def new_movie_list(request):
-    movies = Movie.objects.filter(release_date__lte=(datetime.datetime.now()-datetime.timedelta(weeks=1))).order_by('-release_date', 'popularity')[:12]
+    movies = Movie.objects.filter(release_date__lte=(datetime.datetime.now(
+    )-datetime.timedelta(weeks=1))).order_by('-release_date', 'popularity')[:12]
     serializer = MovieSerializer(movies, many=True)
     return Response(serializer.data)
 
@@ -80,3 +82,27 @@ def movie_like(request, movie_pk):
         'like_movie_users': serializer.data.get('like_movie_users'),
     }
     return JsonResponse(like_movie_register)
+
+
+class StandardResultsSetPagination(PageNumberPagination):
+    page_size = 6
+    page_query_param = 'page'
+
+class MovieListPaginate(APIView):
+
+    def get(self, request):
+        paginator = StandardResultsSetPagination()
+        if request.GET.get('orderBy'):
+            orderBy = request.GET.get('orderBy')
+            movies = Movie.objects.order_by(orderBy)
+        elif request.GET.get('q'):
+            q = request.GET.get('q')
+            movies = Movie.objects.filter(title__icontains=q)
+            serializer = MovieSerializer(movies, many=True)
+            return Response(serializer.data)
+        else :
+            return Response({"message": "no result"})
+
+        result_page = paginator.paginate_queryset(movies,request)
+        serializer = MovieSerializer(result_page, many=True)
+        return Response(serializer.data)

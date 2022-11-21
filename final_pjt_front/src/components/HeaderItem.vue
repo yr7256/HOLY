@@ -7,7 +7,10 @@
           <router-link :to="{ name: 'ArticleView' }">커뮤니티</router-link>
         </div>
         <div class="flex-grow-1 text-end">
-          <h5>{{ $store.state.username }}님 안녕하세요!</h5>
+          <div>
+            <input v-model="searchInput" @keypress.enter="getResult" type="text">
+            <button @click="getResult" style="color:white;">Search</button>
+          </div>
         </div>
         <div class="">
           <router-link :to="{ name: 'MyPageView', params: { id: $store.state.username} }">마이페이지</router-link> |
@@ -33,11 +36,14 @@
 </template>
 
 <script>
+import axios from 'axios'
+const API_URL = 'http://127.0.0.1:8000'
 export default {
   name: 'HeaderItem',
   data () {
     return {
-
+      searchInput: '',
+      resultMovies: [],
     }
   },
   components: {
@@ -51,6 +57,19 @@ export default {
   methods: {
     logout() {
       this.$store.dispatch('logout')
+    },
+    getResult() {
+      const options = {
+        params: {
+          q: this.searchInput,
+        }
+      }
+      axios.get(API_URL + '/movies/search/', options)
+        .then(res => {
+          this.resultMovies = res.data
+          console.log(res.data)
+        })
+        .catch(err => console.error(err.response.data))
     },
   },
 }

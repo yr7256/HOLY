@@ -13,9 +13,14 @@
       <!-- <p class="btn-gradient yellow mini" @click="ArticleLike">좋아요</p> -->
       
       <p>댓글 수 : {{ comment_count }}</p>
+      <hr>
       <div v-for="(comment, index) in comment_set" :key='index'>
-        <p>댓글 내용: {{ comment.content }}</p>
+        <p>작성자: {{ comment.comment_user.username }}</p>
+        <span>
+          댓글 내용: {{ comment.content }}
+        </span>
         <p @click="deleteComment(comment.id)" class="btn-gradient yellow mini">삭제</p><br>
+        <hr>
       </div>
   </div>
     <CommentCreate/>
@@ -31,7 +36,6 @@ const API_URL = 'http://127.0.0.1:8000'
 
 export default {
   name: 'DetailView',
- 
   data() {
     return {
       article: null,
@@ -83,7 +87,6 @@ export default {
         location.reload();
         })
         .catch(err => console.log(err))
-      
     },
     // ArticleLike() {
     //   const like_users = this.like_users

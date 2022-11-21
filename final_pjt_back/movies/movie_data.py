@@ -7,7 +7,7 @@ def get_movie_datas():
     total_data = []
 
     # 1페이지부터 500페이지까지의 데이터를 가져옴.
-    for i in range(1, 10):
+    for i in range(1, 11):
         # request_url = f"https://api.themoviedb.org/3/movie/popular?api_key={TMDB_API_KEY}&language=ko-KR&page={i}"
         request_url = f"https://api.themoviedb.org/3/movie/now_playing?api_key={TMDB_API_KEY}&language=ko-KR&page={i}"
         movies = requests.get(request_url).json()
@@ -44,7 +44,7 @@ def get_movie_datas():
         people = f"https://api.themoviedb.org/3/movie/{temp['pk']}/credits?api_key={TMDB_API_KEY}&language=ko-KR"
         people_list = requests.get(people).json()
         for actor in people_list['cast']:
-            if actor['order'] < 10:
+            if actor['order'] < 5:
                 temp['fields']['actors'].append(actor['id'])
                 actor_fields = {
                     'name': actor['name'],

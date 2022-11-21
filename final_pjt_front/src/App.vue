@@ -20,10 +20,14 @@ export default ({
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
   color: #2c3e50;
+  width: 100%;
+  min-width: 600px;
 }
 
 nav {
   padding: 30px;
+  width: 100%;
+  min-width: 600px;
 }
 
 nav a {

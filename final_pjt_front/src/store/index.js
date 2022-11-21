@@ -57,7 +57,9 @@ export default new Vuex.Store({
     },
     GET_NEW_MOVIES(state, movies) {
       state.newmovies = movies
-    }
+    },
+    
+
   },
   actions: {
     getArticles(context) {
@@ -145,6 +147,7 @@ export default new Vuex.Store({
         })
         .catch(err => console.log(err))
     },
+    
   },
   modules: {
   }

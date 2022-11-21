@@ -128,7 +128,6 @@ export default {
 
 <style>
 .body {
-  padding-top: 75px;
-  /* 생략 */
+  padding-top: 60px;
 }
 </style>

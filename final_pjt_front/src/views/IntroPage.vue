@@ -52,6 +52,7 @@ window.addEventListener("load", function(){
   background-position: center;  
   background-attachment: fixed; 
   overflow: hidden; 
+  z-index: 1500;
 }
 
 .test {
@@ -77,5 +78,6 @@ window.addEventListener("load", function(){
   top: -120px;
   left: -120px;
   transform: translate(var(--x),var(--y));
+  z-index: 1600;
 }
 </style>

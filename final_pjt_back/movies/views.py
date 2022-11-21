@@ -1,4 +1,5 @@
-from datetime import date
+# from datetime import date
+import datetime
 from django.shortcuts import render
 from django.db.models import Count
 from rest_framework.response import Response
@@ -21,7 +22,7 @@ def movie_list(request):
 
 @api_view(['GET'])
 def new_movie_list(request):
-    movies = Movie.objects.filter(release_date__lte=date.today()).order_by('-release_date', 'popularity')[:12]
+    movies = Movie.objects.filter(release_date__lte=(datetime.datetime.now()-datetime.timedelta(weeks=1))).order_by('-release_date', 'popularity')[:12]
     serializer = MovieSerializer(movies, many=True)
     return Response(serializer.data)
 

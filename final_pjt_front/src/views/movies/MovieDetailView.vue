@@ -3,17 +3,19 @@
     <h1>{{ movie?.title }}</h1>
     <img :src="MoviePosterurl + `${movie.poster_path}`" @error="noPosterImg" />
     <p>{{ movie?.release_date }}</p>
-    <hr />
-    <!-- <div v-for="(name, index) in movie.actors" :key="index" > -->
-    <!-- <div v-if="actors.id = movie.actors">
-      <p v-for="(name, index) in movie.actors" :key="index">{{ name }}</p>
-    </div> -->
-    <!-- <p> {{ sameId }} </p> -->
-    <!-- </div> -->
+    <hr>
+    <form action="">
+      <span @click="LikeMovie" v-if="!hasuser">
+        <img src="@/assets/fullheart.png" alt="" style="width: 20px">
+      </span>
+      <span style="color: #ea4335" @click="LikeMovie" v-else>
+        <img src="@/assets/emptyheart.png" alt="" style="width: 20px">
+      </span>
+    <!-- <button @click="LikeMovie">좋아요</button> -->
+    </form>
     
-    <!-- <div v-if="actorsLength == actors.length"> -->
-
-    <!-- <div class="row row-cols-auto row-cols-md-3 g-2"> -->
+    <hr>
+  
       <div class="col" v-for="(name, index) in directors" :key="index">
         <div class="card h-80 w-80">
           <a :href="personDetailurl + `${name.id}`">
@@ -66,12 +68,16 @@ export default {
       actors: [],
       actorsLength: 0,
       personDetailurl: "https://www.themoviedb.org/person/",
-      directors: []
+      directors: [],
+      hasuser: true
     };
   },
   created() {
     this.getActorList();
     this. getDirectorList();
+  },
+  components: {
+    
   },
   methods: {
     getActorList() {
@@ -127,10 +133,29 @@ export default {
       },
       noPosterImg(e) {
         e.target.src = posterimg
+      },
+      LikeMovie() {
+        // const hasuser = this.hasuser
+        axios({
+          method: 'post',
+          url: `${API_URL}/movies/${this.$route.params.id}/like/`,
+          data: {
+            // hasuser : hasuser
+          },
+          headers: {
+            Authorization: `Token ${this.$store.state.token }`
+          }
+        })
+          .then((res) => {
+            console.log(res)
+            console.log(this.hasuser)
+            this.hasuser = !this.hasuser
+          })
+          .catch(err => console.log(err))
       }
-
   },
 }
+
 </script>
 
 <style>

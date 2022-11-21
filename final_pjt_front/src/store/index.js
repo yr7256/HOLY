@@ -27,6 +27,7 @@ export default new Vuex.Store({
     isLogin(state) {
       return state.token ? true : false
     },
+
   },
   mutations: {
     GET_ARTICLES(state, articles) {

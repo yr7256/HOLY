@@ -22,13 +22,16 @@ export default new Vuex.Store({
     newmovies: [],
     resultMovies: [],
     token: null,
-    username: null
+    username: null,
+    heart: false
   },
   getters: {
     isLogin(state) {
       return state.token ? true : false
     },
-
+    isheart(state) {
+      return state.heart ? true : false
+    },
   },
   mutations: {
     GET_ARTICLES(state, articles) {
@@ -141,7 +144,7 @@ export default new Vuex.Store({
           // location.reload();
         })
         .catch(err => console.log(err))
-    }
+    },
   },
   modules: {
   }

@@ -1,11 +1,11 @@
 <template>
   <div class="body">
     <h1>{{ movie?.title }}</h1>
-    <img :src="MoviePosterurl + `${movie.poster_path}`" @error="noPosterImg" />
+    <img :src="MoviePosterurl + `${movie?.poster_path}`" @error="noPosterImg" />
     <p>{{ movie?.release_date }}</p>
     <hr>
     <form action="">
-      <span @click="LikeMovie" v-if="!hasuser">
+      <span @click="LikeMovie" v-if="isheart">
         <img src="@/assets/fullheart.png" alt="" style="width: 20px">
       </span>
       <span style="color: #ea4335" @click="LikeMovie" v-else>
@@ -15,24 +15,24 @@
     </form>
     
     <hr>
-  
-      <div class="col" v-for="(name, index) in directors" :key="index">
-        <div class="card h-80 w-80">
+    <h3>Directing</h3>
+      <div class="row" v-for="(name, index) in directors" :key="index">
+        <div class="col-2 card">
           <a :href="personDetailurl + `${name.id}`">
-            <img class="card-img-top" style="width:100px; height:100px;" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noDirectorImg">
+            <img class="card-img-top" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noDirectorImg">
           </a>
           <div class="card-body">
             <p class="card-title">{{ name.name }}</p>
           </div>
         </div>
       </div>
-    <!-- </div> -->
     <br>
-    <div class="row row-cols-auto row-cols-md-3 g-2">
-      <div class="col" v-for="(name, index) in actors" :key="index">
-        <div class="card h-80 w-80">
+    <h3>Casting</h3>
+    <div class="row">
+      <div class="col-2" v-for="(name, index) in actors" :key="index">
+        <div class="card">
           <a :href="personDetailurl + `${name.id}`">
-            <img class="card-img-top" style="width:100px; height:100px;" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noImage">
+            <img class="card-img-top" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noImage">
           </a>
           <div class="card-body">
             <p class="card-title">{{ name.name }}</p>
@@ -69,12 +69,17 @@ export default {
       actorsLength: 0,
       personDetailurl: "https://www.themoviedb.org/person/",
       directors: [],
-      hasuser: true
+      // hasuser: true
     };
   },
   created() {
     this.getActorList();
-    this. getDirectorList();
+    this.getDirectorList();
+  },
+  computed: {
+    isheart() {
+      return this.$store.getters.isheart
+    },
   },
   components: {
     
@@ -135,21 +140,20 @@ export default {
         e.target.src = posterimg
       },
       LikeMovie() {
-        // const hasuser = this.hasuser
         axios({
           method: 'post',
           url: `${API_URL}/movies/${this.$route.params.id}/like/`,
           data: {
-            // hasuser : hasuser
           },
           headers: {
             Authorization: `Token ${this.$store.state.token }`
           }
         })
           .then((res) => {
-            console.log(res)
-            console.log(this.hasuser)
-            this.hasuser = !this.hasuser
+            console.log(res.data.like_movie_users)
+            
+            this.$store.state.heart = !this.$store.state.heart
+            console.log(this.$store.state.heart)
           })
           .catch(err => console.log(err))
       }

@@ -77,8 +77,8 @@ export default {
       axios.get(API_URL + '/movies/search/', options)
         .then(res => {
           this.$store.state.resultMovies = res.data
-          console.log(this.$store.state.resultMovies)
-          this.$router.push( {name: 'MovieSearchView'} )
+          console.log(res.data)
+          this.$router.push({name: 'MovieSearchView'})
         })
         .catch(err => console.error(err.response.data))
     },

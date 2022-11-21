@@ -15,17 +15,45 @@
 </template>
 
 <script>
-// import axios from 'axios'
-// const API_URL = 'http://127.0.0.1:8000'
+import axios from 'axios'
+const API_URL = 'http://127.0.0.1:8000'
+import posterimg from '@/assets/noposterimg.png'
+
 
 export default {
   name: 'MovieSearchView',
   data() {
     return {
-      resultMovies: this.$store.state.resultMovies,
-      MoviePosterurl: 'https://www.themoviedb.org/t/p/w300_and_h450_bestv2'
+      // movie: null,
+      MoviePosterurl: 'https://www.themoviedb.org/t/p/w300_and_h450_bestv2',
+      MovieDetailPage: 'http://localhost:8080/movies/'
     }
   },
+  created() {
+    this.searchMovie()
+
+  },
+  methods: {
+    searchMovie() {
+      axios({
+        methods: "get",
+        url: `${API_URL}/movies/search/`,
+        headers: {
+          Authorization: `Token ${ this.$store.state.token }`
+        }
+      })
+        .then((res) => {
+          this.movie = res.data
+          console.log(res)
+          
+        })
+        .catch(err => console.log(err))  
+    },
+    noPosterImg(e) {
+        e.target.src = posterimg
+      },
+
+  }
 }
 </script>
 
@@ -33,6 +61,10 @@ export default {
 .body {
   padding-top: 75px;
   /* 생략 */
+}
+.img {
+  max-width: 100%;
+  transition: all 0.2s linear;
 }
 
 </style>

@@ -10,6 +10,7 @@
           <div>
             <input v-model="searchInput" @keypress.enter="getResult" type="text">
             <button @click="getResult" style="color:white;">Search</button>
+            <!-- <searchListItem/> -->
           </div>
         </div>
         <div class="">
@@ -38,6 +39,8 @@
 <script>
 import axios from 'axios'
 const API_URL = 'http://127.0.0.1:8000'
+// import searchListItem from '@/movies/searchListItem.vue'
+
 export default {
   name: 'HeaderItem',
   data () {
@@ -47,6 +50,7 @@ export default {
     }
   },
   components: {
+    // searchListItem
 
   },
   computed: {
@@ -71,6 +75,7 @@ export default {
         })
         .catch(err => console.error(err.response.data))
     },
+  
   },
 }
 </script>

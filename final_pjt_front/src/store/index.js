@@ -20,6 +20,7 @@ export default new Vuex.Store({
     movies: [],
     articles: [],
     newmovies: [],
+    resultMovies: [],
     token: null,
     username: null
   },

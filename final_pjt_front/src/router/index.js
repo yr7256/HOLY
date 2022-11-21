@@ -11,6 +11,7 @@ import DetailView from '@/views/Community/DetailView'
 import UpdateView from '@/views/Community/UpdateView'
 import MyPageView from '@/views/Account/MyPageView'
 import MovieDetailView from '@/views/movies/MovieDetailView'
+import MovieSearchView from '@/views/movies/MovieSearchView'
 
 Vue.use(VueRouter)
 
@@ -24,6 +25,11 @@ const routes = [
     path: '/movies',
     name: 'MovieView',
     component: MovieView
+  },
+  {
+    path: '/movies/search',
+    name: 'MovieSearch',
+    component: MovieSearchView
   },
   {
     path: '/movies/:id',

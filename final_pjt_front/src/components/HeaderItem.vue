@@ -10,7 +10,6 @@
           <div>
             <input v-model="searchInput" @keypress.enter="getResult" type="text">
             <button @click="getResult" style="color:white;">Search</button>
-            <!-- <searchListItem/> -->
           </div>
         </div>
         <div class="">
@@ -22,11 +21,17 @@
     </div>
     <div id="head" v-else>
       <nav class="d-flex head">
-        <div class="col">
+        <div class="">
           <router-link :to="{ name: 'MovieView' }">메인</router-link> |
           <router-link :to="{ name: 'ArticleView' }">커뮤니티</router-link>
         </div>
-        <div class="col-2 text-end">
+        <div class="flex-grow-1 text-end">
+          <div>
+            <input v-model="searchInput" @keypress.enter="getResult" type="text">
+            <button @click="getResult" style="color:white;">Search</button>
+          </div>
+        </div>
+        <div class="">
           <router-link :to="{ name: 'LoginView' }">로그인</router-link> |
           <router-link :to="{ name: 'SignUpView' }">회원가입</router-link>
         </div>
@@ -63,6 +68,7 @@ export default {
       this.$store.dispatch('logout')
     },
     getResult() {
+      this.$store.dispatch('getResult')
       const options = {
         params: {
           q: this.searchInput,
@@ -76,8 +82,8 @@ export default {
         })
         .catch(err => console.error(err.response.data))
     },
-  
   },
+
 }
 </script>
 

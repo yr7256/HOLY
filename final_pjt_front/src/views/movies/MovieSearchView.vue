@@ -1,11 +1,15 @@
 <template>
   <div>
     <h1 class="body">검색하신 영화는 다음과 같습니다.</h1>
-    <div v-for="(pk, index) in $store.state.resultMovies" :key="index" @error="noPosterImg">
-      <a :href="MovieDetailPage + `${pk.id}`">
-        <img :src="MoviePosterurl+`${pk.poster_path}`" alt="" >
-      </a>
-      <p>{{ pk.title }}</p>
+    <div class="row">
+      <div class="col-2" v-for="(movie, index) in $store.state.resultMovies" :key="index">
+        <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }">
+          <div class="card">
+            <img class="" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
+            <p class="">{{ movie.title }}</p>
+          </div>
+        </router-link>
+      </div>
     </div>
   </div>
 </template>
@@ -14,6 +18,7 @@
 import axios from 'axios'
 const API_URL = 'http://127.0.0.1:8000'
 import posterimg from '@/assets/noposterimg.png'
+
 
 export default {
   name: 'MovieSearchView',
@@ -49,8 +54,6 @@ export default {
       },
 
   }
-  
-
 }
 </script>
 

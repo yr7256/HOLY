@@ -2,7 +2,7 @@
   <div class="body">
     <h1>게시글 작성</h1>
     <p>{{ article }}</p>
-    <form @submit.prevent="updateArticle">
+    <form @keyup.enter="updateArticle">
       <label for="title">제목 : </label>
       <input type="text" id="title" v-model.trim="title"><br>
       <label for="content">내용 : </label>

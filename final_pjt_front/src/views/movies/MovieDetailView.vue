@@ -1,7 +1,7 @@
 <template>
   <div class="body">
-    <div class="container bg-black">
-      <div class="card bg-black mb-3 mt-2">
+    <div class="container contain">
+      <!-- <div class="card bg-black mb-3 mt-2"> -->
         <div class="row g-0">
           <div class="col-md-4">
             <img :src="MoviePosterurl + `${movie?.poster_path}`" @error="noPosterImg"/>
@@ -10,7 +10,7 @@
             <div class="card-body mt-5" style="text-align:left;">
               <h1>{{ movie?.title }}</h1>
               <h4>{{ movie?.release_date }}</h4>
-              <form action="">
+              <form action="" style="text-align: left;">
                 <span @click="LikeMovie" v-if="isheart">
                   <img src="@/assets/fullheart.png" alt="" style="width: 20px" >
                 </span>
@@ -21,84 +21,60 @@
               <br> 
               <p class = "overview">{{movie?.overview}}</p>
             <br>
-          </div>
-        </div>
-      </div>
-
-    <hr>
-    <h3>Directing</h3>
-      <div class="row movie-list">
-        <div class="col-1 movie-item gy-3" v-for="(name, index) in directors" :key="index">
-          <div class="card">
-            <a :href="personDetailurl + `${name.id}`">
-              <img class="card-img-top" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noDirectorImg">
+            <a :href="wavveUrl + `${movie?.title}`" style="margin-right: 10px">
+              <img src="@/assets/wavve.jpg" alt="" style="width: 70px ;">
             </a>
-              <div class="card-body">
-                <p class="card-title">{{ name.name }}</p>
-            </div>
+            <a :href="seeznUrl + `${movie?.title}`">
+              <img src="@/assets/seezn.jpg" alt="" style="width: 70px">
+            </a>
           </div>
         </div>
       </div>
-    <!-- </div> -->
-    <!-- </div> -->
-    <hr>
     <br>
-    <div class="container bg-black">
+    <br>
+    <div class="container contain">
       <br>
 
       <h3>감독</h3>
-        <div class="row movie-list">
-        
-        <div class="col-2 movie-item gy-3" v-for="(name, index) in directors" :key="index">
-          <div class="card bg-black ms-5">
-            <a :href="personDetailurl + `${name.id}`">
-              <figure class="snip1384" >
-                <img class="card-img-top" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noDirectorImg">
-                <!-- <div class="card-img-overlay"> -->
-                <figcaption>
-                <p>{{ name.name }}</p>
-              </figcaption>
-              <!-- </div> -->
-
-              </figure>
-            </a>
-          
+        <div class="row movie-list ">
+          <div class="contain col-2 movie-item gy-3" v-for="(name, index) in directors" :key="index">
+            <!-- <div class="card ms-5"> -->
+              <a :href="personDetailurl + `${name.id}`">
+                <figure class="snip1384" >
+                  <img class="card-img-top" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noDirectorImg">
+                  <figcaption>
+                  <p>{{ name.name }}</p>
+                </figcaption>
+                </figure>
+              </a>
+            
+            <!-- </div> -->
           </div>
         </div>
       </div>
-    </div>
       
+    
+    <div class="container contain">
 
-    <h3>출연</h3>
-      <div class="row movie-list">
-        <div class="col-2 movie-item gy-3" v-for="(name, index) in actors" :key="index">
-          <div class="card bg-black ms-5">
-            <a :href="personDetailurl + `${name.id}`">
-              <figure class="snip1384" >
-                <img class="card-img" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noImage">
-              <figcaption>
-                <p>{{ name.name }}</p>
-              </figcaption>
-              </figure>
-            </a>
-            
+      <h3>출연</h3>
+        <div class="row movie-list ">
+          <div class="col-2 movie-item gy-2" v-for="(name, index) in actors" :key="index">
+            <!-- <div class="card bg-black ms-5"> -->
+              <a :href="personDetailurl + `${name.id}`">
+                <figure class="snip1384" >
+                  <img class="card-img" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noImage">
+                <figcaption>
+                  <p>{{ name.name }}</p>
+                </figcaption>
+                </figure>
+              </a>
+              
+              <!-- </div> -->
             </div>
           </div>
         </div>
-      </div>
-      
     </div>
   </div>
-    
-    <!-- </div> -->
-  <!-- </div> -->
-      
-
-      <!-- <div v-for="(name, index) in movie.actors" :key="index">{{ getActorname(name) }} </div> -->
-      <!-- <div v-for="(name, index) in movie.directors" :key="index"> -->
-      <!-- <p>{{ name }}</p> -->
-      <!-- </div> -->
-      
 </template>
 
 <script>
@@ -118,6 +94,8 @@ export default {
       actorsLength: 0,
       personDetailurl: "https://www.themoviedb.org/person/",
       directors: [],
+      wavveUrl: "https://www.wavve.com/search?searchWord=",
+      seeznUrl: "https://www.seezntv.com/search?category_id=all&sort=AC&keywords="
       // hasuser: true
     };
   },
@@ -214,17 +192,23 @@ export default {
 <style>
 .body {
   padding-top: 60px;
+
+}
+.contain {
+  background-color: #151515;
 }
 img {
   /* float:left */
   margin-top: 2px;
   justify-content: center;
 }
-overview {
+.overview {
   word-break: keep-all;
   word-wrap: break-word;
 
 }
+
+
 h3 {
   margin-top: 5px;
 }
@@ -252,7 +236,7 @@ figure.snip1384 * {
   transition: all 0.35s ease;
 }
 figure.snip1384 img {
-  max-width: 160px;
+  max-width: 140px;
   max-height: 240px;
   backface-visibility: hidden;
   vertical-align: middle;

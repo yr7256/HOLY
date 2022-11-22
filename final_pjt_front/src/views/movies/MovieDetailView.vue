@@ -16,30 +16,32 @@
     
     <hr>
     <h3>Directing</h3>
-      <div class="row" v-for="(name, index) in directors" :key="index">
-        <div class="col-2 card">
-          <a :href="personDetailurl + `${name.id}`">
-            <img class="card-img-top" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noDirectorImg">
-          </a>
-          <div class="card-body">
-            <p class="card-title">{{ name.name }}</p>
+      <div class="row movie-list">
+        <div class="col-1 movie-item gy-3" v-for="(name, index) in directors" :key="index">
+          <div class="card">
+            <a :href="personDetailurl + `${name.id}`">
+              <img class="card-img-top" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noDirectorImg">
+            </a>
+            <div class="card-body">
+              <p class="card-title">{{ name.name }}</p>
+            </div>
           </div>
         </div>
       </div>
     <br>
     <h3>Casting</h3>
-    <div class="row">
-      <div class="col-2" v-for="(name, index) in actors" :key="index">
-        <div class="card">
-          <a :href="personDetailurl + `${name.id}`">
-            <img class="card-img-top" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noImage">
-          </a>
-          <div class="card-body">
-            <p class="card-title">{{ name.name }}</p>
+      <div class="row movie-list">
+        <div class="col-1 movie-item gy-3" v-for="(name, index) in actors" :key="index">
+          <div class="card">
+            <a :href="personDetailurl + `${name.id}`">
+              <img class="card-img-top" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noImage">
+            </a>
+            <div class="card-body">
+              <p class="card-title">{{ name.name }}</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     
 
       <!-- <div v-for="(name, index) in movie.actors" :key="index">{{ getActorname(name) }} </div> -->

@@ -5,8 +5,8 @@
       <div class="col-2 movie-item gy-3" v-for="(movie, index) in movies" :key="index">
         <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }">
           <!-- <div class="card" v-if="index <=11"> -->
-          <div class="">
-            <img class="card-img-top" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
+          <div class="card">
+            <img class="card-img" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
             <!-- <p class="card-text">{{ movie.title }}</p> -->
           </div>
         </router-link>
@@ -16,8 +16,8 @@
     <div class="row movie-list">
       <div class="col-2 movie-item gy-3" v-for="(movie, index) in sortnewmovies" :key="index">
         <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }">
-          <div class="">
-            <img class="card-img-top" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
+          <div class="card">
+            <img class="card-img" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
             <!-- <p class="card-text">{{ movie.title }}</p> -->
           </div>
         </router-link>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class = "nav.font">
     <div id="head" v-if="isLogin" > 
       <nav class="head navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -96,6 +96,7 @@ export default {
 </script>
 
 <style>
+
 
 </style>
 

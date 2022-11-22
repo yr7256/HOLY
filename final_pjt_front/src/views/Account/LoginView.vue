@@ -12,7 +12,7 @@
      
     </form>
   </div> -->
-<div class="padding">
+<div class="padding mt-5">
   <div class="cont body">
     <form class="form sign-in" @submit.prevent="logIn">
       <h2>Welcome back</h2>
@@ -45,7 +45,7 @@
     <form class="form sign-up" @submit.prevent="signUp">
       <h2>Time to feel like home</h2>
       <label>
-        <span>Userid</span>
+        <span>Username</span>
         <input type="text" v-model="username"/>
       </label>
       <br>
@@ -121,7 +121,7 @@ form {
   text-align: center;
 }
 .btn-margin {
-  margin-left: 160px;
+  margin-left: 160px !important;
 }
 </style>
 

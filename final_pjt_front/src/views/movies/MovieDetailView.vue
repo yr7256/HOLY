@@ -34,12 +34,10 @@
     <br>
     <div class="container contain">
       <br>
-
-      <h3>감독</h3>
-        <div class="row movie-list ">
-          <div class="contain col-2 movie-item gy-3" v-for="(name, index) in directors" :key="index">
-            <!-- <div class="card ms-5"> -->
-              <a :href="personDetailurl + `${name.id}`">
+      <h3 class="me-5">감독</h3>
+        <div class="row movie-list">
+          <div class="contain col-2 movie-item gy-3 mx-auto" v-for="(name, index) in directors" :key="index">
+              <a class :href="personDetailurl + `${name.id}`">
                 <figure class="snip1384" >
                   <img class="card-img-top" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noDirectorImg">
                   <figcaption>
@@ -47,8 +45,6 @@
                 </figcaption>
                 </figure>
               </a>
-            
-            <!-- </div> -->
           </div>
         </div>
       </div>
@@ -56,10 +52,9 @@
     
     <div class="container contain">
 
-      <h3>출연</h3>
-        <div class="row movie-list ">
-          <div class="col-2 movie-item gy-2" v-for="(name, index) in actors" :key="index">
-            <!-- <div class="card bg-black ms-5"> -->
+      <h3 class="me-5">출연</h3>
+        <div class="row movie-list">
+          <div class="col-2 movie-item gy-2 mx-auto" v-for="(name, index) in actors" :key="index">
               <a :href="personDetailurl + `${name.id}`">
                 <figure class="snip1384" >
                   <img class="card-img" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noImage">
@@ -68,11 +63,9 @@
                 </figcaption>
                 </figure>
               </a>
-              
-              <!-- </div> -->
-            </div>
           </div>
         </div>
+      </div>
     </div>
   </div>
 </template>

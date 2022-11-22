@@ -1,10 +1,10 @@
 <template>
   <div>
     <h1>댓글 작성</h1>
-    <form @submit.prevent="createComment" @keyup.enter="createComment">
+    <form class="comment" @submit.prevent="createComment" @keyup.enter="createComment">
       <label class="form-label" for="content">내용</label>
-      <textarea class="form-control" id="content" cols="30" rows="2" v-model="content"></textarea><br>
-      <button class="btn-gradient yellow mini" type="submit" id="submit">제출</button>
+      <input class="form-control inputtag" id="content" cols="30" rows="2" v-model="content"><br>
+      <button class="btn-gradient yellow mini btn-size" type="submit" id="submit">제출</button>
     </form>
   </div>
 </template>
@@ -47,4 +47,7 @@ export default {
 </script>
 
 <style>
+.comment {
+  width: 400px;
+}
 </style>

@@ -1,8 +1,8 @@
 <template>
   <div class="body">
-    <h1>게시판</h1>
+    <h1 class="ms-5">커뮤니티</h1>
     <ArticleList/>
-    <button @click="getCreate" class="btn-gradient yellow btn-size">글쓰기</button>
+    <button @click="getCreate" class="btn-gradient yellow btn-size btn-margin2">글쓰기</button>
   </div>
 </template>
 
@@ -45,8 +45,7 @@ export default {
 .body {
   padding-top: 60px;
 }
-.btn-size {
-  width: 120px;
-  height: 50px;
+.btn-margin2 {
+  margin-left: 46.8% !important;
 }
 </style>

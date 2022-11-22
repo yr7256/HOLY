@@ -3,6 +3,7 @@
 @import "./colors.scss";
 @import "./login.scss";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Fraunces:opsz@9..144&display=swap');
 
 .page {
   padding-top: 60px;
@@ -63,6 +64,8 @@ a {
 
 body {
   font-family: 'Noto Sans KR', sans-serif !important;
+  // font-family: 'Frank Ruhl Libre', serif;
+  // font-family: 'Fraunces', serif;
   background-color: #151515 !important;
   min-height: 100vh;
 }

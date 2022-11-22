@@ -24,8 +24,11 @@
             <a :href="wavveUrl + `${movie?.title}`" style="margin-right: 10px">
               <img src="@/assets/wavve.jpg" alt="" style="width: 70px ;">
             </a>
-            <a :href="seeznUrl + `${movie?.title}`">
-              <img src="@/assets/seezn.jpg" alt="" style="width: 70px">
+            <a :href="seeznUrl + `${movie?.title}`" style="margin-right: 10px">
+              <img src="@/assets/seezn.jpg" alt="" style="width: 65px">
+            </a>
+            <a :href="appletvUrl + `${movie?.title}`" >
+              <img src="@/assets/appletv.jpg" alt="" style="width: 68px ;">
             </a>
           </div>
         </div>
@@ -95,7 +98,8 @@ export default {
       personDetailurl: "https://www.themoviedb.org/person/",
       directors: [],
       wavveUrl: "https://www.wavve.com/search?searchWord=",
-      seeznUrl: "https://www.seezntv.com/search?category_id=all&sort=AC&keywords="
+      seeznUrl: "https://www.seezntv.com/search?category_id=all&sort=AC&keywords=",
+      appleUrl: "https://tv.apple.com/search?term="
       // hasuser: true
     };
   },

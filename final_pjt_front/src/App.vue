@@ -15,28 +15,27 @@ export default ({
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
-  color: #2c3e50;
+  color: white;
   width: 100%;
   min-width: 600px;
 }
 
-nav {
+/* nav {
   padding: 30px;
   width: 100%;
   min-width: 600px;
-}
+} */
 
-nav a {
+/* nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: white;
   text-decoration: none;
-}
+} */
 
-nav a.router-link-exact-active {
-  color: #2c3e50;
-}
+/* nav a.router-link-exact-active {
+  color: white;
+} */
 </style>

@@ -6,13 +6,13 @@
       <h2>좋아요 한 영화</h2>
       <favoriteMovie/>
       <!-- <p>{{ userinfo.like_movies }}</p> -->
-      <div class="row">
-        <div class="col-2" v-for="(movie, index) in userinfo.like_movies" :key="index">
+      <div class="row movie-list">
+        <div class="col-2 movie-item gy-3" v-for="(movie, index) in userinfo.like_movies" :key="index">
           <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }">
             <!-- <div class="card" v-if="index <=11"> -->
-            <div class="card">
-              <img class="card-img-top" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
-              <p class="card-text">{{ movie.title }}</p>
+            <div class="card item-border">
+              <img class="card-img" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
+              <!-- <p class="card-text">{{ movie.title }}</p> -->
             </div>
           </router-link>
         </div>

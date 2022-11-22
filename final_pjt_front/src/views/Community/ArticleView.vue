@@ -2,7 +2,7 @@
   <div class="body">
     <h1>게시판</h1>
     <ArticleList/>
-    <button @click="getCreate" class="btn-gradient yellow">글쓰기</button>
+    <button @click="getCreate" class="btn-gradient yellow btn-size">글쓰기</button>
   </div>
 </template>
 
@@ -44,5 +44,9 @@ export default {
 <style>
 .body {
   padding-top: 60px;
+}
+.btn-size {
+  width: 120px;
+  height: 50px;
 }
 </style>

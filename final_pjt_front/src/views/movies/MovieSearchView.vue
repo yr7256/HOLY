@@ -4,7 +4,7 @@
     <div class="row movie-list">
       <div class="col-2 movie-item gy-3" v-for="(movie, index) in $store.state.resultMovies" :key="index">
         <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }">
-          <div class="card">
+          <div class="card item-border">
             <img class="card-img" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
             <!-- <p class="">{{ movie.title }}</p> -->
           </div>

@@ -1,12 +1,12 @@
 <template>
   <div class="body">
     <h1>게시글 작성</h1>
-    <div class="mx-auto">
+    <div class="mx-auto articleboxcolor">
       <form class="size" @submit.prevent="createArticle" @keyup.enter="createArticle">
         <label for="title">제목</label>
-        <input class="form-control" placeholder="제목을 입력해주세요" type="text" id="title" v-model.trim="title"><br>
+        <input class="form-control mt-3 inputtag" placeholder="제목을 입력해주세요" type="text" id="title" v-model.trim="title"><br>
         <label for="content">내용</label>
-        <textarea class="form-control" placeholder="내용을 입력해주세요" id="content" cols="30" rows="10" v-model="content"></textarea><br>
+        <textarea class="form-control mt-3" placeholder="내용을 입력해주세요" id="content" cols="30" rows="15" v-model="content"></textarea><br>
         <button class="btn-gradient yellow btn-size">제출</button>
         <router-link :to="{ name: 'ArticleView' }"><button class="btn-gradient yellow btn-size">뒤로가기</button></router-link>
       </form>
@@ -62,12 +62,14 @@ export default {
 .body {
   padding-top: 60px;
 }
-.btn-size {
-  width: 120px;
-  height: 50px;
-}
 .size {
   width: 50%;
   margin: auto;
+  font-size: 25px;
+}
+.articleboxcolor {
+  background-color: black;
+  width: 1200px;
+  height: 750px;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="article-list">
-    <h3>게시글</h3>
+    <h3>게시판</h3>
     <hr>
     <ArticleListItem
       v-for="article in articles"

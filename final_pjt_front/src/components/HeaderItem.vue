@@ -2,7 +2,7 @@
   <div id="head" v-if="isLogin"> 
     <nav class="head navbar navbar-expand-lg">
       <div class="container-fluid">
-        <span class="navbar-brand ms-4">
+        <span class="navbar-brand ms-5">
           <router-link :to="{ name: 'MovieView' }">
             <img src="@/assets/navlogo.png" alt="" class="mx-auto logo">
           </router-link>
@@ -18,7 +18,7 @@
         <span class="navbar-brand me-4">
           <router-link :to="{ name: 'MyPageView', params: { id: $store.state.username} }">마이페이지</router-link>
         </span>
-        <span class="navbar-brand me-4">
+        <span class="navbar-brand me-5">
           <router-link @click.native="logout" :to="{ name: 'LoginView' }">로그아웃</router-link>
         </span>
       </div>
@@ -28,17 +28,17 @@
   <div id="head" v-else>
     <nav class="d-flex head navbar navbar-expand-lg">
       <div class="container-fluid">
-        <span class="navbar-brand">
+        <span class="navbar-brand ms-5">
           <router-link :to="{ name: 'MovieView' }">메인</router-link>
         </span>
-        <span class="navbar-brand">
+        <span class="navbar-brand ms-2">
           <router-link :to="{ name: 'ArticleView' }">커뮤니티</router-link>
         </span>
         <div class="d-flex justify-content-end flex-grow-1">
           <input class="form-control me-5 w-25" v-model="searchInput" @keypress.enter="getResult" placeholder="Search" aria-label="Search">
           <!-- <button @click="getResult" class="btn btn-light">Search</button> -->
         </div>
-        <span class="navbar-brand">
+        <span class="navbar-brand me-5">
           <router-link :to="{ name: 'LoginView' }">로그인</router-link>
         </span>
         <!-- <span class="navbar-brand">

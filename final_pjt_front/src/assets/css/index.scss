@@ -57,3 +57,19 @@
 .movie-item:hover  .movie-item {
   transform: translateX(25%);
 }
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif !important;
+  background-color: #151515 !important;
+  min-height: 100vh;
+}
+
+.item-border {
+  // border-color: #151515 !important;
+  border-style: none !important;
+}

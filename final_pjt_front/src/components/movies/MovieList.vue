@@ -124,7 +124,7 @@ figure.snip1384:after {
   opacity: 0;
 }
 figure.snip1384 figcaption {
-  max-width: 130px;
+  max-width: 140px;
   max-height: 240px;
   z-index: 1;
   padding: 20px;
@@ -193,12 +193,12 @@ figure.snip1384.hover img {
 }
 figure.snip1384:hover:after,
 figure.snip1384.hover:after {
-  opacity: 1;
+  /* opacity: 1; */
   position: absolute;
-  top: 10px;
+  /* top: 10px;
   bottom: 10px;
   left: 10px;
-  right: 10px;
+  right: 10px; */
 }
 figure.snip1384:hover h4,
 figure.snip1384.hover h4,

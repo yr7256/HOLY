@@ -1,8 +1,9 @@
 <template>
   <div class="w-75 mx-auto">
-    <h1 class="text-center">Best</h1>
+    <br>
+    <h1 class="text-center">Now Playing</h1>
     <div class="row movie-list">
-      <div class="col-2 movie-item gy-3" v-for="(movie, index) in movies" :key="index">
+      <div class="col-2 movie-item gy-3" v-for="(movie, index) in sortnewmovies" :key="index">
         <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }">
           <!-- <div class="card" v-if="index <=11"> -->
           <!-- <div class="card"> -->
@@ -12,16 +13,20 @@
                   <p>{{ movie.title }}</p>
                 </figcaption>
             </figure>
+          <div class="card item-border">
+            <img class="card-img" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
             <!-- <p class="card-text">{{ movie.title }}</p> -->
           <!-- </div> -->
         </router-link>
       </div>
     </div>
-    <h1 class="text-center">Now Playing</h1>
+    <br>
+    <h1 class="text-center">Movies</h1>
     <div class="row movie-list">
-      <div class="col-2 movie-item gy-3" v-for="(movie, index) in sortnewmovies" :key="index">
+      <div class="col-2 movie-item gy-3" v-for="(movie, index) in movies" :key="index">
         <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }">
-          <div class="card">
+          <!-- <div class="card" v-if="index <=11"> -->
+          <div class="card item-border">
             <img class="card-img" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
             <!-- <p class="card-text">{{ movie.title }}</p> -->
           </div>
@@ -57,8 +62,8 @@ export default {
   },
   methods: {
     getMovies() {
-      this.$store.dispatch('getMovies')
       this.$store.dispatch('getNewMovies')
+      this.$store.dispatch('getMovies')
     },
     methods: {
       mouseover: function() {

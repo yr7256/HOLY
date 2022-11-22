@@ -16,7 +16,7 @@ from rest_framework.pagination import PageNumberPagination
 @api_view(['GET'])
 def movie_list(request):
     # movies = Movie.objects.all()
-    movies = Movie.objects.filter().order_by('popularity')[:30]  # 더보기 출력하기 도전
+    movies = Movie.objects.filter().order_by('popularity')[:30]
     serializer = MovieSerializer(movies, many=True)
     return Response(serializer.data)
 

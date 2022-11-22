@@ -1,8 +1,28 @@
-a {
-  color: rgb(194, 116, 116) !important;
+.noto-thin {
+  font-family: "Noto Sans Korean", sans-serif;
+  font-weight: 100;
 }
-
-body {
-  background-color: #cecd83 !important;
-  min-height: 100vh;
+.noto-light {
+  font-family: "Noto Sans Korean", sans-serif;
+  font-weight: 300;
+}
+.noto-demilight {
+  font-family: "Noto Sans Korean", sans-serif;
+  font-weight: 350;
+}
+.noto-regular {
+  font-family: "Noto Sans Korean", sans-serif;
+  font-weight: 400;
+}
+.noto-medium {
+  font-family: "Noto Sans Korean", sans-serif;
+  font-weight: 500;
+}
+.noto-bold {
+  font-family: "Noto Sans Korean", sans-serif;
+  font-weight: 700;
+}
+.noto-black {
+  font-family: "Noto Sans Korean", sans-serif;
+  font-weight: 900;
 }

@@ -22,8 +22,8 @@
             <a :href="personDetailurl + `${name.id}`">
               <img class="card-img-top" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noDirectorImg">
             </a>
-            <div class="card-body">
-              <p class="card-title">{{ name.name }}</p>
+              <div class="card-body">
+                <p class="card-title">{{ name.name }}</p>
             </div>
           </div>
         </div>

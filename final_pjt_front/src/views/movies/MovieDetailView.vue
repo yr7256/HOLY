@@ -18,7 +18,7 @@
                   <img src="@/assets/emptyheart.png" alt="" style="width: 20px">
                 </span>
               </form>
-              <br>
+              <br> 
               <p class = "overview">{{movie?.overview}}</p>
             <br>
           </div>

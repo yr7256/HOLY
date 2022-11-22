@@ -24,8 +24,23 @@
           </div>
         </div>
       </div>
-    </div>
-    </div>
+
+    <hr>
+    <h3>Directing</h3>
+      <div class="row movie-list">
+        <div class="col-1 movie-item gy-3" v-for="(name, index) in directors" :key="index">
+          <div class="card">
+            <a :href="personDetailurl + `${name.id}`">
+              <img class="card-img-top" :src="MoviePosterurl+`${name.profile_path}`" alt="" @error="noDirectorImg">
+            </a>
+              <div class="card-body">
+                <p class="card-title">{{ name.name }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+    <!-- </div> -->
     <hr>
     <br>
     <div class="container bg-black">
@@ -51,10 +66,9 @@
           </div>
         </div>
       </div>
+    </div>
       
-        
-    
-    
+
     <h3>출연</h3>
       <div class="row movie-list">
         <div class="col-2 movie-item gy-3" v-for="(name, index) in actors" :key="index">
@@ -74,6 +88,7 @@
       </div>
       
     </div>
+  </div>
     
     <!-- </div> -->
   <!-- </div> -->

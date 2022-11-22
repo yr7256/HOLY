@@ -27,15 +27,19 @@ export default ({
   padding: 30px;
   width: 100%;
   min-width: 600px;
-}
+} */
 
-nav a {
+/* nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: white;
   text-decoration: none;
-}
+} */
 
-nav a.router-link-exact-active {
-  color: #2c3e50;
+/* nav a.router-link-exact-active {
+  color: #2c3e50; */
+
+/* nav a.router-link-exact-active {
+  color: white;
+>>>>>>> 831014a5935da594472c0fee06d888b91f5994c0
 } */
 </style>

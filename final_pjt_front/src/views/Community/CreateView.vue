@@ -1,14 +1,14 @@
 <template>
   <div class="body">
     <h1>게시글 작성</h1>
-    <form @keyup.enter="createArticle">
-      <label for="title">제목 : </label>
-      <input type="text" id="title" v-model.trim="title"><br>
-      <label for="content">내용 : </label>
-      <textarea  id="content" cols="30" rows="10" v-model="content"></textarea><br>
-      <input type="submit" id="submit" >
+    <form @submit.prevent="createArticle" @keyup.enter="createArticle">
+      <label for="title">제목</label>
+      <input class="form-control" placeholder="제목을 입력해주세요" type="text" id="title" v-model.trim="title"><br>
+      <label for="content">내용</label>
+      <textarea class="form-control" placeholder="내용을 입력해주세요" id="content" cols="30" rows="10" v-model="content"></textarea><br>
+      <button class="btn-gradient yellow">제출</button>
     </form>
-    <router-link :to="{ name: 'ArticleView' }"><button>뒤로가기</button></router-link>
+    <router-link :to="{ name: 'ArticleView' }"><button class="btn-gradient yellow">뒤로가기</button></router-link>
   </div>
 </template>
 

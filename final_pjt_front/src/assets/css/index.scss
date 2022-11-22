@@ -1,6 +1,7 @@
 @import "./reset.scss";
 @import "./button.scss";
 @import "./colors.scss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 .page {
   padding-top: 60px;
@@ -11,7 +12,6 @@
 }
 .head {
   position: fixed !important;
-  /* animation: down 0.5s ease; */
   top: 0;
   left: 0;
   right: 0;
@@ -21,11 +21,8 @@
   background: #151515;
   font-weight: bold;
   display: flex;
-  // justify-content: space-around;
-  // align-items: center;
   transition: top 0.5s;
   z-index: 1200;
-  // box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 .movie-list {
   display: flex;
@@ -72,4 +69,6 @@ body {
 .item-border {
   // border-color: #151515 !important;
   border-style: none !important;
+
 }
+

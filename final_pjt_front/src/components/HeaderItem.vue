@@ -3,11 +3,14 @@
     <nav class="head navbar navbar-expand-lg">
       <div class="container-fluid">
         <span class="navbar-brand ms-4">
-          <router-link :to="{ name: 'MovieView' }">메인</router-link>
+          <router-link :to="{ name: 'MovieView' }">
+            <img src="@/assets/navlogo.png" alt="" class="mx-auto logo">
+          </router-link>
         </span>
         <span class="navbar-brand ms-2">        
           <router-link :to="{ name: 'ArticleView' }">커뮤니티</router-link>
         </span>
+        
         <div class="d-flex justify-content-end flex-grow-1">
           <input class="form-control me-5 w-25" v-model="searchInput" @keypress.enter="getResult" placeholder="Search" aria-label="Search">
           <!-- <button @click="getResult" style="color:white;">Search</button> -->
@@ -94,6 +97,11 @@ export default {
 </script>
 
 <style>
+.logo {
+  width: 72px;
+  text-align: center;
+
+}
 
 
 </style>

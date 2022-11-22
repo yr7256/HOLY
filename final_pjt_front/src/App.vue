@@ -36,6 +36,10 @@ export default ({
 } */
 
 /* nav a.router-link-exact-active {
+  color: #2c3e50; */
+
+/* nav a.router-link-exact-active {
   color: white;
+>>>>>>> 831014a5935da594472c0fee06d888b91f5994c0
 } */
 </style>

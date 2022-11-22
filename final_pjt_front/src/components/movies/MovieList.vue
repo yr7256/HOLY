@@ -73,6 +73,5 @@ export default {
 </script>
 
 <style>
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 </style>

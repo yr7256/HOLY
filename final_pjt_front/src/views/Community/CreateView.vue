@@ -1,14 +1,16 @@
 <template>
   <div class="body">
     <h1>게시글 작성</h1>
-    <form @submit.prevent="createArticle" @keyup.enter="createArticle">
-      <label for="title">제목</label>
-      <input class="form-control" placeholder="제목을 입력해주세요" type="text" id="title" v-model.trim="title"><br>
-      <label for="content">내용</label>
-      <textarea class="form-control" placeholder="내용을 입력해주세요" id="content" cols="30" rows="10" v-model="content"></textarea><br>
-      <button class="btn-gradient yellow">제출</button>
-    </form>
-    <router-link :to="{ name: 'ArticleView' }"><button class="btn-gradient yellow">뒤로가기</button></router-link>
+    <div class="mx-auto">
+      <form class="size" @submit.prevent="createArticle" @keyup.enter="createArticle">
+        <label for="title">제목</label>
+        <input class="form-control" placeholder="제목을 입력해주세요" type="text" id="title" v-model.trim="title"><br>
+        <label for="content">내용</label>
+        <textarea class="form-control" placeholder="내용을 입력해주세요" id="content" cols="30" rows="10" v-model="content"></textarea><br>
+        <button class="btn-gradient yellow btn-size">제출</button>
+        <router-link :to="{ name: 'ArticleView' }"><button class="btn-gradient yellow btn-size">뒤로가기</button></router-link>
+      </form>
+    </div>
   </div>
 </template>
 
@@ -59,5 +61,13 @@ export default {
 <style>
 .body {
   padding-top: 60px;
+}
+.btn-size {
+  width: 120px;
+  height: 50px;
+}
+.size {
+  width: 50%;
+  margin: auto;
 }
 </style>

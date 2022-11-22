@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <!-- <div class="body">
     <h1>LogIn Page</h1>
     <form @submit.prevent="logIn">
       <label for="username">Username : </label>
@@ -11,7 +11,58 @@
       <input type="submit" value="로그인">
      
     </form>
+  </div> -->
+<div class="padding">
+  <div class="cont body">
+    <form class="form sign-in" @submit.prevent="logIn">
+      <h2>Welcome back</h2>
+      <label>
+        <span>username</span>
+        <input type="text" v-model="username"/>
+      </label>
+      <br>
+      <label>
+        <span>Password</span>
+        <input type="password" v-model="password"/>
+      </label>
+      <button type="submit" class="submit btn-margin">Sign In</button>
+    </form>
+    <div class="sub-cont">
+      <div class="img">
+      <div class="img__text m--up">
+        <h2>New here?</h2>
+        <p>Sign up and discover great amount of new opportunities!</p>
+      </div>
+      <div class="img__text m--in">
+        <h2>One of us?</h2>
+        <p>If you already has an account, just sign in. We've missed you!</p>
+      </div>
+      <div class="img__btn" @click="toggleForm">
+        <span class="m--up">Sign Up</span>
+        <span class="m--in">Sign In</span>
+      </div>
+    </div>
+    <form class="form sign-up" @submit.prevent="signUp">
+      <h2>Time to feel like home</h2>
+      <label>
+        <span>Userid</span>
+        <input type="text" v-model="username"/>
+      </label>
+      <br>
+      <label>
+        <span>password</span>
+        <input type="password" v-model="password1"/>
+      </label>
+      <br>
+      <label>
+        <span>password confirmation</span>
+        <input type="password" v-model="password2"/>
+      </label>
+      <button type="submit" class="submit btn-margin">Sign Up</button>
+    </form>
   </div>
+  </div>
+</div>
 </template>
 
 
@@ -23,6 +74,9 @@ export default {
     return {
       username: null,
       password: null,
+      // username2: null,
+      password1: null,
+      password2: null,
     }
   },
   components: {
@@ -37,13 +91,37 @@ export default {
       }
       this.$store.dispatch('logIn', payload)
     },
+    signUp() {
+      const username = this.username
+      const password1 = this.password1
+      const password2 = this.password2
+      const payload = {
+        username, password1, password2
+      }
+      this.$store.dispatch('signUp', payload)
+    },
+    toggleForm() {
+      const cont = document.querySelector('.cont');
+      cont.classList.toggle('s--signup');
+    }
   },
 }
 
 </script>
 
 <style>
+/* @import url(@/assets/css/login.scss); */
 .body {
   padding-top: 60px;
 }
+.padding {
+  padding: 100px !important;
+}
+form {
+  text-align: center;
+}
+.btn-margin {
+  margin-left: 160px;
+}
 </style>
+

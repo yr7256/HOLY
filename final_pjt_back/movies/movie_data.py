@@ -6,7 +6,7 @@ TMDB_API_KEY = '5ef064e7f4721766a54899e612e85f67'
 def get_movie_datas():
     total_data = []
 
-    for i in range(1, 2):
+    for i in range(1, 101):
         request_url = f"https://api.themoviedb.org/3/movie/popular?api_key={TMDB_API_KEY}&language=ko-KR&page={i}"
         # request_url = f"https://api.themoviedb.org/3/movie/now_playing?api_key={TMDB_API_KEY}&language=ko-KR&page={i}"
         movies = requests.get(request_url).json()
@@ -29,7 +29,7 @@ def get_movie_datas():
                     'directors': [],
                     'video_url': [],
                     'like_movie_users' : [],
-                    'providers' : []
+                    # 'providers' : []
                 }
 
                 data = {
@@ -80,14 +80,12 @@ def get_movie_datas():
                 }
 
                 director_datas.append(director_data)
-        for providers_lst in providers_list['results'].get('KR',''):
-            if providers_lst == 'rent' or providers_lst == 'flatrate':
-                for provider in providers_list['results']['KR'][providers_lst]:
-                    # print(provider['provider_name'])
-                    # print(provider['provider_id'])
-                    if provider['provider_id'] == 1796 or provider['provider_id'] in temp['fields']['providers']:
-                        continue
-                    temp['fields']['providers'].append(provider['provider_id'])
+        # for providers_lst in providers_list['results'].get('KR',''):
+        #     if providers_lst == 'rent' or providers_lst == 'flatrate':
+        #         for provider in providers_list['results']['KR'][providers_lst]:
+        #             if provider['provider_id'] == 1796 or provider['provider_id'] in temp['fields']['providers']:
+        #                 continue
+        #             temp['fields']['providers'].append(provider['provider_id'])
             
             
     total_data += actor_datas
@@ -110,22 +108,22 @@ def get_movie_datas():
 
         genre_datas.append(genre_data)
 
-    provider_datas = []
-    provider_url=f"https://api.themoviedb.org/3/watch/providers/movie?api_key={TMDB_API_KEY}&language=ko-KR&watch_region=KR"
-    provider_list = requests.get(provider_url).json()
-    for providers in provider_list['results']:
-        fields = {
-            'name': providers['provider_name'],
-        }
-        provider_data = {
-            "model": "movies.provider",
-            "pk": providers['provider_id'],
-            "fields": fields
-        }
-        provider_datas.append(provider_data)
+    # provider_datas = []
+    # provider_url=f"https://api.themoviedb.org/3/watch/providers/movie?api_key={TMDB_API_KEY}&language=ko-KR&watch_region=KR"
+    # provider_list = requests.get(provider_url).json()
+    # for providers in provider_list['results']:
+    #     fields = {
+    #         'name': providers['provider_name'],
+    #     }
+    #     provider_data = {
+    #         "model": "movies.provider",
+    #         "pk": providers['provider_id'],
+    #         "fields": fields
+    #     }
+    #     provider_datas.append(provider_data)
 
     total_data += genre_datas
-    total_data += provider_datas
+    # total_data += provider_datas
 
     # print(provider_datas)
     with open("movie_data.json", "w", encoding="utf-8") as w:

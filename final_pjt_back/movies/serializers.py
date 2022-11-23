@@ -14,6 +14,7 @@ class MovieSerializer(serializers.ModelSerializer):
         class Meta:
             model = Genre
             fields = '__all__'
+
             
     like_movie_users_count = serializers.IntegerField()
 
@@ -44,6 +45,13 @@ class GenreSerializer(serializers.ModelSerializer):
     class Meta:
         model = Genre
         fields = '__all__'
+
+
+# class ProviderSerializer(serializers.ModelSerializer):
+
+#     class Meta:
+#         model = Provider
+#         fields = '__all__'
 
 
 class MovieLikeSerialzer(serializers.ModelSerializer):

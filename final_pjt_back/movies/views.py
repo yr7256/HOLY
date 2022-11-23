@@ -89,13 +89,6 @@ def movie_like(request, movie_pk):
     return JsonResponse(like_movie_register)
 
 
-@api_view(['GET'])
-@permission_classes([IsAuthenticated])
-def recommend_movie(request):
-    person = get_object_or_404(get_user_model(), username=request.user)
-    person_genre_dict = person.genre_dict
-    pass
-
 
 class StandardResultsSetPagination(PageNumberPagination):
     page_size = 6

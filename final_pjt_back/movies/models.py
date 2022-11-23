@@ -13,8 +13,8 @@ class Director(models.Model):
     name = models.CharField(max_length=100)
     profile_path = models.CharField(max_length=200, null=True, blank=True)
 
-class Provider(models.Model):
-    name = models.CharField(max_length=100)
+# class Provider(models.Model):
+#     name = models.CharField(max_length=100, null=True, blank=True)
 
 class Movie(models.Model):
     title = models.CharField(max_length=100)
@@ -28,8 +28,8 @@ class Movie(models.Model):
     overview = models.TextField(null=True, blank=True)
     poster_path = models.CharField(max_length=200, null=True, blank=True)
     video_url = models.CharField(max_length=200, null=True, blank=True)
-    genres = models.ManyToManyField(Genre)
-    actors = models.ManyToManyField(Actor)
-    directors = models.ManyToManyField(Director)
+    genres = models.ManyToManyField(Genre, blank=True)
+    actors = models.ManyToManyField(Actor, blank=True)
+    directors = models.ManyToManyField(Director, blank=True)
     like_movie_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_movies', blank=True)
-    providers = models.ManyToManyField(Provider)
+    # providers = models.ManyToManyField(Provider, blank=True)

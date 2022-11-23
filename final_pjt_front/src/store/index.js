@@ -89,6 +89,20 @@ export default new Vuex.Store({
       })
         .then(res => {
           context.commit('SAVE_TOKEN', {'key': res.data.key, 'username': username})
+          axios({
+            method: 'get',
+            url: `${API_URL}/accounts/user/`,
+            headers: {
+              Authorization: `Token ${ res.data.key }`
+            }
+          })
+            .then((res) => {
+              // console.log(res)
+              context.commit('GET_USERID', res.data.pk)
+              // this.userid = res.data.pk
+              // location.reload();
+            })
+            .catch(err => console.log(err))
         })
         .catch(err => console.log(err))
     },

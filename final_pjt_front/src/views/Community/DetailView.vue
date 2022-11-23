@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <div class="page">
     <h1>Detail</h1>
     <p>글 번호 : {{ article?.id }}</p>
     <p>제목 : {{ article?.title }}</p>
@@ -127,7 +127,4 @@ export default {
 </script>
 
 <style>
-.body {
-  padding-top: 60px;
-}
 </style>

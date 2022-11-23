@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <div class="page">
     <h1>게시글 작성</h1>
     <p>{{ article }}</p>
     <form @keyup.enter="updateArticle">
@@ -74,7 +74,4 @@ export default {
 </script>
 
 <style>
-.body {
-  padding-top: 60px;
-}
 </style>

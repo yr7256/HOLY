@@ -13,7 +13,7 @@
     </form>
   </div> -->
 <div class="padding mt-5">
-  <div class="cont body">
+  <div class="cont page">
     <form class="form sign-in" @submit.prevent="logIn">
       <h2>Welcome back</h2>
       <label>
@@ -111,9 +111,6 @@ export default {
 
 <style>
 /* @import url(@/assets/css/login.scss); */
-.body {
-  padding-top: 60px;
-}
 .padding {
   padding: 100px !important;
 }

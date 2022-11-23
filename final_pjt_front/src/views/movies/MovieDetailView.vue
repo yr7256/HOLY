@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <div class="page">
     <div class="container contain">
       <!-- <div class="card bg-black mb-3 mt-2"> -->
         <div class="row g-0">
@@ -187,10 +187,6 @@ export default {
 </script>
 
 <style>
-.body {
-  padding-top: 60px;
-
-}
 .contain {
   background-color: #151515;
 }

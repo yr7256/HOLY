@@ -13,7 +13,9 @@ from django.http import JsonResponse
 from rest_framework.pagination import PageNumberPagination
 from django.contrib.auth import get_user_model
 
-movies = Movie.objects.annotate(like_movie_users_count=Count('like_movie_users', distinct=True))
+movies = Movie.objects.annotate(
+    like_movie_users_count=Count('like_movie_users', distinct=True))
+
 
 @api_view(['GET'])
 def movie_list(request):
@@ -75,13 +77,13 @@ def movie_like(request, movie_pk):
     if movie.like_movie_users.filter(pk=user.pk).exists():
         movie.like_movie_users.remove(user)
     else:
-        movie.like_movie_users.add(user)   
+        movie.like_movie_users.add(user)
 
     serializer = MovieLikeSerialzer(movie)
 
     like_movie_register = {
         'id': serializer.data.get('id'),
-        'like_movie_users_count' : movie.like_movie_users.count(),
+        'like_movie_users_count': movie.like_movie_users.count(),
         'like_movie_users': serializer.data.get('like_movie_users'),
     }
     return JsonResponse(like_movie_register)
@@ -109,7 +111,8 @@ class MovieListPaginate(APIView):
             movie = movies.order_by(orderBy)
         elif request.GET.get('q'):
             q = request.GET.get('q')
-            movie = movies.filter(title__icontains=q) | movies.filter(original_title__icontains=q)
+            movie = movies.filter(title__icontains=q) | movies.filter(original_title__icontains=q) | movies.filter(
+                trim_title__icontains=q) | movies.filter(trim_original_title__icontains=q)
             serializer = MovieSerializer(movie, many=True)
             return Response(serializer.data)
         else:

@@ -6,19 +6,22 @@ TMDB_API_KEY = '5ef064e7f4721766a54899e612e85f67'
 def get_movie_datas():
     total_data = []
 
-    for i in range(1, 501):
+    for i in range(1, 2):
         request_url = f"https://api.themoviedb.org/3/movie/popular?api_key={TMDB_API_KEY}&language=ko-KR&page={i}"
         # request_url = f"https://api.themoviedb.org/3/movie/now_playing?api_key={TMDB_API_KEY}&language=ko-KR&page={i}"
         movies = requests.get(request_url).json()
         for movie in movies['results']:
-            if movie.get('release_date', ''):
+            if movie.get('release_date', '') and movie.get('poster_path', ''):
                 # Movie 모델 필드명에 맞추어 데이터를 저장함.
                 fields = {
                     'title': movie['title'],
                     'original_title': movie['original_title'],
+                    'trim_title': movie['title'].replace(' ',''),
+                    'trim_original_title': movie['original_title'].replace(' ',''),
                     'release_date': movie['release_date'],
                     'popularity': -movie['popularity']*movie['vote_count'],
-                    'vote_avg': movie['vote_average'],
+                    'vote_average': movie['vote_average'],
+                    'vote_count': movie['vote_count'],
                     'overview': movie['overview'],
                     'poster_path': movie['poster_path'],
                     'genres': movie['genre_ids'],
@@ -82,7 +85,9 @@ def get_movie_datas():
                 for provider in providers_list['results']['KR'][providers_lst]:
                     # print(provider['provider_name'])
                     # print(provider['provider_id'])
-                    temp['fields']['providers'].append({'id': provider['provider_id'], 'name': provider['provider_name']})
+                    if provider['provider_id'] == 1796 or provider['provider_id'] in temp['fields']['providers']:
+                        continue
+                    temp['fields']['providers'].append(provider['provider_id'])
             
             
     total_data += actor_datas
@@ -91,8 +96,8 @@ def get_movie_datas():
     genre_datas = []
 
     genre_url=f"https://api.themoviedb.org/3/genre/movie/list?api_key={TMDB_API_KEY}&language=ko-KR"
-    genre_data = requests.get(genre_url).json()
-    for genres in genre_data['genres']:
+    genre_list = requests.get(genre_url).json()
+    for genres in genre_list['genres']:
         fields = {
             'name': genres['name'],
         }
@@ -104,8 +109,25 @@ def get_movie_datas():
         }
 
         genre_datas.append(genre_data)
-    total_data += genre_datas
 
+    provider_datas = []
+    provider_url=f"https://api.themoviedb.org/3/watch/providers/movie?api_key={TMDB_API_KEY}&language=ko-KR&watch_region=KR"
+    provider_list = requests.get(provider_url).json()
+    for providers in provider_list['results']:
+        fields = {
+            'name': providers['provider_name'],
+        }
+        provider_data = {
+            "model": "movies.provider",
+            "pk": providers['provider_id'],
+            "fields": fields
+        }
+        provider_datas.append(provider_data)
+
+    total_data += genre_datas
+    total_data += provider_datas
+
+    # print(provider_datas)
     with open("movie_data.json", "w", encoding="utf-8") as w:
         json.dump(total_data, w, indent="\t", ensure_ascii=False)
 

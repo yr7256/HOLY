@@ -39,7 +39,7 @@
           <!-- <button @click="getResult" class="btn btn-light">Search</button> -->
         </div>
         <span class="navbar-brand me-5">
-          <router-link :to="{ name: 'LoginView' }">로그인</router-link>
+          <router-link :to="{ name: 'LoginView' }">회원가입/로그인</router-link>
         </span>
         <!-- <span class="navbar-brand">
           <router-link :to="{ name: 'SignUpView' }">회원가입</router-link>

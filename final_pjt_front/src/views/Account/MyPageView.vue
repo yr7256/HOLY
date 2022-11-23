@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <div class="page">
     <div class ="profile" >
       <h1>{{ $route.params.id }}님의 페이지입니다.</h1>
       <!-- <p></p> -->
@@ -81,7 +81,4 @@ export default {
     width: 100%;
     height: 100%;
   }
-.body {
-  padding-top: 60px;
-}
 </style>

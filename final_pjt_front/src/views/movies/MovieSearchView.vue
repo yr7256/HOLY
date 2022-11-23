@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="body">검색하신 영화는 다음과 같습니다.</h1>
+    <h1 class="page">검색하신 영화는 다음과 같습니다.</h1>
     <div class="row movie-list">
       <div class="col-2 movie-item gy-3" v-for="(movie, index) in $store.state.resultMovies" :key="index">
         <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }">
@@ -58,7 +58,5 @@ export default {
 </script>
 
 <style>
-.body {
-  padding-top: 60px;
-}
+
 </style>

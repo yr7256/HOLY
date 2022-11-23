@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <div class="page">
     <h1>Sign Up Page</h1>
     <form @submit.prevent="signUp">
       <label for="username">username : </label>
@@ -40,7 +40,4 @@ export default {
 }
 </script>
 <style>
-.body {
-  padding-top: 60px;
-}
 </style>

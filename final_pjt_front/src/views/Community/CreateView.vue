@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <div class="page">
     <h1>게시글 작성</h1>
     <div class="mx-auto articleboxcolor">
       <form class="size" @submit.prevent="createArticle" @keyup.enter="createArticle">
@@ -59,9 +59,6 @@ export default {
 </script>
 
 <style>
-.body {
-  padding-top: 60px;
-}
 .size {
   width: 50%;
   margin: auto;

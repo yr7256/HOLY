@@ -29,7 +29,9 @@
     <nav class="d-flex head navbar navbar-expand-lg">
       <div class="container-fluid">
         <span class="navbar-brand ms-5">
-          <router-link :to="{ name: 'MovieView' }">메인</router-link>
+          <router-link :to="{ name: 'MovieView' }">
+            <img src="@/assets/navlogo.png" alt="" class="mx-auto logo">
+          </router-link>
         </span>
         <span class="navbar-brand ms-2">
           <router-link :to="{ name: 'ArticleView' }">커뮤니티</router-link>

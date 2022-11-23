@@ -1,29 +1,34 @@
 <template>
   <div class="page">
-    <h1>Detail</h1>
-    <p>글 번호 : {{ article?.id }}</p>
-    <p>제목 : {{ article?.title }}</p>
-    <p>내용 : {{ article?.content }}</p>
-    <p>작성시간 : {{ article?.created_at }}</p>
-    <p>수정시간 : {{ article?.updated_at }}</p>
-    <router-link :to="{ name: 'ArticleView' }"><button class="btn-gradient yellow mini btn-size">뒤로가기</button></router-link>
-    <router-link :to="{ name: 'UpdateView' }"><button class="btn-gradient yellow mini btn-size">글 수정</button></router-link>
-    <button v-show="isAuth" class="btn-gradient yellow mini btn-size" @click="deleteArticle">삭제</button>
-    <div>
-      <!-- <p class="btn-gradient yellow mini" @click="ArticleLike">좋아요</p> -->
-      
-      <p>댓글 수 : {{ comment_count }}</p>
-      <hr>
-      <div v-for="(comment, index) in comment_set" :key='index'>
-        <p>작성자: {{ comment.comment_user.username }}</p>
-        <span>
-          댓글 내용: {{ comment.content }}
-        </span>
-        <button @click="deleteComment(comment.id)" class="btn-gradient yellow mini">삭제</button><br>
-        <hr>
-      </div>
-  </div>
-    <CommentCreate/>
+    <div class="container bgcontain">
+      <h1 style="color: #37383A" class="h1place">{{ article?.id }}번째 게시글({{ comment_count }})</h1>
+      <br>
+      <!-- <p class="ptag1" style="color: #37383A">글 번호 : </p> -->
+      <p class="ptag1" style="color: #37383A">제목 : {{ article?.title }}</p>
+      <p class="ptag1" style="color: #37383A">내용 : {{ article?.content }}</p>
+      <p class="ptag1" style="color: #37383A" >작성시간 : {{ article?.created_at }}</p>
+      <p class="ptag1" style="color: #37383A">수정시간 : {{ article?.updated_at }}</p>
+      <router-link :to="{ name: 'ArticleView' }"><button class="custom-btn btn-1" style="color: #37383A">뒤로가기</button></router-link>
+      <router-link :to="{ name: 'UpdateView' }"><button class="custom-btn btn-1" style="color: #37383A">글 수정</button></router-link>
+      <button v-show="isAuth" class="custom-btn btn-1" @click="deleteArticle" style="color: #37383A">삭제</button>
+     
+        <!-- <p class="btn-gradient yellow mini" @click="ArticleLike">좋아요</p> -->
+        <!-- <br> -->
+        <hr class="my-hr">
+        <br>
+        <p class="ptag1" style="color: #37383A">댓글 수 : {{ comment_count }}</p>
+        <!-- <hr> -->
+        <div v-for="(comment, index) in comment_set" :key='index'>
+          <p class="ptag1" style="color: #37383A">작성자: {{ comment.comment_user.username }}</p>
+          <p class="ptag1" style="color: #37383A"> 댓글 내용: {{ comment.content }}</p>
+          <br>
+          <button @click="deleteComment(comment.id)" class="custom-btn btn-1" style="color: #37383A">삭제</button><br>
+          <!-- <hr class="my-hr"> -->
+        </div>
+      <hr class="my-hr">
+      <br>
+      <CommentCreate/>
+    </div>
   </div>
 </template>
 
@@ -131,4 +136,49 @@ export default {
 </script>
 
 <style>
+.bgcontain {
+  margin-top: 5rem;
+  /* background-image: #F2EFE8 ; */
+  background: linear-gradient(70deg, #F2EFE8 25%, rgba(0,0,0,0) 25%), url(@/assets/theater.jpg);
+  padding: 60px 25px !important;
+  /* border: solid 5px; */
+  box-shadow: 0 6px 6px 0px #37383A;
+  /* margin-bottom: 10rem; */
+  border-radius: 0px 0px  0px;
+
+}
+.h1place {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.ptag1 {
+  text-align: left !important;
+}
+.ptag2 {
+  text-align: right !important;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+.btn-1 {
+  transition: all 0.3s ease;
+}
+.btn-1:hover {
+   box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+}
 </style>

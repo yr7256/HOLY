@@ -1,13 +1,15 @@
 <template>
   <div >
     <!-- <h5>{{ article.id }}</h5> -->
-    <router-link
-      :to="{ name: 'DetailView', params: { id: article.id} }"
-    >
-      {{ article.title }} | 작성자 : {{ article.username }}
-    </router-link>
-    <br>
-    <hr>
+    <div >
+      <router-link  
+        :to="{ name: 'DetailView', params: { id: article.id} }"
+        style="color: #37383A">
+        {{ article.title }} | 작성자 : {{ article.username }}
+      </router-link>
+      <br>
+      <hr>
+    </div>
   </div>
 </template>
 
@@ -25,5 +27,8 @@ export default {
 </script>
 
 <style>
+.cc {
+  text-align: center;
+}
 
 </style>

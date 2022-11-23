@@ -1,12 +1,12 @@
 <template>
-  <section class="wrap" @click="toMainPage">
-    <div class="box">
-      <img class="test" src="../assets/intro.png" alt="">
+  <section class="wrap2" @click="toMainPage">
+    <div class="box2">
+      <img class="test2" src="../assets/intro.png" alt="">
     </div>
-    <div class="box">
-      <img class="test" src="../assets/intro.png" alt="">
+    <div class="box2">
+      <img class="test2" src="../assets/intro.png" alt="">
     </div>
-    <div class="circle"></div>
+    <div class="circle2"></div>
   </section>
 </template>
 
@@ -37,8 +37,8 @@ window.addEventListener("load", function(){
 <style scoped>
 
 
-.wrap,
-.box {
+.wrap2,
+.box2 {
   position: absolute;
   top: 0;
   left: 0;
@@ -55,20 +55,20 @@ window.addEventListener("load", function(){
   z-index: 1500;
 }
 
-.test {
+.test2 {
   height: 80vh;
 }
 
-.box:nth-child(1) {
+.box2:nth-child(1) {
   filter: blur(10px);     
 }
 
-.box:nth-child(2) {
+.box2:nth-child(2) {
   clip-path: circle(120px at var(--x) var(--y));
 }
 
 
-.circle {
+.circle2 {
   position: absolute;
   width: 240px;
   height: 240px;

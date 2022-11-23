@@ -12,7 +12,7 @@
               <h4>{{ movie?.release_date }}</h4>
               <form action="" style="text-align: left;">
                 <span @click="LikeMovie" v-if="isheart">
-                  <img src="@/assets/fullheart.png" alt="" style="width: 20px" >
+                  <img src="@/assets/fullheart.png" alt="" style="width: 20px">
                 </span>
                 <span style="color: #ea4335" @click="LikeMovie" v-else>
                   <img src="@/assets/emptyheart.png" alt="" style="width: 20px">
@@ -27,9 +27,9 @@
             <a :href="seeznUrl + `${movie?.title}`" style="margin-right: 10px">
               <img src="@/assets/seezn.jpg" alt="" style="width: 65px">
             </a>
-            <a :href="appletvUrl + `${movie?.title}`" >
+            <!-- <a :href="appletvUrl + `${movie?.title}`" >
               <img src="@/assets/appletv.jpg" alt="" style="width: 68px ;">
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
@@ -79,6 +79,7 @@ const API_URL = "http://127.0.0.1:8000";
 import img from '@/assets/actorimg.png'
 import directorimg from '@/assets/directorimg.png'
 import posterimg from '@/assets/noposterimg.png'
+import _ from "lodash"
 
 export default {
   name: "MovieDetailView",
@@ -92,8 +93,9 @@ export default {
       directors: [],
       wavveUrl: "https://www.wavve.com/search?searchWord=",
       seeznUrl: "https://www.seezntv.com/search?category_id=all&sort=AC&keywords=",
-      appleUrl: "https://tv.apple.com/search?term="
+      // appleUrl: "https://tv.apple.com/search?term=",
       // hasuser: true
+      heart : true
     };
   },
   created() {
@@ -102,8 +104,8 @@ export default {
   },
   computed: {
     isheart() {
-      return this.$store.getters.isheart
-    },
+      return _.includes(this.movie.like_movie_users, this.$store.state.userid)
+    }
   },
   components: {
     
@@ -155,7 +157,6 @@ export default {
         },
       noImage(e) {
         e.target.src = img
-        // e.target.src = directorimg
       },
       noDirectorImg(e) {
         e.target.src = directorimg
@@ -175,12 +176,12 @@ export default {
         })
           .then((res) => {
             console.log(res.data.like_movie_users)
-            
-            this.$store.state.heart = !this.$store.state.heart
-            console.log(this.$store.state.heart)
+            // console.log(this.heart)
+            // console.log(this.$store.state.userid)
+            location.reload();
           })
           .catch(err => console.log(err))
-      }
+      } 
   },
 }
 

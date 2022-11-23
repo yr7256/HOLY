@@ -15,6 +15,7 @@ class Director(models.Model):
 
 class Movie(models.Model):
     title = models.CharField(max_length=100)
+    original_title = models.CharField(max_length=100)
     release_date = models.DateField(null=True, blank=True)
     popularity = models.FloatField(null=True, blank=True)
     vote_avg = models.FloatField(null=True, blank=True)

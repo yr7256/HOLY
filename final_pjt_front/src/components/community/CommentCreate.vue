@@ -49,5 +49,18 @@ export default {
 <style>
 .comment {
   width: 400px;
+  /* margin-left: 20.5rem; */
+}
+.bgcontain3 {
+  /* margin-top: 1rem; */
+  /* background-image: #F2EFE8 ; */
+  background-color:  #F2EFE8 !important;
+  padding: 30px;
+  /* border: solid 5px; */
+  /* box-shadow: 0 3px 4px 0px grey; */
+  /* margin-bottom: 10rem; */
+  /* border-radius: 0px 0px  0px; */
+  margin-bottom: 3rem;
+
 }
 </style>

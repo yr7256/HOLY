@@ -8,7 +8,7 @@
     <p>수정시간 : {{ article?.updated_at }}</p>
     <router-link :to="{ name: 'ArticleView' }"><button class="btn-gradient yellow mini btn-size">뒤로가기</button></router-link>
     <router-link :to="{ name: 'UpdateView' }"><button class="btn-gradient yellow mini btn-size">글 수정</button></router-link>
-    <button class="btn-gradient yellow mini btn-size" @click="deleteArticle">삭제</button>
+    <button v-show="isAuth" class="btn-gradient yellow mini btn-size" @click="deleteArticle">삭제</button>
     <div>
       <!-- <p class="btn-gradient yellow mini" @click="ArticleLike">좋아요</p> -->
       
@@ -51,7 +51,11 @@ export default {
   components: {
     CommentCreate
   },
-
+  computed: {
+    isAuth() {
+      return this.$store.state.username === this.article.username
+    }
+  },
   methods: {
     getArticleDetail() {
       axios({

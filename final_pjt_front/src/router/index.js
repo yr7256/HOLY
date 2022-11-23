@@ -5,7 +5,7 @@ import IntroPage from '@/views/IntroPage.vue'
 import NotFound404 from '@/components/NotFound404'
 import ArticleView from '@/views/Community/ArticleView'
 import LoginView from '@/views/Account/LoginView'
-import SignUpView from '@/views/Account/SignUpView'
+// import SignUpView from '@/views/Account/SignUpView'
 import CreateView from '@/views/Community/CreateView'
 import DetailView from '@/views/Community/DetailView'
 import UpdateView from '@/views/Community/UpdateView'
@@ -46,11 +46,11 @@ const routes = [
     name: 'LoginView',
     component: LoginView
   },
-  {
-    path: '/signup',
-    name: 'SignUpView',
-    component: SignUpView
-  },
+  // {
+  //   path: '/signup',
+  //   name: 'SignUpView',
+  //   component: SignUpView
+  // },
   {
     path:'/mypage/:id',
     name:'MyPageView',

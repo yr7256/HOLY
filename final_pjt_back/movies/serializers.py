@@ -5,7 +5,18 @@ from django.contrib.auth import get_user_model
 User = get_user_model()
 
 # 전체 영화
+
+
 class MovieSerializer(serializers.ModelSerializer):
+    
+    class GenreSerializer(serializers.ModelSerializer):
+        
+        class Meta:
+            model = Genre
+            fields = '__all__'
+            
+    like_movie_users_count = serializers.IntegerField()
+
     class Meta:
         model = Movie
         fields = '__all__'
@@ -43,7 +54,7 @@ class MovieLikeSerialzer(serializers.ModelSerializer):
             fields = ('id', 'username',)
 
     like_movie_users = UserSerializer(many=True, read_only=True)
-    
+
     class Meta:
         model = Movie
-        fields = ('id','like_movie_users', )
+        fields = ('id', 'like_movie_users', )

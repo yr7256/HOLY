@@ -1,15 +1,16 @@
 <template>
   <div class="page">
     <h1>게시글 작성</h1>
-    <p>{{ article }}</p>
-    <form @keyup.enter="updateArticle">
-      <label for="title">제목 : </label>
-      <input type="text" id="title" v-model.trim="title"><br>
-      <label for="content">내용 : </label>
-      <textarea id="content" cols="30" rows="10" v-model="content"></textarea><br>
-      <input type="submit" id="submit">
-    </form>
-    <router-link :to="{ name: 'ArticleView' }"><button>뒤로가기</button></router-link>
+    <div class="mx-auto">
+      <form class="size" @keyup.enter="updateArticle">
+        <label for="title">제목</label>
+        <input class="form-control mt-3 inputtag" type="text" id="title" v-model.trim="title"><br>
+        <label for="content">내용</label>
+        <textarea class="form-control mt-3" id="content" cols="30" rows="15" v-model="content"></textarea><br>
+        <button class="btn-gradient yellow btn-size">제출</button>
+        <router-link :to="{ name: 'ArticleView' }"><button class="btn-gradient yellow btn-size">뒤로가기</button></router-link>
+      </form>
+    </div>
   </div>
 </template>
 
@@ -74,4 +75,9 @@ export default {
 </script>
 
 <style>
+.size {
+  width: 40%;
+  margin: auto;
+  font-size: 25px;
+}
 </style>

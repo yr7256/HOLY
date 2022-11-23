@@ -23,15 +23,16 @@ export default new Vuex.Store({
     resultMovies: [],
     token: null,
     username: null,
-    heart: false
+    userid: null,
+    // heart: false
   },
   getters: {
     isLogin(state) {
       return state.token ? true : false
     },
-    isheart(state) {
-      return state.heart ? true : false
-    },
+    // isheart(state) {
+    //   return state.heart ? true : false
+    // },
   },
   mutations: {
     GET_ARTICLES(state, articles) {
@@ -102,7 +103,22 @@ export default new Vuex.Store({
         }
       })
         .then(res => {
+          console.log(res)
           context.commit('SAVE_TOKEN', {'key': res.data.key, 'username': username})
+          axios({
+            method: 'get',
+            url: `${API_URL}/accounts/user/`,
+            headers: {
+              Authorization: `Token ${ res.data.key }`
+            }
+          })
+            .then((res) => {
+              // console.log(res)
+              context.commit('GET_USERID', res.data.pk)
+              // this.userid = res.data.pk
+              // location.reload();
+            })
+            .catch(err => console.log(err))
         })
         .catch(err => console.log(err))
     },
@@ -131,23 +147,22 @@ export default new Vuex.Store({
         })
         .catch(err => console.log(err))
     },
-    getUserid(context) {
-      axios({
-        method: 'get',
-        url: `${API_URL}/accounts/user/`,
-        headers: {
-          Authorization: `Token ${ this.$store.state.token }`
-        }
-      })
-        .then((res) => {
-          // console.log(res)
-          context.commit('GET_USERID', res.data.pk)
-          // this.userid = res.data.pk
-          // location.reload();
-        })
-        .catch(err => console.log(err))
-    },
-    
+    // getUserid(context) {
+    //   axios({
+    //     method: 'get',
+    //     url: `${API_URL}/accounts/user/`,
+    //     headers: {
+    //       Authorization: `Token ${ this.$store.state.token }`
+    //     }
+    //   })
+    //     .then((res) => {
+    //       // console.log(res)
+    //       context.commit('GET_USERID', res.data.pk)
+    //       // this.userid = res.data.pk
+    //       // location.reload();
+    //     })
+    //     .catch(err => console.log(err))
+    // },  
   },
   modules: {
   }

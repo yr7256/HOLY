@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <h1>게시글 작성</h1>
-    <div class="mx-auto articleboxcolor">
+    <div class="mx-auto">
       <form class="size" @submit.prevent="createArticle" @keyup.enter="createArticle">
         <label for="title">제목</label>
         <input class="form-control mt-3 inputtag" placeholder="제목을 입력해주세요" type="text" id="title" v-model.trim="title"><br>
@@ -60,13 +60,8 @@ export default {
 
 <style>
 .size {
-  width: 50%;
+  width: 40%;
   margin: auto;
   font-size: 25px;
-}
-.articleboxcolor {
-  background-color: black;
-  width: 1200px;
-  height: 750px;
 }
 </style>

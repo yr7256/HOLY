@@ -1,10 +1,9 @@
 <template>
   <div class="page">
-    <div class ="profile" >
+    <div class ="profile">
       <h1>{{ $route.params.id }}님의 페이지입니다.</h1>
       <!-- <p></p> -->
-      <h2 style="color: white">좋아요 한 영화</h2>
-
+      <h2 style="color: white">좋아요한 영화</h2>
       <div class="row movie-list">
         <div class="col-2 movie-item gy-3" v-for="(movie, index) in userinfo.like_movies" :key="index">
           <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }">

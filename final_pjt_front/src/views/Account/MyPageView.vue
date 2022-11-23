@@ -8,14 +8,14 @@
 
             
             <h1 style="color: #37383A" class="pad">{{ $route.params.id }}'s COLLECTION</h1>
-            <hr style="color: #37383A">
+            <hr class="my-hr">
             <!-- </div> -->
             <!-- <p></p> -->
             <!-- <div class="box" style="background: #BDBDBD;">
               <img class="profile1" src="@/assets/profile.png">
             </div> -->
             <br>
-            <h3 style="color:#37383A" class="pad1" >FAVORITE MOVIE</h3>
+            <h3 style="color:#37383A" class="pad1" >YOUR FAVORITE MOVIE</h3>
             <br>
             <!-- <div class="row movie-list"> -->
             <swiper :options="swiperOption">
@@ -72,7 +72,7 @@ export default {
       swiperOption: { 
         slidesPerView: 5, 
         spaceBetween: 30, 
-        loop: true, 
+        loop: false, 
         pagination: { 
             el: '.swiper-pagination', 
             clickable: true 
@@ -182,4 +182,9 @@ export default {
   background-color: #F2EFE8 !important;
   justify-content: center;
 }
+.my-hr {
+    border: 0;
+    height: 2px;
+    background: #080808;
+  }
 </style>

@@ -7,14 +7,15 @@
             <!-- <div class="box namecontain"> -->
 
             
-            <h1 style="color: #37383A" class="pad">{{ $route.params.id }}님의 페이지입니다.</h1>
+            <h1 style="color: #37383A" class="pad">{{ $route.params.id }}'s COLLECTION</h1>
+            <hr style="color: #37383A">
             <!-- </div> -->
             <!-- <p></p> -->
-            <div class="box" style="background: #BDBDBD;">
+            <!-- <div class="box" style="background: #BDBDBD;">
               <img class="profile1" src="@/assets/profile.png">
-            </div>
+            </div> -->
             <br>
-            <h3 style="color:#37383A" class="pad" >FAVORITE MOVIE</h3>
+            <h3 style="color:#37383A" class="pad1" >FAVORITE MOVIE</h3>
             <br>
             <!-- <div class="row movie-list"> -->
             <swiper :options="swiperOption">
@@ -30,6 +31,7 @@
             </swiper>
             <br>
             <br>
+            <h3 style="color:#37383A" class="pad1" >KILLING YOUR TIME</h3>
             <br>
           </div>
             <!-- </div> -->
@@ -155,6 +157,13 @@ export default {
 .pad {
   padding: auto;
   font-weight: bold;
+  font-size:2cm;
+  
+}
+.pad1 {
+  padding: auto;
+  font-weight: bold;
+  /* font-size:2cm; */
   
 }
 .box {

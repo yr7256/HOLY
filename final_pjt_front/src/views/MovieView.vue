@@ -2,6 +2,7 @@
   <div class='page'>
     <img class="full mt-auto" alt="" src="../assets/main.png">
     <MovieList/>
+    <infinite-loading @infinite="infiniteHandler"></infinite-loading>
   </div>
 </template>
 

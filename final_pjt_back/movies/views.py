@@ -20,7 +20,7 @@ movies = Movie.objects.annotate(
 @api_view(['GET'])
 def movie_list(request):
     # movies = Movie.objects.all()
-    movie_list = movies.filter().order_by('popularity')[:30]
+    movie_list = movies.filter().order_by('popularity')
     serializer = MovieSerializer(movie_list, many=True)
     return Response(serializer.data)
 

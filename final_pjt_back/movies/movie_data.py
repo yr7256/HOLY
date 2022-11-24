@@ -28,7 +28,7 @@ def get_movie_datas():
                     'genres': movie['genre_ids'],
                     'actors': [],
                     'directors': [],
-                    'video_url': [],
+                    # 'video_url': [],
                     # 'like_movie_users' : [],
                     # 'providers' : []
                 }
@@ -46,9 +46,7 @@ def get_movie_datas():
 
     for temp in total_data: # total data에서 영화 하나씩 뽑을거임
         people = f"https://api.themoviedb.org/3/movie/{temp['pk']}/credits?api_key={TMDB_API_KEY}&language=ko-KR"
-        providers = f"https://api.themoviedb.org/3/movie/{temp['pk']}/watch/providers?api_key={TMDB_API_KEY}"
         people_list = requests.get(people).json()
-        providers_list = requests.get(providers).json()
         for actor in people_list['cast']:
             if actor['order'] < 5:
                 temp['fields']['actors'].append(actor['id'])

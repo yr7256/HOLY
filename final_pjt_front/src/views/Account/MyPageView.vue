@@ -1,9 +1,9 @@
 <template>
   <div class="page">
     <!-- <div id="box"> -->
-      <div class ="profile" >
+      <div class ="profile">
         <!-- <span class="bod"> -->
-          <div class="container bgcontain">
+          <div class="container bgcontain"  style="padding: 10px">
             <!-- <div class="box namecontain"> -->
 
             
@@ -31,27 +31,33 @@
             </swiper>
             <br>
             <br>
-            <h3 style="color:#37383A" class="pad1" >KILLING YOUR TIME</h3>
+            <h3 style="color:#37383A" class="pad1" >HOLY RECOMMEND MOVIE</h3>
             <br>
-          </div>
-            <!-- </div> -->
-        <!-- <hr> -->
-        <!-- <swiper :options="swiperOption">
-          <SwiperSlide>
-            <div
-              v-for="(movie, index) in userinfo.like_movies" :key="index">
-              <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }">
-                <img class="card-img" :src="MoviePosterurl+`${movie.poster_path}`" alt=""  style="color: #F2EFE8">
-              </router-link>
-            </div>
-          </SwiperSlide>
-        </swiper>  -->
-      </div>
-    <RecommendMovie 
+            
+            <!-- <div v-for="(movie, index) in recommendMovie" :key="index">
+              <p>{{movie.title}}</p>
+            </div> -->
+            <!-- <p>{{ recommendMovies }}</p> -->
+            <swiper :options="swiperOption">
+              <SwiperSlide v-for="(movie, index) in recommendMovies" :key="index">
+                <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }">
+                  <div class="card item " style="background-color: #F2EFE8">
+                    <img class="card-img" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
+                  </div>
+                </router-link>
+              </SwiperSlide>
+            </swiper>
+            <!-- <img :src="MoviePosterurl+`${recommendMovie.poster_path}`" alt=""> -->
+            <!-- <swiper :options="swiperOption"> -->
+            <!-- <RecommendMovie 
       v-for="recommendMovie in recommendMovies"
       :key="recommendMovie.id"
       :recommendMovie="recommendMovie"
-    />
+    /> -->
+  
+  
+      </div>
+    </div>
   </div>
   <!-- </div> -->
 </template>
@@ -60,7 +66,7 @@
 import axios from 'axios'
 import { Swiper, SwiperSlide  } from "vue-awesome-swiper";
 import "swiper/css/swiper.css";
-import RecommendMovie from "@/components/Account/RecommendMovie"
+// import RecommendMovie from "@/components/Account/RecommendMovie"
 
 const API_URL = 'http://127.0.0.1:8000'
 
@@ -70,7 +76,7 @@ export default {
   components: {
     Swiper,
     SwiperSlide,
-    RecommendMovie
+    // RecommendMovie
   },
   data() {
     return {
@@ -88,7 +94,7 @@ export default {
             nextEl: '.swiper-button-next', 
             prevEl: '.swiper-button-prev' 
         },
-        // recommendMovies: null 
+        recommendMovies: null 
       },
     };
   },

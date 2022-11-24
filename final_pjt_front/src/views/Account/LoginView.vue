@@ -15,47 +15,47 @@
 <div class="padding mt-5">
   <div class="cont page">
     <form class="form sign-in" @submit.prevent="logIn">
-      <h2>Welcome back</h2>
+      <h2 class="h2tag1">Welcome back</h2>
       <label>
-        <span>username</span>
+        <span class="h2tag1">username</span>
         <input type="text" v-model="username"/>
       </label>
       <br>
       <label>
-        <span>Password</span>
+        <span class="h2tag1">Password</span>
         <input type="password" v-model="password"/>
       </label>
-      <button type="submit" class="submit btn-margin">Sign In</button>
+      <button type="submit" class="submit btn-margin">Login</button>
     </form>
     <div class="sub-cont">
       <div class="img">
       <div class="img__text m--up">
-        <h2>New here?</h2>
+        <h2 class="whitetag">New here?</h2>
         <p>Sign up and discover great amount of new opportunities!</p>
       </div>
       <div class="img__text m--in">
-        <h2>One of us?</h2>
+        <h2 class="whitetag">One of us?</h2>
         <p>If you already has an account, just sign in. We've missed you!</p>
       </div>
       <div class="img__btn" @click="toggleForm">
-        <span class="m--up">Sign Up</span>
-        <span class="m--in">Sign In</span>
+        <span class="m--up">회원가입</span>
+        <span class="m--in">로그인</span>
       </div>
     </div>
     <form class="form sign-up" @submit.prevent="signUp">
-      <h2>Time to feel like home</h2>
+      <h2 class="h2tag1 h2pad">Time to feel like CINEMA</h2>
       <label>
-        <span>Username</span>
+        <span class="h2tag1">Username</span>
         <input type="text" v-model="username"/>
       </label>
       <br>
       <label>
-        <span>password</span>
+        <span class="h2tag1">password</span>
         <input type="password" v-model="password1"/>
       </label>
       <br>
       <label>
-        <span>password confirmation</span>
+        <span class="h2tag1">password confirmation</span>
         <input type="password" v-model="password2"/>
       </label>
       <button type="submit" class="submit btn-margin">Sign Up</button>
@@ -119,6 +119,16 @@ form {
 }
 .btn-margin {
   margin-left: 160px !important;
+}
+.h2tag1 {
+  font-weight: bold;
+  color: #37383A;
+}
+.whitetag {
+  color: #F2EFE8 
+}
+.h2pad {
+  padding-top: 30px
 }
 </style>
 

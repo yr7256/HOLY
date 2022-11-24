@@ -16,7 +16,7 @@ class MovieSerializer(serializers.ModelSerializer):
             fields = '__all__'
 
             
-    like_movie_users_count = serializers.IntegerField()
+    # like_movie_users_count = serializers.IntegerField()
 
     class Meta:
         model = Movie

@@ -8,26 +8,28 @@ from django.shortcuts import get_object_or_404, get_list_or_404
 from rest_framework.permissions import *
 from .models import Movie, Actor, Director
 from .serializers import MovieSerializer, ActorSerializer, DirectorSerializer, MovieLikeSerialzer
-from rest_framework import status
+from rest_framework import status, viewsets
 from django.http import JsonResponse
 from rest_framework.pagination import PageNumberPagination
 from django.contrib.auth import get_user_model
+from django.core.paginator import Paginator
 
-movies = Movie.objects.annotate(
-    like_movie_users_count=Count('like_movie_users', distinct=True))
+# movies = Movie.objects.annotate(
+#     like_movie_users_count=Count('like_movie_users', distinct=True))
 
 
 @api_view(['GET'])
 def movie_list(request):
     # movies = Movie.objects.all()
-    movie_list = movies.filter().order_by('popularity')
+    movie_list = Movie.objects.filter().order_by('popularity')
     serializer = MovieSerializer(movie_list, many=True)
+    
     return Response(serializer.data)
 
 
 @api_view(['GET'])
 def new_movie_list(request):
-    new_movie = movies.filter(release_date__lte=(datetime.datetime.now(
+    new_movie = Movie.objects.filter(release_date__lte=(datetime.datetime.now(
     )-datetime.timedelta(days=3))).order_by('-release_date', 'popularity')[:12]
     serializer = MovieSerializer(new_movie, many=True)
     return Response(serializer.data)
@@ -36,7 +38,7 @@ def new_movie_list(request):
 @api_view(['GET'])
 @permission_classes([IsAuthenticatedOrReadOnly])
 def movie_detail(request, movie_pk):
-    movie = movies.get(pk=movie_pk)
+    movie = Movie.objects.get(pk=movie_pk)
     serializer = MovieSerializer(movie)
     return Response(serializer.data)
 
@@ -101,11 +103,11 @@ class MovieListPaginate(APIView):
         paginator = StandardResultsSetPagination()
         if request.GET.get('orderBy'):
             orderBy = request.GET.get('orderBy')
-            movie = movies.order_by(orderBy)
+            movie = Movie.objects.order_by(orderBy)
         elif request.GET.get('q'):
             q = request.GET.get('q')
-            movie = movies.filter(title__icontains=q) | movies.filter(original_title__icontains=q) | movies.filter(
-                trim_title__icontains=q) | movies.filter(trim_original_title__icontains=q)
+            movie = Movie.objects.filter(title__icontains=q) | Movie.objects.filter(original_title__icontains=q) | Movie.objects.filter(
+                trim_title__icontains=q) | Movie.objects.filter(trim_original_title__icontains=q)
             serializer = MovieSerializer(movie, many=True)
             return Response(serializer.data)
         else:
@@ -114,3 +116,8 @@ class MovieListPaginate(APIView):
         result_page = paginator.paginate_queryset(movie, request)
         serializer = MovieSerializer(result_page, many=True)
         return Response(serializer.data)
+
+class MoviePaginationViewSet(viewsets.ModelViewSet):
+    queryset = Movie.objects.all()
+    serializer_class = MovieSerializer
+    pagination_class = PageNumberPagination

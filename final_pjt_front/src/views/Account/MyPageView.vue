@@ -23,10 +23,8 @@
                 <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }">
                   <div class="card card-border-none" style="background-color: #F2EFE8">
                     <img class="card-img" :src="MoviePosterurl+`${movie.poster_path}`" alt="" >
-                    <!-- <p>{{ movie.title }}</p> -->
                   </div>
                 </router-link>
-              <!-- </div> -->
               </SwiperSlide>
             </swiper>
             <br>
@@ -94,7 +92,7 @@ export default {
             nextEl: '.swiper-button-next', 
             prevEl: '.swiper-button-prev' 
         },
-        recommendMovies: null 
+        // recommendMovies: null,
       },
     };
   },

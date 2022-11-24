@@ -144,7 +144,7 @@ export default {
 
 <style>
 .bgcontain {
-  margin-top: 5rem;
+  margin-top: 3.5rem;
   background-color: #F2EFE8 ;
   /* background: linear-gradient(90deg, #F2EFE8 90%, rgba(0,0,0,0) 25%), url(@/assets/theater.jpg); */
   /* background: 
@@ -158,7 +158,7 @@ export default {
 
 }
 .bgcontain3 {
-  margin-top: 5rem;
+  margin-top: 3.5rem;
   background-color: #F2EFE8 ;
   background: linear-gradient(110deg, #F2EFE8 75%, rgba(0,0,0,0) 25%), url(@/assets/monroe.jpg);
   /* background: 

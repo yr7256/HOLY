@@ -46,8 +46,13 @@
             </div>
           </SwiperSlide>
         </swiper>  -->
-      </div> 
-    </div>
+      </div>
+    <RecommendMovie 
+      v-for="recommendMovie in recommendMovies"
+      :key="recommendMovie.id"
+      :recommendMovie="recommendMovie"
+    />
+  </div>
   <!-- </div> -->
 </template>
 
@@ -55,6 +60,7 @@
 import axios from 'axios'
 import { Swiper, SwiperSlide  } from "vue-awesome-swiper";
 import "swiper/css/swiper.css";
+import RecommendMovie from "@/components/Account/RecommendMovie"
 
 const API_URL = 'http://127.0.0.1:8000'
 
@@ -63,7 +69,8 @@ export default {
   name: 'MyPageView',
   components: {
     Swiper,
-    SwiperSlide
+    SwiperSlide,
+    RecommendMovie
   },
   data() {
     return {
@@ -80,15 +87,19 @@ export default {
         navigation: { 
             nextEl: '.swiper-button-next', 
             prevEl: '.swiper-button-prev' 
-        } 
+        },
+        // recommendMovies: null 
       },
     };
   },
   computed: {
-
+    recommendMovies() {
+      return this.$store.state.recommendMovies
+    }
   },
   created() {
     this.getUserid()
+    this.getRecommendMovies()
   },
   methods: {
     getUserid() {
@@ -114,6 +125,9 @@ export default {
             .catch(err => console.log(err))          
             })
         .catch(err => console.log(err))
+    },
+    getRecommendMovies() {
+      this.$store.dispatch('getRecommendMovies')
     },
   }
 }

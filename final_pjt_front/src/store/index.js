@@ -21,6 +21,7 @@ export default new Vuex.Store({
     articles: [],
     newmovies: [],
     resultMovies: [],
+    // recommendMovies: [],
     token: null,
     username: null,
     userid: null,
@@ -59,7 +60,9 @@ export default new Vuex.Store({
     GET_NEW_MOVIES(state, movies) {
       state.newmovies = movies
     },
-    
+    GET_RECOMMEND_MOVIES(state, movies) {
+      state.recommendMovies = movies
+    }
 
   },
   actions: {
@@ -161,6 +164,20 @@ export default new Vuex.Store({
         })
         .catch(err => console.log(err))
     },
+    getRecommendMovies(context) {
+      axios({
+        method: 'get',
+        url: `${API_URL}/accounts/${ this.state.userid }/recommend/`,
+        headers: {
+          Authorization: `Token ${ this.state.token }`
+        }
+      })
+        .then((res) => {
+          context.commit('GET_RECOMMEND_MOVIES', res.data)
+          console.log(res.data)
+        })
+        .catch(err => console.log(err))
+    }
     // getUserid(context) {
     //   axios({
     //     method: 'get',

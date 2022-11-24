@@ -138,8 +138,11 @@ export default {
 <style>
 .bgcontain {
   margin-top: 5rem;
-  /* background-image: #F2EFE8 ; */
-  background: linear-gradient(70deg, #F2EFE8 25%, rgba(0,0,0,0) 25%), url(@/assets/theater.jpg);
+  background-image: #F2EFE8 ;
+  /* background: linear-gradient(90deg, #F2EFE8 90%, rgba(0,0,0,0) 25%), url(@/assets/theater.jpg); */
+  /* background: 
+  linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%),
+  url(@/assets/movie.png)no-repeat; */
   padding: 60px 25px !important;
   /* border: solid 5px; */
   box-shadow: 0 6px 6px 0px #37383A;

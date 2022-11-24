@@ -14,6 +14,7 @@ def get_movie_datas():
             if movie.get('release_date', '') and movie.get('poster_path', ''):
                 # Movie 모델 필드명에 맞추어 데이터를 저장함.
                 fields = {
+                    "movie_id": movie['id'],
                     'title': movie['title'],
                     'original_title': movie['original_title'],
                     'trim_title': movie['title'].replace(' ',''),

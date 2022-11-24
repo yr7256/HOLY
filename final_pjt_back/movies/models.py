@@ -17,6 +17,8 @@ class Director(models.Model):
 #     name = models.CharField(max_length=100, null=True, blank=True)
 
 class Movie(models.Model):
+    id = models.IntegerField(primary_key=True)
+    movie_id = models.IntegerField(null=True, blank=True)
     title = models.CharField(max_length=100)
     original_title = models.CharField(max_length=100)
     trim_title = models.CharField(max_length=100)

@@ -43,7 +43,7 @@
       </div>
     </div>
     <form class="form sign-up" @submit.prevent="signUp">
-      <h2>Time to feel like home</h2>
+      <h2 class="page">Time to feel like home</h2>
       <label>
         <span>Username</span>
         <input type="text" v-model="username"/>

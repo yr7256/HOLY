@@ -242,6 +242,7 @@ figure.snip1384 figcaption {
   bottom: 0;
   left: 0;
   right: 0;
+  background-color: transparent !important;
   /* word-break: keep-all; */
   /* white-space: normal !important; */
   text-overflow:clip;

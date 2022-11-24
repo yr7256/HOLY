@@ -3,9 +3,10 @@ import Vuex from 'vuex'
 import axios from 'axios'
 import router from '../router'
 import createPersistedState from 'vuex-persistedstate'
+import InfiniteLoading from 'vue-infinite-loading';
 
 Vue.use(Vuex)
-
+Vue.use(InfiniteLoading)
 
 const API_URL = 'http://127.0.0.1:8000'
 // const FRONT_URL = 'http://localhost:8080'

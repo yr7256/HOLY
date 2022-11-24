@@ -21,7 +21,7 @@
             <swiper :options="swiperOption">
               <SwiperSlide v-for="(movie, index) in userinfo.like_movies" :key="index">
                 <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }">
-                  <div class="card item " style="background-color: #F2EFE8">
+                  <div class="card card-border-none" style="background-color: #F2EFE8">
                     <img class="card-img" :src="MoviePosterurl+`${movie.poster_path}`" alt="" >
                     <!-- <p>{{ movie.title }}</p> -->
                   </div>
@@ -201,4 +201,7 @@ export default {
     height: 2px;
     background: #080808;
   }
+.card-border-none {
+  border-style: none !important;
+}
 </style>

@@ -11,4 +11,5 @@ urlpatterns = [
     path('directors/<int:director_pk>/', views.director_detail),
     path('<int:movie_pk>/like/', views.movie_like),
     path('search/', views.MovieListPaginate.as_view()),
+    path('choose/', views.movie_list)
 ]

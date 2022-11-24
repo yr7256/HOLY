@@ -45,6 +45,11 @@ export default new Vuex.Store({
       state.username = token.username
       router.push({name: 'MovieView'})
     },
+    SAVE_TOKEN1(state, token){
+      state.token = token.key
+      state.username = token.username
+      router.push({name: 'ChooseMovieView'})
+    },
     LOGOUT (state) {
       state.username = null
       state.token = null
@@ -92,7 +97,7 @@ export default new Vuex.Store({
         }
       })
         .then(res => {
-          context.commit('SAVE_TOKEN', {'key': res.data.key, 'username': username})
+          context.commit('SAVE_TOKEN1', {'key': res.data.key, 'username': username})
           axios({
             method: 'get',
             url: `${API_URL}/accounts/user/`,

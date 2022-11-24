@@ -29,7 +29,7 @@ class Movie(models.Model):
     vote_count = models.IntegerField(null=True, blank=True)
     overview = models.TextField(null=True, blank=True)
     poster_path = models.CharField(max_length=200, null=True, blank=True)
-    video_url = models.CharField(max_length=200, null=True, blank=True)
+    # video_url = models.CharField(max_length=200, null=True, blank=True)
     genres = models.ManyToManyField(Genre, blank=True)
     actors = models.ManyToManyField(Actor, blank=True)
     directors = models.ManyToManyField(Director, blank=True)

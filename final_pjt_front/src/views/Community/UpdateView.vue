@@ -3,7 +3,7 @@
     <div class="container bgcontain62" style="color: #37383A">
       <h1>게시글 작성</h1>
       <div class="mx-auto">
-        <form class="size" @keyup.enter="updateArticle" @submit.prevent="updateArticle">
+        <form class="size" @submit.prevent="updateArticle" @keyup.enter="updateArticle">
           <label for="title">제목</label>
           <input class="form-control mt-3 inputtag" type="text" id="title" v-model.trim="title"><br>
           <label for="content">내용</label>

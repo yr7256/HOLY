@@ -1,9 +1,7 @@
 <template>
   <div class="page">
-    <div class="container bgcontain">
-      <div></div>
-      <div class="filmstrip div2">
-      </div>
+    <div class="container bgcontain3">
+      
       <br>
       
         <h1 style="color: #37383A" class="h1place">{{ article?.id }}번째 게시글({{ comment_count }})</h1>
@@ -14,20 +12,26 @@
         <p class="ptag1" style="color: #37383A" >작성시간 : {{ article?.created_at }}</p>
         <p class="ptag1" style="color: #37383A">수정시간 : {{ article?.updated_at }}</p>
         <router-link :to="{ name: 'ArticleView' }"><button class="custom-btn btn-1" style="color: #37383A">뒤로가기</button></router-link>
-        <router-link :to="{ name: 'UpdateView' }"><button class="custom-btn btn-1" style="color: #37383A">글 수정</button></router-link>
+        <router-link :to="{ name: 'UpdateView' }"><button v-show="isAuth" class="custom-btn btn-1" style="color: #37383A">글 수정</button></router-link>
         <button v-show="isAuth" class="custom-btn btn-1" @click="deleteArticle" style="color: #37383A">삭제</button>
-          <hr class="my-hr">
-          <br>
-          <p class="ptag1" style="color: #37383A">댓글 수 : {{ comment_count }}</p>
-          <div v-for="(comment, index) in comment_set" :key='index'>
-            <p class="ptag1" style="color: #37383A">작성자: {{ comment.comment_user.username }}</p>
-            <p class="ptag1" style="color: #37383A"> 댓글 내용: {{ comment.content }}</p>
-            <br>
-            <button @click="deleteComment(comment.id)" class="custom-btn btn-1" style="color: #37383A">삭제</button><br>
-            <!-- <hr class="my-hr"> -->
+          <!-- <hr class="my-hr"> -->
+          <!-- <br> -->
+          <div class="cc">
+            <!-- <br> -->
+            <hr class="my-hr">
+            <p class="ptag1" style="color: #37383A">댓글 수 : {{ comment_count }}</p>
+            <div v-for="(comment, index) in comment_set" :key='index'>
+              <p class="ptag1" style="color: #37383A">작성자: {{ comment.comment_user.username }}</p>
+              <p class="ptag1" style="color: #37383A"> 댓글 내용: {{ comment.content }}</p>
+              
+              <button @click="deleteComment(comment.id)" class="custom-btn btn-1"  style="color: #37383A">삭제</button><br>
+              
+              <br>
+              <!-- <hr class="my-hr"> -->
+            </div>
           </div>
         <hr class="my-hr">
-        <br>
+        <!-- <br> -->
         <CommentCreate/>
       
     </div>
@@ -61,7 +65,8 @@ export default {
   computed: {
     isAuth() {
       return this.$store.state.username === this.article.username
-    }
+    },
+   
   },
   methods: {
     getArticleDetail() {
@@ -140,12 +145,26 @@ export default {
 <style>
 .bgcontain {
   margin-top: 5rem;
-  background-image: #F2EFE8 ;
+  background-color: #F2EFE8 ;
   /* background: linear-gradient(90deg, #F2EFE8 90%, rgba(0,0,0,0) 25%), url(@/assets/theater.jpg); */
   /* background: 
   linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%),
   url(@/assets/movie.png)no-repeat; */
-  padding: 0px 0px 60px 0px !important;
+  padding: 30px 60px  !important;
+  /* border: solid 5px; */
+  box-shadow: 0 6px 6px 0px #37383A;
+  /* margin-bottom: 10rem; */
+  border-radius: 0px 0px  0px;
+
+}
+.bgcontain3 {
+  margin-top: 5rem;
+  background-color: #F2EFE8 ;
+  background: linear-gradient(110deg, #F2EFE8 75%, rgba(0,0,0,0) 25%), url(@/assets/monroe.jpg);
+  /* background: 
+  linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%),
+  url(@/assets/movie.png)no-repeat; */
+  padding: 30px 60px  !important;
   /* border: solid 5px; */
   box-shadow: 0 6px 6px 0px #37383A;
   /* margin-bottom: 10rem; */
@@ -166,15 +185,16 @@ export default {
 .custom-btn {
   width: 130px;
   height: 40px;
-  padding: 10px 25px;
-  border: 2px solid #000;
+  padding: 10px;
+  border: 2px solid #F2EFE8 !important;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
-  position: relative;
+  /* position: relative; */
   display: inline-block;
+  text-align: top;
 }
 .btn-1 {
   transition: all 0.3s ease;
@@ -205,5 +225,8 @@ export default {
   height: 10vh;
   width: 100%;
   color: #F2EFE8;
+}
+.padd {
+  margin-right: auto;
 }
 </style>

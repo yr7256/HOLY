@@ -17,4 +17,5 @@ urlpatterns = [
     path('<int:movie_pk>/like/', views.movie_like),
     path('search/', views.MovieListPaginate.as_view()),
     path('pagination/', pagination, name='movie_pagination'),
+    path('choose/', views.movie_list)
 ]

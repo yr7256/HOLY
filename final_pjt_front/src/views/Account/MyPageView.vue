@@ -3,7 +3,7 @@
     <!-- <div id="box"> -->
       <div class ="profile">
         <!-- <span class="bod"> -->
-          <div class="container bgcontain"  style="padding: 10px">
+          <div class="container bgcontain1"  style="padding: 10px">
             <!-- <div class="box namecontain"> -->
 
             
@@ -153,9 +153,10 @@ export default {
   border-radius: 25px;
   }
 
-.bgcontain {
+.bgcontain1 {
   margin-top: 5rem;
   /* background-image: #F2EFE8 ; */
+  padding: 30px 60px !important;
   background-color:  #F2EFE8 !important;
   padding: 60px;
   /* border: solid 5px; */

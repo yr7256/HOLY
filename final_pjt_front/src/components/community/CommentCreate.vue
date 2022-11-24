@@ -1,10 +1,10 @@
 <template>
   <div>
     <h3 class= "cc" style="color: #37383A">댓글쓰기</h3>
-    <form class="comment" @submit.prevent="createComment" @keyup.enter="createComment">
+    <form class="comment cc" @submit.prevent="createComment" @keyup.enter="createComment">
       <label style="color: #37383A" class="form-label cc2" for="content">내용 입력</label>
       <input class="form-control inputtag" id="content"  v-model="content"><br>
-      <button class="custom-btn btn-1" type="submit" id="submit" style="color: #37383A">제출</button>
+      <button class="custom-btn btn-1 leftcc" type="submit" id="submit" style="color: #37383A">제출</button>
     </form>
   </div>
 </template>
@@ -67,10 +67,14 @@ export default {
 
 }
 .cc {
-  margin-right: 72.5rem;
+  /* margin-right: 67rem; */
+  text-align: left;
 }
 .cc2{
   text-align: left;
   margin-right: 8rem;
+}
+.leftcc {
+  justify-content: left !important;
 }
 </style>

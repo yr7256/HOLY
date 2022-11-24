@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <div class="container bgcontain" style="color: #37383A">
+    <div class="container bgcontain54" style="color: #37383A">
       <h1>게시글 작성</h1>
       <div class="mx-auto">
         <form class="size" @submit.prevent="createArticle" @keyup.enter="createArticle">
@@ -68,5 +68,20 @@ export default {
 }
 .size2 {
   font-size: 20px;
+}
+
+.bgcontain54 {
+  margin-top: 5rem;
+  background-color: #F2EFE8 ;
+  background: linear-gradient(280deg, #F2EFE8 73%, rgba(0,0,0,0) 25%), url(@/assets/scent.jpg);
+  /* background: 
+  linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%),
+  url(@/assets/movie.png)no-repeat; */
+  padding: 30px 60px  !important;
+  /* border: solid 5px; */
+  box-shadow: 0 6px 6px 0px #37383A;
+  /* margin-bottom: 10rem; */
+  border-radius: 0px 0px  0px;
+
 }
 </style>

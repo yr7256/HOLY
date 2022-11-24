@@ -12,6 +12,7 @@ import UpdateView from '@/views/Community/UpdateView'
 import MyPageView from '@/views/Account/MyPageView'
 import MovieDetailView from '@/views/movies/MovieDetailView'
 import MovieSearchView from '@/views/movies/MovieSearchView'
+import ChooseMovieView from '@/views/movies/ChooseMovieView'
 
 Vue.use(VueRouter)
 
@@ -30,12 +31,20 @@ const routes = [
     path: '/movies/search',
     name: 'MovieSearchView',
     component: MovieSearchView
+
+  },
+  {
+    path: '/movies/choose',
+    name: 'ChooseMovieView',
+    component: ChooseMovieView
+    
   },
   {
     path: '/movies/:id',
     name: 'MovieDetailView',
     component: MovieDetailView
   },
+ 
   {
     path: '/community',
     name: 'ArticleView',

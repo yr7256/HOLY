@@ -28,6 +28,7 @@
               </SwiperSlide>
             </swiper>
             <br>
+            <hr class="my-hr">
             <br>
             <h3 style="color:#37383A" class="pad1" >HOLY RECOMMEND MOVIE</h3>
             <br>
@@ -154,7 +155,7 @@ export default {
   }
 
 .bgcontain1 {
-  margin-top: 5rem;
+  margin-top: 3.5rem;
   /* background-image: #F2EFE8 ; */
   padding: 30px 60px !important;
   background-color:  #F2EFE8 !important;

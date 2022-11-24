@@ -49,7 +49,7 @@ export default {
 }
 
 .bgcontain32 {
-  margin-top: 5rem;
+  margin-top: 3.5rem;
   background-color: #F2EFE8 ;
   background: linear-gradient(110deg, #F2EFE8 82%, rgba(0,0,0,0) 25%), url(@/assets/aud.PNG);
   /* background: 

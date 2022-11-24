@@ -3,13 +3,13 @@
     <div class="container bgcontain62" style="color: #37383A">
       <h1>게시글 작성</h1>
       <div class="mx-auto">
-        <form class="size" @keyup.enter="updateArticle">
+        <form class="size" @keyup.enter="updateArticle" @submit.prevent="updateArticle">
           <label for="title">제목</label>
           <input class="form-control mt-3 inputtag" type="text" id="title" v-model.trim="title"><br>
           <label for="content">내용</label>
           <textarea class="form-control mt-3" id="content" cols="30" rows="15" v-model="content"></textarea><br>
           <button class="custom-btn btn-1 size2" style="color: #37383A">제출</button>
-          <router-link :to="{ name: 'ArticleView' }"><button class="custom-btn btn-1 size2" style="color: #37383A">뒤로가기</button></router-link>
+          <router-link :to="{ name: 'DetailView' }"><button class="custom-btn btn-1 size2" style="color: #37383A">뒤로가기</button></router-link>
         </form>
       </div>
     </div>
@@ -68,7 +68,7 @@ export default {
       })
       .then((res) => {
         console.log(res)
-        this.$router.push({name: 'ArticleView'})
+        this.$router.push({name: 'DetailView'})
       })
       .catch(err => console.log(err))
     },
@@ -84,7 +84,7 @@ export default {
 }
 
 .bgcontain62 {
-  margin-top: 5rem;
+  margin-top: 3.5rem;
   background-color: #F2EFE8 ;
   background: linear-gradient(280deg, #F2EFE8 78%, rgba(0,0,0,0) 25%), url(@/assets/famous.PNG);
   /* background: 

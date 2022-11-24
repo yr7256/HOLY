@@ -67,11 +67,12 @@ export default {
   font-size: 25px;
 }
 .size2 {
-  font-size: 20px;
+  font-size: 18px;
+  text-align: center;
 }
 
 .bgcontain54 {
-  margin-top: 5rem;
+  margin-top: 3.5rem;
   background-color: #F2EFE8 ;
   background: linear-gradient(280deg, #F2EFE8 73%, rgba(0,0,0,0) 25%), url(@/assets/scent.jpg);
   /* background: 

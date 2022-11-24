@@ -6,9 +6,10 @@
     <br>
     <h1 class="text-center" style="color: #F2EFE8">마음에 드는 영화나 포스터를 골라주세요</h1>
     <br>
+    <router-link :to="{ name: 'MyPageView' }"><button class="custom-btn2 btn-1 size2" style="color: #F2EFE8 ">선택완료</button></router-link>
     <div class="row movie-list">
       <div class="col-3 movie-item gy-3" v-for="(movie, index) in movies" :key="index" @click="selectMovie(index)">
-        <div v-if="selectedMovieArr && selectedMovieArr.includes(index)">이영화가 선택되었어요</div> 
+        <div v-if="selectedMovieArr && selectedMovieArr.includes(index)" style="text-align: center;">이 영화가 선택되었어요</div> 
         <!-- <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }"> -->
           <div class="card item-border" @click="PickMovie(movie.id)">
             <img class="card-img" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
@@ -88,5 +89,30 @@ export default {
 </script>
 
 <style>
-
+.custom-btn2 {
+  width: 130px;
+  height: 40px;
+  padding: 0px;
+  border: 2px solid #151515 !important;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  text-align: top;
+  color: #F2EFE8;
+  margin-left: 550px;
+}
+.btn-1 {
+  transition: all 0.3s ease;
+}
+.btn-1:hover {
+  box-shadow:
+  -7px -7px 20px 0px #fff9,
+  -4px -4px 5px 0px #fff9,
+  7px 7px 20px 0px #0002,
+  4px 4px 5px 0px #0001;
+}
 </style>

@@ -118,6 +118,6 @@ class MovieListPaginate(APIView):
         return Response(serializer.data)
 
 class MoviePaginationViewSet(viewsets.ModelViewSet):
-    queryset = Movie.objects.all()
+    queryset = Movie.objects.filter().order_by('popularity')
     serializer_class = MovieSerializer
     pagination_class = PageNumberPagination

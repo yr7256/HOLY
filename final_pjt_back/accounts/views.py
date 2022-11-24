@@ -111,6 +111,7 @@ def user_algorithm_recommend(request, user_pk):
         # 특정 영화의 정보를 추출하여 유사한 코사인 유사도를 가진 정보를 추출
         # 코사인 유사도 중 영화 제목 인덱스에 해당하는 값에서 추천 개수만큼 추출
         recom_idx = matrix.loc[:, target_title].values.reshape(1, -1).argsort()[:, ::-1].flatten()[1:k+1]
+        recom_id = items.iloc[recom_idx, :].movie_id.values 
         recom_title = items.iloc[recom_idx, :].title.values
         recom_genre = items.iloc[recom_idx, :].genres.values
         overview = items.iloc[recom_idx, :].overview.values
@@ -120,6 +121,7 @@ def user_algorithm_recommend(request, user_pk):
         score = items.iloc[recom_idx, :].score.values
 
         result = {
+            'id' : recom_id,
             'title' : recom_title,
             'genre' : recom_genre,
             'overview' : overview,
@@ -150,6 +152,7 @@ def user_algorithm_recommend(request, user_pk):
     for l in range(10):
         result.append(
             {
+                'id' : int(reco.iloc[l]['id']),
                 'title' : reco.iloc[l]['title'],
                 'genre' : reco.iloc[l]['genre'],
                 'release_date' : reco.iloc[l]['release_date'],

@@ -1,7 +1,7 @@
 <template>
   <div class="w-75 mx-auto">
     <br>
-    <h1 class="text-center">Now Playing</h1>
+    <h1 class="text-center" style="font-weight: bold">Now Playing</h1>
     <div class="row movie-list">
       <div class="col-2 movie-item gy-3" v-for="(movie, index) in sortnewmovies" :key="index">
         <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }">
@@ -20,7 +20,7 @@
       </div>
     </div>
     <br>
-    <h1 class="text-center">Movies</h1>
+    <h1 class="text-center" style="font-weight: bold">Movies</h1>
     <div class="row movie-list">
       <div class="col-2 movie-item gy-3" v-for="(movie, index) in movies" :key="index">
         <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }">

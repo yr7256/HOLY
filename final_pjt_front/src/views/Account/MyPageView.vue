@@ -176,7 +176,8 @@ export default {
 .pad {
   padding: auto;
   font-weight: bold;
-  font-size:2cm;
+  font-size:1.7cm;
+  margin-top: 1rem;
   
 }
 .pad1 {

@@ -7,19 +7,21 @@
     <h1 class="text-center" style="color: #F2EFE8">마음에 드는 영화나 포스터를 골라주세요</h1>
     <br>
     <div class="row movie-list">
-      <div class="col-3 movie-item gy-3" v-for="(movie, index) in movies" :key="index">
+      <div class="col-3 movie-item gy-3" v-for="(movie, index) in movies" :key="index" @click="selectMovie(index)">
+        <div v-if="selectedMovieArr && selectedMovieArr.includes(index)">이영화가 선택되었어요</div> 
         <!-- <router-link :to="{ name: 'MovieDetailView', params: { id: movie.id } }"> -->
           <div class="card item-border" @click="PickMovie(movie.id)">
             <img class="card-img" :src="MoviePosterurl+`${movie.poster_path}`" alt="">
           </div>
-        <!-- </router-link> -->
+      <!-- </router-link> -->
       </div>
+
     </div>
   </div>
 </template>
 
 <script>
-// import _ from "lodash"
+import _ from "lodash"
 import axios from "axios";
 const API_URL = "http://127.0.0.1:8000";
 
@@ -29,23 +31,30 @@ export default {
   data() {
     return {
       movies: this.$store.state.movies,
-      // newmovies: this.$store.state.newmovies,
       MoviePosterurl: 'https://www.themoviedb.org/t/p/w300_and_h450_bestv2',
-      // message: null
+      selectedMovieArr:[9999],
     }
   },
   computed: {
-    // sortnewmovies() {
-    //   return _.sortBy(this.newmovies, -'popularity')
-    // },
-    // isLike() {
-    //   return _.includes(this.movie.like_movie_users, this.$store.state.userid)
-    // }
+    isLike() {
+      return _.includes(this.movie.like_movie_users, this.$store.state.userid)
+    }
   },
   created() {
     this.getMovies()
   },
   methods: {
+    selectMovie(index){
+      const newselectedMovieArr = this.selectedMovieArr.slice()
+      if(this.selectedMovieArr.includes(index)){
+        newselectedMovieArr.splice(newselectedMovieArr.indexOf(index),1)
+        this.selectedMovieArr =  newselectedMovieArr
+      }else{
+      const changeArr = this.selectedMovieArr.slice()
+      changeArr.push(index)
+      this.selectedMovieArr = changeArr
+      }
+    },
     getMovies() {
       // this.$store.dispatch('getNewMovies')
       this.$store.dispatch('getMovies')
@@ -68,9 +77,6 @@ export default {
       })
         .then((res) => {
           console.log(res.data.like_movie_users)
-          // console.log(this.heart)
-          // console.log(this.$store.state.userid)
-          // location.reload();
         })
         .catch(err => console.log(err))
     } 

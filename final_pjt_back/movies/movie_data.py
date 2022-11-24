@@ -29,7 +29,7 @@ def get_movie_datas():
                     'actors': [],
                     'directors': [],
                     'video_url': [],
-                    'like_movie_users' : [],
+                    # 'like_movie_users' : [],
                     # 'providers' : []
                 }
 

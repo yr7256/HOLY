@@ -6,7 +6,7 @@
     <br>
     <h1 class="text-center" style="color: #F2EFE8">마음에 드는 영화나 포스터를 골라주세요</h1>
     <br>
-    <router-link :to="{ name: 'MyPageView' }"><button class="custom-btn2 btn-1 size2" style="color: #F2EFE8 ">선택완료</button></router-link>
+    <router-link :to="{ name: 'MyPageView', params: {id:username} }"><button class="custom-btn2 btn-1 size2" style="color: #F2EFE8 ">선택완료</button></router-link>
     <div class="row movie-list">
       <div class="col-3 movie-item gy-3" v-for="(movie, index) in movies" :key="index" @click="selectMovie(index)">
         <div v-if="selectedMovieArr && selectedMovieArr.includes(index)" style="text-align: center;">이 영화가 선택되었어요</div> 
@@ -34,6 +34,7 @@ export default {
       movies: this.$store.state.movies,
       MoviePosterurl: 'https://www.themoviedb.org/t/p/w300_and_h450_bestv2',
       selectedMovieArr:[9999],
+      username : this.$store.state.username
     }
   },
   computed: {
